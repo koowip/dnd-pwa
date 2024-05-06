@@ -14,12 +14,6 @@ import { useState, useEffect } from "react";
 
 const FilterSheet = ({ isSelectedClass, setIsSelectedClass }: any) => {
 
-  
-
-  useEffect(() => {
-    console.log("Updated class selections Sheet:", isSelectedClass);
-  }, [isSelectedClass]);
-
   const handleToggle = (className: any) => {
     setIsSelectedClass((prevState: { [x: string]: any; }) => ({
       ...prevState,
