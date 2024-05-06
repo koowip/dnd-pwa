@@ -26,9 +26,15 @@ const Search = ({ setSpells }: any) => {
   const handleChange = useMemo(
     () =>
       debounce((e: { target: { value: string } }) => {
-        //let selectedClass = 'Wizard'
-        //const cur = List(e.target.value).filter((x: Spell) => FilterClass(selectedClass, x))
-        const cur = List(e.target.value).filter((x: Spell) => FilterClassNonOpinionated(isSelectedClass, x))
+
+        let cur;
+        //Handle if no classes are filtered, show all spells. Probably needs to be moved to Spellservice file
+        const isAnyClassSelected = Object.values(isSelectedClass).some(value => value);        
+        if(isAnyClassSelected){
+          cur = List(e.target.value).filter((x: Spell) => FilterClassNonOpinionated(isSelectedClass, x))
+        } else {
+          cur = List(e.target.value)
+        }
         cur ? setSpells(cur) : null;
       }, 250),
     [isSelectedClass]
