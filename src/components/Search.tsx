@@ -5,6 +5,7 @@ import {
   List,
   FilterClass,
   FilterClassNonOpinionated,
+  FilterLevel
 } from "@/lib/services/SpellService";
 import { useMemo } from "react";
 import FilterSheet from "./FilterSheet";
@@ -12,40 +13,20 @@ import useClassStore from "@/lib/services/StoreService";
 
 const Search = ({ setSpells }: any) => {
  
-  const { selectedClass, selectedSubClass } = useClassStore();
+  const { selectedLevel, selectedClass, selectedSubClass } = useClassStore();
 
   const handleChange = useMemo(
     () =>
       debounce((e: { target: { value: string } }) => {
         let cur;
         
-        console.log(selectedClass)
-        const isAnyClassSelected = Object.values(selectedClass).some(
-          (value) => value
-        );
-        console.log(isAnyClassSelected)
-
-        if (isAnyClassSelected) {
-          cur = List(e.target.value).filter((x: Spell) =>
-            FilterClass(selectedClass, x)
-          );
-        } else {
-          cur = List(e.target.value);
-        }
+        console.log(selectedLevel)
+        
+        cur = List(e.target.value).filter((x: Spell) =>
+          FilterClassNonOpinionated(selectedClass, x) &&
+          FilterLevel(selectedLevel,x))
 
         cur ? setSpells(cur) : null;
-        // //Handle if no classes are filtered, show all spells. Probably needs to be moved to Spellservice file
-        // const isAnyClassSelected = Object.values(selectedClass).some(
-        //   (value) => value
-        // );
-        // if (isAnyClassSelected) {
-        //   cur = List(e.target.value).filter((x: Spell) =>
-        //     FilterClass(selectedClass, x)
-        //   );
-        // } else {
-        //   cur = List(e.target.value);
-        // }
-        // cur ? setSpells(cur) : null;
       }, 250),
     [selectedClass]
   );

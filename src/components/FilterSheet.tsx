@@ -16,7 +16,16 @@ const FilterSheet = ({}: any) => {
   //This forces the state is be updated when button is clicked, not queued for later
   //useEffect(() => {}, [isSelectedClass]);
 
-  const { selectedClass, selectedSubClass, toggleClass, toggleSubClass } = useClassStore();
+  const { selectedLevel, selectedClass, selectedSubClass, toggleClass, toggleSubClass, changeLevelSelection } =
+    useClassStore();
+
+  //Handler for when input is selected for level change, need to implement selector in tsx  
+  const handleLevelChange = (e) => {
+    console.log(e.target.value)
+    const newlvl = Number(e.target.value)
+    changeLevelSelection(newlvl);
+    console.log(selectedLevel)
+  }
 
   return (
     <Sheet>
@@ -35,24 +44,31 @@ const FilterSheet = ({}: any) => {
             ))}
           </div>
           <div className="pt-8">
-            {Object.entries(selectedClass).filter(([className, isSelected]) => isSelected).map(([className]) => (
-              <div key={className}>
-                <strong>{className} Subclasses:</strong>
-                <div>
-                  {selectedSubClass[className].map((subclassObj) => {
-                    const subClassName = Object.keys(subclassObj)[0];
-                    return (
-                      <button
-                        key={subClassName}
-                        onClick={() => toggleSubClass(className, subClassName)}
-                      >
-                        {subClassName} {subclassObj[subClassName] ? "Selected" : "Not Selected"}
-                      </button>
-                    );
-                  })}
+            {Object.entries(selectedClass)
+              .filter(([className, isSelected]) => isSelected)
+              .map(([className]) => (
+                <div key={className}>
+                  <strong>{className} Subclasses:</strong>
+                  <div>
+                    {selectedSubClass[className].map((subclassObj) => {
+                      const subClassName = Object.keys(subclassObj)[0];
+                      return (
+                        <button
+                          key={subClassName}
+                          onClick={() =>
+                            toggleSubClass(className, subClassName)
+                          }
+                        >
+                          {subClassName}{" "}
+                          {subclassObj[subClassName]
+                            ? "Selected"
+                            : "Not Selected"}
+                        </button>
+                      );
+                    })}
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
           </div>
         </SheetHeader>
         <SheetFooter>
