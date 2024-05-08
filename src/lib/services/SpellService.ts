@@ -15,12 +15,13 @@ export function List(name: string): any {
   );
 }
 
-//Return not only class spells but subclass only spells
+//Return not only class spells but subclass spells
 //If fighter filter selected and search for acid, acid splash and melf's appear.
 export function FilterClassNonOpinionated(specifiedClasses: {}, curSpell: Spell): any {
   //return Object.keys(curSpell.availableTo).includes(selectedClasses); //OG code
 
   const selectedClasses = Object.keys(specifiedClasses).filter((key) => specifiedClasses[key]);
+  console.log("Spells SERVICE:", selectedClasses)
   if (selectedClasses) {
     return selectedClasses.some((selectedClasses) => Object.keys(curSpell.availableTo).includes(selectedClasses));
   }
