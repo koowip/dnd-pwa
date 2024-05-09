@@ -43,6 +43,18 @@ const FilterSheet = ({}: any) => {
           <SheetTitle>Filter</SheetTitle>
           <SheetDescription>make your selections</SheetDescription>
           <div className="max-h-screen overflow-y-auto">
+            <select onChange={handleLevelChange}>
+              <option value="0">Cantrip</option>
+              <option value="1">1st</option>
+              <option value="2">2nd</option>
+              <option value="3">3rd</option>
+              <option value="4">4th</option>
+              <option value="5">5th</option>
+              <option value="6">6th</option>
+              <option value="7">7th</option>
+              <option value="8">8th</option>
+              <option value="9">9th</option>
+            </select>
             <div>
               {Object.entries(selectedClass).map(([classLabel, isSelected]) => (
                 <button

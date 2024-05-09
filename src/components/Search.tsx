@@ -28,7 +28,7 @@ const Search = ({ setSpells }: any) => {
 
         cur ? setSpells(cur) : null;
       }, 250),
-    [selectedClass]
+    [selectedClass, selectedLevel]
   );
 
   return (
