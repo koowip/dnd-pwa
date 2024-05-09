@@ -12,9 +12,11 @@ interface ClassSubclasses {
 
 interface StoreState {
   selectedLevel: number;
+  selectedVariant: boolean;
   selectedClass: { [key: string]: boolean };
   selectedSubClass: ClassSubclasses;
   changeLevelSelection: (level: number) => void;
+  toggleVariant: () => void;
   toggleClass: (className: string) => void;
   toggleSubClass: (className: string, subclassName: string) => void;
 }
@@ -37,6 +39,8 @@ const useClassStore = create<StoreState>((set) => ({
     Warlock: false,
     Wizard: false,
   },
+
+  selectedVariant: false,
 
   selectedSubClass: {
     Artificer: [
@@ -190,6 +194,11 @@ const useClassStore = create<StoreState>((set) => ({
     set(() => ({
       selectedLevel: level,
     })),
+
+    toggleVariant: () => 
+      set((state) => ({
+        selectedVariant: !state.selectedVariant,
+      })),
 
   toggleClass: (className) =>
     set((state) => ({

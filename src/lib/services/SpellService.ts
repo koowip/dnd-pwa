@@ -62,7 +62,7 @@ export function FilterLevel(specifiedLevel: number, curSpell: Spell): any {
 }
 
 
-export function FilterVariant(curSpell: Spell, variant?: boolean): any {
+export function FilterVariant(variant: boolean, curSpell: Spell): any {
   if(variant) {
     return Object.values(curSpell.availableTo).flat().includes("variant");
   } else
