@@ -8,32 +8,30 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import ToggleButton from "./ToggleButton";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
-import { useState, useEffect } from "react";
+import useClassStore from "@/lib/services/StoreService";
 
-const FilterSheet = ({
-  isSelectedClass,
-  setIsSelectedClass,
-  isSelectedSubClass,
-  setIsSelectedSubClass,
-}: any) => {
-  const handleToggle = (className: any) => {
-    setIsSelectedClass((prevState: { [x: string]: any }) => ({
-      ...prevState,
-      [className]: !prevState[className],
-    }));
-  };
-
+const FilterSheet = ({}: any) => {
   //This is here becuase of the stupid rendering when state changes being async,
   //This forces the state is be updated when button is clicked, not queued for later
-  useEffect(() => {}, [isSelectedClass]);
+  //useEffect(() => {}, [isSelectedClass]);
 
-  function getSelectedSubclasses(className = null) {
-    //debugger
-    console.log(isSelectedSubClass[className])
-    return isSelectedSubClass[className] || [];
-  }
+  const {
+    selectedLevel,
+    selectedClass,
+    selectedSubClass,
+    toggleClass,
+    toggleSubClass,
+    changeLevelSelection,
+  } = useClassStore();
+
+  //Handler for when input is selected for level change, need to implement selector in tsx
+  const handleLevelChange = (e) => {
+    console.log(e.target.value);
+    const newlvl = Number(e.target.value);
+    changeLevelSelection(newlvl);
+    console.log(selectedLevel);
+  };
 
   return (
     <Sheet>
@@ -41,32 +39,66 @@ const FilterSheet = ({
         <HamburgerMenuIcon className="mr-2 h-4 w-4 shrink-0 opacity-50" />
       </SheetTrigger>
       <SheetContent>
-        <SheetHeader>Header</SheetHeader>
-        <div className="flex flex-wrap">
-          {Object.entries(isSelectedClass).map(([classLabel, isSelected]) => (
-            <ToggleButton
-              key={classLabel}
-              classLabel={classLabel}
-              isSelected={isSelected}
-              onToggle={() => handleToggle(classLabel)}
-            />
-          ))}
-        </div>
-        <div>
-          <strong>Subclasses</strong>
-          <div className="flex flex-wrap">
-            {Object.entries(getSelectedSubclasses("Bard")).map(
-              ([subClassLabelIndex, isSelected]) => (
-                <ToggleButton
-                  key={isSelected[0]}
-                  classLabel={isSelected[0]}
-                  isSelected={isSelected}
-                  onToggle={() => handleToggle(subClassLabelIndex)}
-                />
-              )
-            )}
+        <SheetHeader>
+          <SheetTitle>Filter</SheetTitle>
+          <SheetDescription>make your selections</SheetDescription>
+          <div className="max-h-screen overflow-y-auto">
+            <select onChange={handleLevelChange}>
+              <option value="0">Cantrip</option>
+              <option value="1">1st</option>
+              <option value="2">2nd</option>
+              <option value="3">3rd</option>
+              <option value="4">4th</option>
+              <option value="5">5th</option>
+              <option value="6">6th</option>
+              <option value="7">7th</option>
+              <option value="8">8th</option>
+              <option value="9">9th</option>
+            </select>
+            <div>
+              {Object.entries(selectedClass).map(([classLabel, isSelected]) => (
+                <button
+                  key={classLabel}
+                  onClick={() => toggleClass(classLabel)}
+                >
+                  {classLabel} {isSelected ? "Selected" : "Not Selected"}
+                </button>
+              ))}
+            </div>
+            <div className="pt-8">
+              {Object.entries(selectedClass)
+                .filter(([className, isSelected]) => isSelected)
+                .map(([className]) => (
+                  <div key={className}>
+                    <strong>{className} Subclasses:</strong>
+                    <div>
+                      {selectedSubClass[className].map((subclassObj) => {
+                        const subClassName = Object.keys(subclassObj)[0];
+                        return (
+                          <button
+                            key={subClassName}
+                            onClick={() =>
+                              toggleSubClass(className, subClassName)
+                            }
+                          >
+                            {subClassName}{" "}
+                            {subclassObj[subClassName]
+                              ? "Selected"
+                              : "Not Selected"}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                ))}
+            </div>
           </div>
-        </div>
+        </SheetHeader>
+        <SheetFooter>
+          <SheetClose>
+            <div className="pt-40">Close</div>
+          </SheetClose>
+        </SheetFooter>
       </SheetContent>
     </Sheet>
   );
