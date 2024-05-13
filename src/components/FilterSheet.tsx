@@ -25,14 +25,22 @@ const FilterSheet = ({}: any) => {
     toggleSubClass,
     changeLevelSelection,
     toggleVariant,
+    toggleOffSubClasses,
   } = useClassStore();
+
+  const classSubclassToggle = (e: string) => {
+    toggleClass(e);
+
+    if(selectedClass[e])
+      toggleOffSubClasses(e)
+  }
 
   //Handler for when input is selected for level change, need to implement selector in tsx
   const handleLevelChange = (e) => {
-    console.log(e.target.value);
+    //console.log(e.target.value);
     const newlvl = Number(e.target.value);
     changeLevelSelection(newlvl);
-    console.log(selectedLevel);
+    //console.log(selectedLevel);
   };
 
   const handleTogglerVariant = () => {
@@ -50,7 +58,8 @@ const FilterSheet = ({}: any) => {
           <SheetDescription>make your selections</SheetDescription>
           <div className="max-h-screen overflow-y-auto">
             <div className="flex justify-around">
-              <select onChange={handleLevelChange}>
+              <select onChange={handleLevelChange} defaultValue={selectedLevel}>
+                <option value ="-1">All</option>
                 <option value="0">Cantrip</option>
                 <option value="1">1st</option>
                 <option value="2">2nd</option>
@@ -74,7 +83,7 @@ const FilterSheet = ({}: any) => {
                 </button>
               </div>
             </div>
-            <div className="flex flex-col justify-evenly">
+            <div className="flex flex-col justify-between">
               <div className="h-56 flex flex-wrap justify-between p-4">
                 {Object.entries(selectedClass).map(
                   ([classLabel, isSelected]) => (
@@ -85,7 +94,7 @@ const FilterSheet = ({}: any) => {
                           : "m-1 p-4 outline rounded-md"
                       }
                       key={classLabel}
-                      onClick={() => toggleClass(classLabel)}
+                      onClick={() => classSubclassToggle(classLabel)}
                     >
                       {classLabel}
                     </button>

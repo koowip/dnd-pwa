@@ -19,9 +19,11 @@ interface StoreState {
   toggleVariant: () => void;
   toggleClass: (className: string) => void;
   toggleSubClass: (className: string, subclassName: string) => void;
+  toggleOffSubClasses: (className: string) => void;
 }
 
 const useClassStore = create<StoreState>((set) => ({
+ 
   selectedLevel: -1,
 
   selectedClass: {
@@ -208,26 +210,30 @@ const useClassStore = create<StoreState>((set) => ({
        },
     })),
 
-  toggleSubClass: (className, subclassName) =>
-    set((state) => ({
-      selectedSubClass: {
-        ...state.selectedSubClass,
-        [className]: state.selectedSubClass[className].map((subclass) => ({
-          ...subclass,
-          [subclassName]: !subclass[subclassName],
-        })),
-      },
-    })),
+    toggleSubClass: (className, subclassName) =>
+      set((state) => ({
+        ...state, // Include the rest of the state
+        selectedSubClass: {
+          ...state.selectedSubClass,
+          [className]: state.selectedSubClass[className].map((subclass) => {
+            // Check if this is the subclass we want to toggle
+            if (subclass.hasOwnProperty(subclassName)) {
+              return { ...subclass, [subclassName]: !subclass[subclassName] }; // Toggle the boolean
+            }
+            return subclass; // Return all other subclasses unchanged
+          }),
+        },
+      })),
 
-    toggleOffSubClasses: (className) => set((state) => ({
-      selectedSubClass: {
-        ...state.selectedClass,
-        [className]: state.selectedSubClass[className].map((subclass) => ({
-          ...subclass,
-          subclass: false,
-        })),
-      },
-    }))
+      toggleOffSubClasses: (className) => set((state) => ({
+        selectedSubClass: {
+          ...state.selectedSubClass,
+          [className]: state.selectedSubClass[className].map((subclass) => {
+            const key = Object.keys(subclass)[0];
+            return { [key]: false };
+          }),
+        },
+      })),
 }));
 export default useClassStore;
 
