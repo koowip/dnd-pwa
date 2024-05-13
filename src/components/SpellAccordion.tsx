@@ -22,6 +22,7 @@ const SpellAccordion = (props: any) => {
   
   const spSchool = sp.school as keyof typeof spellSchools;  
 
+  //Accordion arrow doesn't animate
   return (
     <>
       <Card className="w-[350px]">

@@ -205,7 +205,7 @@ const useClassStore = create<StoreState>((set) => ({
       selectedClass: {
         ...state.selectedClass,
         [className]: !state.selectedClass[className],
-      },
+       },
     })),
 
   toggleSubClass: (className, subclassName) =>
@@ -218,6 +218,16 @@ const useClassStore = create<StoreState>((set) => ({
         })),
       },
     })),
+
+    toggleOffSubClasses: (className) => set((state) => ({
+      selectedSubClass: {
+        ...state.selectedClass,
+        [className]: state.selectedSubClass[className].map((subclass) => ({
+          ...subclass,
+          subclass: false,
+        })),
+      },
+    }))
 }));
 export default useClassStore;
 

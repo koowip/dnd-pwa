@@ -45,12 +45,14 @@ export function FilterClass(specifiedClasses: {}, curSpell: Spell): any {
 }
 
 
-// export function FilterSubclass(specifiedSubclasses: {}, curSpell: Spell): any {
+export function FilterSubclass(specifiedSubclasses: {}, curSpell: Spell): any {
 
-//   const selectedClasses = Object.keys(specifiedSubclasses).filter((key) => specifiedSubclasses[key]);
-//   return Object.values(curSpell.availableTo).flat().includes("variant")
-//   //return true;
-// }
+  const subclasses = Object.keys(specifiedSubclasses).filter((key) => specifiedSubclasses[key]);
+  console.log(subclasses)
+  
+  //return Object.values(curSpell.availableTo).flat().includes("variant")
+  return true;
+}
 
 
 export function FilterLevel(specifiedLevel: number, curSpell: Spell): any {

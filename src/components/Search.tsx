@@ -6,14 +6,14 @@ import {
   FilterClass,
   FilterClassNonOpinionated,
   FilterLevel,
-  FilterVariant
+  FilterVariant,
+  FilterSubclass
 } from "@/lib/services/SpellService";
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import FilterSheet from "./FilterSheet";
 import useClassStore from "@/lib/services/StoreService";
 
 const Search = ({ setSpells }: any) => {
- 
   const { selectedLevel, selectedVariant, selectedClass, selectedSubClass } = useClassStore();
 
   const handleChange = useMemo(
@@ -21,8 +21,7 @@ const Search = ({ setSpells }: any) => {
       debounce((e: { target: { value: string } }) => {
         let cur;
         
-        console.log(selectedLevel)
-        
+        //cur = List(e.target.value).filter((x: Spell) => FilterSubclass(selectedSubClass, x))
         cur = List(e.target.value).filter((x: Spell) =>
           FilterClassNonOpinionated(selectedClass, x) &&
           FilterLevel(selectedLevel,x) &&
@@ -30,7 +29,7 @@ const Search = ({ setSpells }: any) => {
 
         cur ? setSpells(cur) : null;
       }, 250),
-    [selectedClass, selectedLevel]
+    [selectedClass, selectedLevel, selectedSubClass, selectedVariant]
   );
 
   return (

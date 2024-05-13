@@ -62,56 +62,70 @@ const FilterSheet = ({}: any) => {
                 <option value="8">8th</option>
                 <option value="9">9th</option>
               </select>
-              <div className="flex justify-center">
+              <div className="flex justify-center p-4">
                 <label>Variant?</label>
-                <button className="w-2 h-2 pr-10" onClick={() => handleTogglerVariant()}>
+
+                {/* This would be a great place for the small vertical seperator from shad */}
+                <button
+                  className="w-2 h-2 pr-12"
+                  onClick={() => handleTogglerVariant()}
+                >
                   {selectedVariant ? " yes" : " no"}
                 </button>
               </div>
             </div>
-            <div>ending</div>
-            <div>
-              {Object.entries(selectedClass).map(([classLabel, isSelected]) => (
-                <button
-                  key={classLabel}
-                  onClick={() => toggleClass(classLabel)}
-                >
-                  {classLabel} {isSelected ? "Selected" : "Not Selected"}
-                </button>
-              ))}
-            </div>
-            <div className="pt-8">
-              {Object.entries(selectedClass)
-                .filter(([className, isSelected]) => isSelected)
-                .map(([className]) => (
-                  <div key={className}>
-                    <strong>{className} Subclasses:</strong>
-                    <div>
-                      {selectedSubClass[className].map((subclassObj) => {
-                        const subClassName = Object.keys(subclassObj)[0];
-                        return (
-                          <button
-                            key={subClassName}
-                            onClick={() =>
-                              toggleSubClass(className, subClassName)
-                            }
-                          >
-                            {subClassName}{" "}
-                            {subclassObj[subClassName]
-                              ? "Selected"
-                              : "Not Selected"}
-                          </button>
-                        );
-                      })}
+            <div className="flex flex-col justify-evenly">
+              <div className="h-56 flex flex-wrap justify-between p-4">
+                {Object.entries(selectedClass).map(
+                  ([classLabel, isSelected]) => (
+                    <button
+                      className={
+                        isSelected
+                          ? " bg-green-200 m-1 p-4 outline rounded-md"
+                          : "m-1 p-4 outline rounded-md"
+                      }
+                      key={classLabel}
+                      onClick={() => toggleClass(classLabel)}
+                    >
+                      {classLabel}
+                    </button>
+                  )
+                )}
+              </div>
+              <div className="pt-8">
+                {Object.entries(selectedClass)
+                  .filter(([className, isSelected]) => isSelected)
+                  .map(([className]) => (
+                    <div key={className}>
+                      <strong>{className} Subclasses:</strong>
+                      <div>
+                        {selectedSubClass[className].map((subclassObj) => {
+                          const subClassName = Object.keys(subclassObj)[0];
+                          return (
+                            <button
+                              className="m-1 p-4 outline rounded-md"
+                              key={subClassName}
+                              onClick={() =>
+                                toggleSubClass(className, subClassName)
+                              }
+                            >
+                              {subClassName}{" "}
+                              {subclassObj[subClassName]
+                                ? "Selected"
+                                : "Not Selected"}
+                            </button>
+                          );
+                        })}
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
+              </div>
             </div>
           </div>
         </SheetHeader>
         <SheetFooter>
           <SheetClose>
-            <div className="pt-40">Close</div>
+            <div className="pt-2">Close</div>
           </SheetClose>
         </SheetFooter>
       </SheetContent>
