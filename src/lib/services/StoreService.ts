@@ -15,15 +15,16 @@ interface StoreState {
   selectedVariant: boolean;
   selectedClass: { [key: string]: boolean };
   selectedSubClass: ClassSubclasses;
+  toggledSubClasses: string[];
   changeLevelSelection: (level: number) => void;
   toggleVariant: () => void;
   toggleClass: (className: string) => void;
   toggleSubClass: (className: string, subclassName: string) => void;
   toggleOffSubClasses: (className: string) => void;
+  updateToggledSubClasses: (subClasses: ClassSubclasses) => void;
 }
 
 const useClassStore = create<StoreState>((set) => ({
- 
   selectedLevel: -1,
 
   selectedClass: {
@@ -192,48 +193,92 @@ const useClassStore = create<StoreState>((set) => ({
     ],
   },
 
+  toggledSubClasses: [],
+
   changeLevelSelection: (level) =>
     set(() => ({
       selectedLevel: level,
     })),
 
-    toggleVariant: () => 
-      set((state) => ({
-        selectedVariant: !state.selectedVariant,
-      })),
+  toggleVariant: () =>
+    set((state) => ({
+      selectedVariant: !state.selectedVariant,
+    })),
 
   toggleClass: (className) =>
     set((state) => ({
       selectedClass: {
         ...state.selectedClass,
         [className]: !state.selectedClass[className],
-       },
+      },
     })),
 
-    toggleSubClass: (className, subclassName) =>
-      set((state) => ({
-        ...state, // Include the rest of the state
-        selectedSubClass: {
-          ...state.selectedSubClass,
-          [className]: state.selectedSubClass[className].map((subclass) => {
-            // Check if this is the subclass we want to toggle
-            if (subclass.hasOwnProperty(subclassName)) {
-              return { ...subclass, [subclassName]: !subclass[subclassName] }; // Toggle the boolean
-            }
-            return subclass; // Return all other subclasses unchanged
-          }),
-        },
-      })),
+  // toggleSubClass: (className, subclassName) =>
+  //   set((state) => ({
+  //     ...state, // Include the rest of the state
+  //     selectedSubClass: {
+  //       ...state.selectedSubClass,
+  //       [className]: state.selectedSubClass[className].map((subclass) => {
+  //         // Check if this is the subclass we want to toggle
+  //         if (subclass.hasOwnProperty(subclassName)) {
+  //           return { ...subclass, [subclassName]: !subclass[subclassName] }; // Toggle the boolean
+  //         }
+  //         return subclass; // Return all other subclasses unchanged
+  //       }),
+  //     },
+  //   })),
 
-      toggleOffSubClasses: (className) => set((state) => ({
-        selectedSubClass: {
-          ...state.selectedSubClass,
-          [className]: state.selectedSubClass[className].map((subclass) => {
-            const key = Object.keys(subclass)[0];
-            return { [key]: false };
-          }),
-        },
-      })),
+  
+
+  toggleOffSubClasses: (className) =>
+    set((state) => ({
+      selectedSubClass: {
+        ...state.selectedSubClass,
+        [className]: state.selectedSubClass[className].map((subclass) => {
+          const key = Object.keys(subclass)[0];
+          return { [key]: false };
+        }),
+      },
+    })),
+
+  updateToggledSubClasses: (subClasses) => {
+    const toggledSubClasses: string[] = [];
+    for (const [className, subclasses] of Object.entries(subClasses)) {
+      subclasses.forEach((subclass) => {
+        for (const [subclassName, isSelected] of Object.entries(subclass)) {
+          if (isSelected) {
+            toggledSubClasses.push(subclassName);
+          }
+        }
+      });
+    }
+    return toggledSubClasses;
+  },
+
+  toggleSubClass: (className, subclassName) =>
+    set((state) => {
+      const updatedSubClass = {
+        ...state.selectedSubClass,
+        [className]: state.selectedSubClass[className].map((subclass) => {
+          if (subclass.hasOwnProperty(subclassName)) {
+            return { ...subclass, [subclassName]: !subclass[subclassName] };
+          }
+          return subclass;
+        }),
+      };
+
+      const updatedToggledSubClasses = Object.entries(updatedSubClass)
+        .flatMap(([_, subclasses]) =>
+          subclasses
+            .filter((subclass) => Object.values(subclass)[0])
+            .map((subclass) => Object.keys(subclass)[0])
+        );
+
+      return {
+        selectedSubClass: updatedSubClass,
+        toggledSubClasses: updatedToggledSubClasses,
+      };
+    }),
 }));
 export default useClassStore;
 

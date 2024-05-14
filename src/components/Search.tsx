@@ -14,28 +14,18 @@ import FilterSheet from "./FilterSheet";
 import useClassStore from "@/lib/services/StoreService";
 
 const Search = ({ setSpells }: any) => {
-  const { selectedLevel, selectedVariant, selectedClass, selectedSubClass } = useClassStore();
+  const { selectedLevel, selectedVariant, selectedClass, selectedSubClass, toggledSubClasses } = useClassStore();
 
   const handleChange = useMemo(
     () =>
       debounce((e: { target: { value: string } }) => {
         let cur;
 
-
-        //This code gets any subclass string that is true out of the selectedSubClass state,
-        //It's here so you only need to redo what subclasses are selected on search
-        //Ideally there would be some zustand state that is the subs array any time a subclass is selected or unselected,
-        //But i couldn't get that to work just yet. This will do for now
-        const subs: any[] = []
-        Object.keys(selectedSubClass).forEach((key) => {
-          let a = (selectedSubClass[key].filter(subclass => Object.values(subclass)[0] === true).map(subclass => Object.keys(subclass)[0]))
-          a.forEach(b => subs.push(b))
-        })
-
+        console.log(toggledSubClasses)
         //Run each spell thru all filters, they return true if no filter selected in FilterSheet.tsx
         cur = List(e.target.value).filter((x: Spell) =>
           FilterClassNonOpinionated(selectedClass, x) &&
-          FilterSubclass(subs, x) &&
+          FilterSubclass(toggledSubClasses, x) &&
           FilterLevel(selectedLevel,x) &&
           FilterVariant(selectedVariant, x))
 
