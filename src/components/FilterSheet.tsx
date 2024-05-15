@@ -8,13 +8,20 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import {
+  List,
+  FilterClass,
+  FilterClassNonOpinionated,
+  FilterLevel,
+  FilterVariant,
+  FilterSubclass,
+} from "@/lib/services/SpellService";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import useClassStore from "@/lib/services/StoreService";
 import { useEffect } from "react";
+import { Spell } from "@/lib/types";
 
-const FilterSheet = () => {
-  //This is here becuase of the stupid rendering when state changes being async,
-  //This forces the state is be updated when button is clicked, not queued for later
+const FilterSheet = ({setSpells}: any) => {
 
   const {
     selectedLevel,
@@ -23,11 +30,24 @@ const FilterSheet = () => {
     selectedSubClass,
     toggleClass,
     toggleSubClass,
+    toggledSubClasses,
     changeLevelSelection,
     toggleVariant,
     toggleOffSubClasses,
   } = useClassStore();
 
+
+  const searchWhenSheetClose = () => {
+    let cur;
+    cur = List("").filter(
+      (x: Spell) =>
+        FilterClassNonOpinionated(selectedClass, x) &&
+        FilterSubclass(toggledSubClasses, x) &&
+        FilterLevel(selectedLevel, x) &&
+        FilterVariant(selectedVariant, x)
+    );
+    setSpells(cur)
+  }
 
   const classSubclassToggle = (e: string) => {
     toggleClass(e);
@@ -52,7 +72,7 @@ const FilterSheet = () => {
         <HamburgerMenuIcon className="mr-2 h-4 w-4 shrink-0 opacity-50" />
       </SheetTrigger>
       <div className="overflow-y-auto">
-      <SheetContent onInteractOutside={() => console.log("hi")}>
+      <SheetContent onInteractOutside={() => searchWhenSheetClose()}>
         <SheetHeader>
           <SheetTitle>Filter</SheetTitle>
           <SheetDescription>make your selections</SheetDescription>
@@ -131,7 +151,7 @@ const FilterSheet = () => {
             </div>
           </div>
         <SheetFooter>
-          <SheetClose onClick={() => console.log("hey")}>
+          <SheetClose onClick={() => searchWhenSheetClose()}>
             <div className="pt-2">Close</div>
           </SheetClose>
         </SheetFooter>
