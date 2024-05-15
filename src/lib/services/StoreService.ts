@@ -213,34 +213,22 @@ const useClassStore = create<StoreState>((set) => ({
       },
     })),
 
-  // toggleSubClass: (className, subclassName) =>
-  //   set((state) => ({
-  //     ...state, // Include the rest of the state
-  //     selectedSubClass: {
-  //       ...state.selectedSubClass,
-  //       [className]: state.selectedSubClass[className].map((subclass) => {
-  //         // Check if this is the subclass we want to toggle
-  //         if (subclass.hasOwnProperty(subclassName)) {
-  //           return { ...subclass, [subclassName]: !subclass[subclassName] }; // Toggle the boolean
-  //         }
-  //         return subclass; // Return all other subclasses unchanged
-  //       }),
-  //     },
-  //   })),
-
-  
-
-  // Doesn't call subclass state function so doesn't update new string subclass array
   toggleOffSubClasses: (className) =>
-    set((state) => ({
-      selectedSubClass: {
+    set((state) => {
+      const selectedSubClassA = {
         ...state.selectedSubClass,
         [className]: state.selectedSubClass[className].map((subclass) => {
           const key = Object.keys(subclass)[0];
+          state.toggledSubClasses = state.toggledSubClasses.filter((x) => x !== key)
           return { [key]: false };
         }),
-      },
-    })),
+      };
+
+        return {
+          selectedSubClass: selectedSubClassA,
+        };
+      
+    }),
 
   updateToggledSubClasses: (subClasses) => {
     const toggledSubClasses: string[] = [];
@@ -256,7 +244,7 @@ const useClassStore = create<StoreState>((set) => ({
     return toggledSubClasses;
   },
 
-  toggleSubClass: (className, subclassName) =>
+  toggleSubClass: (className, subclassName) => 
     set((state) => {
       const updatedSubClass = {
         ...state.selectedSubClass,
@@ -281,6 +269,7 @@ const useClassStore = create<StoreState>((set) => ({
       };
     }),
 }));
+
 export default useClassStore;
 
 // { Artificer: false,

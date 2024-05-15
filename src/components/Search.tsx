@@ -21,7 +21,6 @@ const Search = ({ setSpells }: any) => {
       debounce((e: { target: { value: string } }) => {
         let cur;
 
-        console.log(toggledSubClasses)
         //Run each spell thru all filters, they return true if no filter selected in FilterSheet.tsx
         cur = List(e.target.value).filter((x: Spell) =>
           FilterClassNonOpinionated(selectedClass, x) &&

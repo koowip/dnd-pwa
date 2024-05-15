@@ -34,7 +34,7 @@ const FilterSheet = ({}: any) => {
   const classSubclassToggle = (e: string) => {
     toggleClass(e);
 
-    if(selectedClass[e])
+    if(selectedClass[e]) //fucked up off by 1
       toggleOffSubClasses(e)
   }
 
