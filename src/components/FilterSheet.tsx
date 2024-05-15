@@ -52,7 +52,7 @@ const FilterSheet = () => {
         <HamburgerMenuIcon className="mr-2 h-4 w-4 shrink-0 opacity-50" />
       </SheetTrigger>
       <div className="overflow-y-auto">
-      <SheetContent>
+      <SheetContent onInteractOutside={() => console.log("hi")}>
         <SheetHeader>
           <SheetTitle>Filter</SheetTitle>
           <SheetDescription>make your selections</SheetDescription>
@@ -131,7 +131,7 @@ const FilterSheet = () => {
             </div>
           </div>
         <SheetFooter>
-          <SheetClose onClick={() => document.getElementById("inputID").dispatchEvent(new Event("defaultSearch"))}>
+          <SheetClose onClick={() => console.log("hey")}>
             <div className="pt-2">Close</div>
           </SheetClose>
         </SheetFooter>
