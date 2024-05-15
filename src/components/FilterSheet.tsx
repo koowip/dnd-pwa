@@ -10,11 +10,11 @@ import {
 } from "@/components/ui/sheet";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import useClassStore from "@/lib/services/StoreService";
+import { useEffect } from "react";
 
 const FilterSheet = ({}: any) => {
   //This is here becuase of the stupid rendering when state changes being async,
   //This forces the state is be updated when button is clicked, not queued for later
-  //useEffect(() => {}, [isSelectedClass]);
 
   const {
     selectedLevel,
@@ -27,6 +27,9 @@ const FilterSheet = ({}: any) => {
     toggleVariant,
     toggleOffSubClasses,
   } = useClassStore();
+
+
+  useEffect(() => {}, [selectedSubClass, toggleClass]);
 
   const classSubclassToggle = (e: string) => {
     toggleClass(e);
@@ -52,11 +55,13 @@ const FilterSheet = ({}: any) => {
       <SheetTrigger>
         <HamburgerMenuIcon className="mr-2 h-4 w-4 shrink-0 opacity-50" />
       </SheetTrigger>
+      <div className="overflow-y-auto">
       <SheetContent>
         <SheetHeader>
           <SheetTitle>Filter</SheetTitle>
           <SheetDescription>make your selections</SheetDescription>
-          <div className="max-h-screen overflow-y-auto">
+          </SheetHeader>
+          <div className="overflow-y-auto">
             <div className="flex justify-around">
               <select onChange={handleLevelChange} defaultValue={selectedLevel}>
                 <option value ="-1">All</option>
@@ -73,8 +78,6 @@ const FilterSheet = ({}: any) => {
               </select>
               <div className="flex justify-center p-4">
                 <label>Variant?</label>
-
-                {/* This would be a great place for the small vertical seperator from shad */}
                 <button
                   className="w-2 h-2 pr-12"
                   onClick={() => handleTogglerVariant()}
@@ -83,15 +86,15 @@ const FilterSheet = ({}: any) => {
                 </button>
               </div>
             </div>
-            <div className="flex flex-col justify-between">
-              <div className="h-56 flex flex-wrap justify-between p-4">
+            <div className="flex flex-col justify-evenly">
+              <div className=" flex flex-wrap justify-between p-4">
                 {Object.entries(selectedClass).map(
                   ([classLabel, isSelected]) => (
                     <button
                       className={
                         isSelected
-                          ? " bg-green-200 m-1 p-4 outline rounded-md"
-                          : "m-1 p-4 outline rounded-md"
+                          ? " bg-green-200 m-1 p-1 outline rounded-md"
+                          : "m-1 p-1 outline rounded-md"
                       }
                       key={classLabel}
                       onClick={() => classSubclassToggle(classLabel)}
@@ -112,7 +115,7 @@ const FilterSheet = ({}: any) => {
                           const subClassName = Object.keys(subclassObj)[0];
                           return (
                             <button
-                              className="m-1 p-4 outline rounded-md"
+                              className="m-1 p-1 outline rounded-md"
                               key={subClassName}
                               onClick={() =>
                                 toggleSubClass(className, subClassName)
@@ -131,13 +134,13 @@ const FilterSheet = ({}: any) => {
               </div>
             </div>
           </div>
-        </SheetHeader>
         <SheetFooter>
           <SheetClose>
             <div className="pt-2">Close</div>
           </SheetClose>
         </SheetFooter>
       </SheetContent>
+    </div>
     </Sheet>
   );
 };

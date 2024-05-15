@@ -230,6 +230,7 @@ const useClassStore = create<StoreState>((set) => ({
 
   
 
+  // Doesn't call subclass state function so doesn't update new string subclass array
   toggleOffSubClasses: (className) =>
     set((state) => ({
       selectedSubClass: {
