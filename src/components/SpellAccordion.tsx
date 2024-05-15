@@ -14,13 +14,13 @@ import { cn } from "@/lib/utils";
 import RenderEntries from "./RenderEntries";
 import RenderClasses from "./RenderClasses"
 
-
 const SpellAccordion = (props: any) => {
 
   const sp = props.sp;
   const [hideContent, setHideContent] = useState(true);
   
   const spSchool = sp.school as keyof typeof spellSchools;  
+
 
   //Accordion arrow doesn't animate
   return (

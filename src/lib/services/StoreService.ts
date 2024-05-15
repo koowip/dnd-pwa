@@ -272,6 +272,8 @@ const useClassStore = create<StoreState>((set) => ({
 
 export default useClassStore;
 
+
+
 // { Artificer: false,
 // Barbarian: false,
 // Bard: false,

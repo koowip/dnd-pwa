@@ -7,14 +7,26 @@ import {
   FilterClassNonOpinionated,
   FilterLevel,
   FilterVariant,
-  FilterSubclass
+  FilterSubclass,
 } from "@/lib/services/SpellService";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import FilterSheet from "./FilterSheet";
 import useClassStore from "@/lib/services/StoreService";
 
 const Search = ({ setSpells }: any) => {
-  const { selectedLevel, selectedVariant, selectedClass, selectedSubClass, toggledSubClasses } = useClassStore();
+  const {
+    selectedLevel,
+    selectedVariant,
+    selectedClass,
+    selectedSubClass,
+    toggledSubClasses,
+  } = useClassStore();
+
+  //Solution to having the spells list populate on initial app load.
+  // useEffect(() => {
+  //   document.getElementById("inputID").addEventListener("defaultSearch", handleChange);
+  //   handleChange({ target: { value: "" } });
+  // }, []);
 
   const handleChange = useMemo(
     () =>
@@ -22,11 +34,13 @@ const Search = ({ setSpells }: any) => {
         let cur;
 
         //Run each spell thru all filters, they return true if no filter selected in FilterSheet.tsx
-        cur = List(e.target.value).filter((x: Spell) =>
-          FilterClassNonOpinionated(selectedClass, x) &&
-          FilterSubclass(toggledSubClasses, x) &&
-          FilterLevel(selectedLevel,x) &&
-          FilterVariant(selectedVariant, x))
+        cur = List(e.target.value).filter(
+          (x: Spell) =>
+            FilterClassNonOpinionated(selectedClass, x) &&
+            FilterSubclass(toggledSubClasses, x) &&
+            FilterLevel(selectedLevel, x) &&
+            FilterVariant(selectedVariant, x)
+        );
 
         cur ? setSpells(cur) : null;
       }, 250),

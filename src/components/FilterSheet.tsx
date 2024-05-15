@@ -12,7 +12,7 @@ import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import useClassStore from "@/lib/services/StoreService";
 import { useEffect } from "react";
 
-const FilterSheet = ({}: any) => {
+const FilterSheet = () => {
   //This is here becuase of the stupid rendering when state changes being async,
   //This forces the state is be updated when button is clicked, not queued for later
 
@@ -29,8 +29,6 @@ const FilterSheet = ({}: any) => {
   } = useClassStore();
 
 
-  useEffect(() => {}, [selectedSubClass, toggleClass]);
-
   const classSubclassToggle = (e: string) => {
     toggleClass(e);
 
@@ -40,10 +38,8 @@ const FilterSheet = ({}: any) => {
 
   //Handler for when input is selected for level change, need to implement selector in tsx
   const handleLevelChange = (e) => {
-    //console.log(e.target.value);
     const newlvl = Number(e.target.value);
     changeLevelSelection(newlvl);
-    //console.log(selectedLevel);
   };
 
   const handleTogglerVariant = () => {
@@ -63,7 +59,7 @@ const FilterSheet = ({}: any) => {
           </SheetHeader>
           <div className="overflow-y-auto">
             <div className="flex justify-around">
-              <select onChange={handleLevelChange} defaultValue={selectedLevel}>
+              <select onChange={handleLevelChange} defaultValue={selectedLevel} className="focus:outline-none">
                 <option value ="-1">All</option>
                 <option value="0">Cantrip</option>
                 <option value="1">1st</option>
@@ -76,10 +72,10 @@ const FilterSheet = ({}: any) => {
                 <option value="8">8th</option>
                 <option value="9">9th</option>
               </select>
-              <div className="flex justify-center p-4">
+              <div className="focus:outline-none flex justify-center p-4">
                 <label>Variant?</label>
                 <button
-                  className="w-2 h-2 pr-12"
+                  className="w-2 h-2 pr-12 focus:outline-none"
                   onClick={() => handleTogglerVariant()}
                 >
                   {selectedVariant ? " yes" : " no"}
@@ -135,7 +131,7 @@ const FilterSheet = ({}: any) => {
             </div>
           </div>
         <SheetFooter>
-          <SheetClose>
+          <SheetClose onClick={() => document.getElementById("inputID").dispatchEvent(new Event("defaultSearch"))}>
             <div className="pt-2">Close</div>
           </SheetClose>
         </SheetFooter>
