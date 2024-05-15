@@ -70,6 +70,12 @@ export function FilterLevel(specifiedLevel: number, curSpell: Spell): any {
     return true;
 }
 
+
+//Issue
+//Returns if any class has spell as variant.
+//If variant: yes & Bard: true, Symbol spell gets returned, this is not a bard variant spell but a druid one
+//Returns cause available to all bards && is a variant spell to a class.
+//Write logic to check if a class is true, then only return if that class is "variant"
 export function FilterVariant(variant: boolean, curSpell: Spell): any {
   if (variant) {
     return Object.values(curSpell.availableTo).flat().includes("variant");

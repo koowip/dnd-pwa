@@ -22,7 +22,8 @@ const SpellAccordion = (props: any) => {
   const spSchool = sp.school as keyof typeof spellSchools;  
 
 
-  //Accordion arrow doesn't animate
+  //console.log(sp.availableTo)
+
   return (
     <>
       <Card className="w-[350px]">
@@ -50,7 +51,8 @@ const SpellAccordion = (props: any) => {
             <RenderEntries entries={sp.entries} />
           </CardContent>
           <CardFooter>
-            {/* <RenderClasses availableTo={sp.availableTo} /> */}
+           
+            <RenderClasses availableTo={sp.availableTo} />
           </CardFooter>
         </div>
       </Card>

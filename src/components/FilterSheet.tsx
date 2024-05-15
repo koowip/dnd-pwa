@@ -21,8 +21,7 @@ import useClassStore from "@/lib/services/StoreService";
 import { useEffect } from "react";
 import { Spell } from "@/lib/types";
 
-const FilterSheet = ({setSpells}: any) => {
-
+const FilterSheet = ({ setSpells }: any) => {
   const {
     selectedLevel,
     selectedVariant,
@@ -36,25 +35,25 @@ const FilterSheet = ({setSpells}: any) => {
     toggleOffSubClasses,
   } = useClassStore();
 
-
   const searchWhenSheetClose = () => {
     let cur;
     cur = List("").filter(
       (x: Spell) =>
+        FilterLevel(selectedLevel, x) &&
         FilterClassNonOpinionated(selectedClass, x) &&
         FilterSubclass(toggledSubClasses, x) &&
-        FilterLevel(selectedLevel, x) &&
         FilterVariant(selectedVariant, x)
     );
-    setSpells(cur)
-  }
+    setSpells(cur);
+  };
 
   const classSubclassToggle = (e: string) => {
     toggleClass(e);
 
-    if(selectedClass[e]) //fucked up off by 1
-      toggleOffSubClasses(e)
-  }
+    if (selectedClass[e])
+      //fucked up off by 1
+      toggleOffSubClasses(e);
+  };
 
   //Handler for when input is selected for level change, need to implement selector in tsx
   const handleLevelChange = (e) => {
@@ -72,15 +71,19 @@ const FilterSheet = ({setSpells}: any) => {
         <HamburgerMenuIcon className="mr-2 h-4 w-4 shrink-0 opacity-50" />
       </SheetTrigger>
       <div className="overflow-y-auto">
-      <SheetContent onInteractOutside={() => searchWhenSheetClose()}>
-        <SheetHeader>
-          <SheetTitle>Filter</SheetTitle>
-          <SheetDescription>make your selections</SheetDescription>
+        <SheetContent onInteractOutside={() => searchWhenSheetClose()}>
+          <SheetHeader>
+            <SheetTitle>Filter</SheetTitle>
+            <SheetDescription>make your selections</SheetDescription>
           </SheetHeader>
           <div className="overflow-y-auto">
             <div className="flex justify-around">
-              <select onChange={handleLevelChange} defaultValue={selectedLevel} className="focus:outline-none">
-                <option value ="-1">All</option>
+              <select
+                onChange={handleLevelChange}
+                defaultValue={selectedLevel}
+                className="focus:outline-none"
+              >
+                <option value="-1">All</option>
                 <option value="0">Cantrip</option>
                 <option value="1">1st</option>
                 <option value="2">2nd</option>
@@ -150,13 +153,13 @@ const FilterSheet = ({setSpells}: any) => {
               </div>
             </div>
           </div>
-        <SheetFooter>
-          <SheetClose onClick={() => searchWhenSheetClose()}>
-            <div className="pt-2">Close</div>
-          </SheetClose>
-        </SheetFooter>
-      </SheetContent>
-    </div>
+          <SheetFooter>
+            <SheetClose onClick={() => searchWhenSheetClose()}>
+              <div className="pt-2">Close</div>
+            </SheetClose>
+          </SheetFooter>
+        </SheetContent>
+      </div>
     </Sheet>
   );
 };

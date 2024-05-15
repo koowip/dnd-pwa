@@ -36,10 +36,10 @@ const Search = ({ setSpells }: any) => {
         //Run each spell thru all filters, they return true if no filter selected in FilterSheet.tsx
         cur = List(e.target.value).filter(
           (x: Spell) =>
+            FilterLevel(selectedLevel, x) &&
             FilterClassNonOpinionated(selectedClass, x) &&
             FilterSubclass(toggledSubClasses, x) &&
-            FilterLevel(selectedLevel, x) &&
-            FilterVariant(selectedVariant, x)
+            FilterVariant(selectedVariant, x) 
         );
 
         cur ? setSpells(cur) : null;
