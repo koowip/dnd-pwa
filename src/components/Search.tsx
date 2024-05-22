@@ -41,8 +41,8 @@ const Search = () => {
           (x: Spell) =>
             FilterLevel(selectedLevel, x) &&
             FilterClassNonOpinionated(selectedClass, x) &&
-            FilterSubclass(toggledSubClasses, x) &&
-            FilterVariant(selectedVariant, x)
+            FilterSubclass(toggledSubClasses, x)
+            //FilterVariant(selectedVariant, x)
         );
 
         setSpellList(cur);

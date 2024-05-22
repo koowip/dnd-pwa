@@ -13,8 +13,18 @@ const Landing = () => {
   return (
     <div className="flex flex-col justify-center mt-2">
       <div className="flex justify-evenly">
-        <Button variant="ghost">Spells</Button>
-        <Button variant="ghost" onClick={() => setBookView(!bookView)}>
+        <Button
+          className={bookView ? "" : "bg-accent"}
+          variant="ghost"
+          onClick={() => setBookView(false)}
+        >
+          Spells
+        </Button>
+        <Button
+          className={bookView ? "bg-accent" : ""}
+          variant="ghost"
+          onClick={() => setBookView(true)}
+        >
           Book
         </Button>
       </div>
