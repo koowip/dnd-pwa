@@ -70,7 +70,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Aid",
@@ -146,7 +147,8 @@
       "Ranger": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Alarm",
@@ -210,7 +212,8 @@
       "Sorcerer": [
         "Clockwork Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Alter Self",
@@ -288,7 +291,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Animal Friendship",
@@ -359,7 +363,8 @@
       "Cleric": [
         "Nature"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Animal Messenger",
@@ -425,7 +430,8 @@
       "Bard": [],
       "Druid": [],
       "Ranger": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Animal Shapes",
@@ -475,7 +481,8 @@
     ],
     "availableTo": {
       "Druid": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Animate Dead",
@@ -548,7 +555,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Animate Objects",
@@ -683,7 +691,8 @@
       "Cleric": [
         "Forge"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Antilife Shell",
@@ -751,7 +760,8 @@
       "Warlock": [
         "Undead"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Antimagic Field",
@@ -856,7 +866,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Antipathy/Sympathy",
@@ -940,7 +951,8 @@
       "Bard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Arcane Eye",
@@ -1001,7 +1013,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Arcane Gate",
@@ -1055,7 +1068,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Arcane Lock",
@@ -1111,7 +1125,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Armor of Agathys",
@@ -1169,7 +1184,8 @@
       "Paladin": [
         "Conquest"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Arms of Hadar",
@@ -1226,7 +1242,8 @@
       "Sorcerer": [
         "Aberrant Mind"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Astral Projection",
@@ -1290,7 +1307,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Augury",
@@ -1372,7 +1390,8 @@
       "Wizard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Aura of Life",
@@ -1434,7 +1453,8 @@
       "Warlock": [
         "Undying"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Aura of Purity",
@@ -1492,7 +1512,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Aura of Vitality",
@@ -1551,7 +1572,8 @@
       "Druid": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Awaken",
@@ -1607,7 +1629,8 @@
     "availableTo": {
       "Bard": [],
       "Druid": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Bane",
@@ -1678,7 +1701,8 @@
       "Warlock": [
         "Undead"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Banishing Smite",
@@ -1732,7 +1756,8 @@
       "Warlock": [
         "Hexblade"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Banishment",
@@ -1812,7 +1837,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Barkskin",
@@ -1865,7 +1891,8 @@
       "Cleric": [
         "Nature"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Beacon of Hope",
@@ -1926,7 +1953,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Beast Sense",
@@ -1975,7 +2003,8 @@
       "Barbarian": [
         "Totem Warrior"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Bestow Curse",
@@ -2062,7 +2091,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Bigby's Hand",
@@ -2168,7 +2198,8 @@
       "Sorcerer": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Blade Barrier",
@@ -2227,7 +2258,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Blade Ward",
@@ -2283,7 +2315,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Bless",
@@ -2349,7 +2382,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Blight",
@@ -2443,7 +2477,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Blinding Smite",
@@ -2495,7 +2530,8 @@
     ],
     "availableTo": {
       "Paladin": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Blindness/Deafness",
@@ -2574,7 +2610,8 @@
         "Undying",
         "Undead"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Blink",
@@ -2633,7 +2670,8 @@
         "Archfey",
         "Hexblade"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Blur",
@@ -2695,7 +2733,8 @@
         "Hexblade",
         "Genie"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Branding Smite",
@@ -2757,7 +2796,8 @@
       "Warlock": [
         "Hexblade"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Burning Hands",
@@ -2844,7 +2884,8 @@
         "Fiend",
         "Genie"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Call Lightning",
@@ -2916,7 +2957,8 @@
       "Paladin": [
         "Open Sea"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Calm Emotions",
@@ -2980,7 +3022,8 @@
       "Warlock": [
         "Archfey"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Chain Lightning",
@@ -3047,7 +3090,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Charm Person",
@@ -3135,7 +3179,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Chill Touch",
@@ -3214,7 +3259,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Chromatic Orb",
@@ -3287,7 +3333,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Circle of Death",
@@ -3351,7 +3398,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Circle of Power",
@@ -3401,7 +3449,8 @@
         "Solidarity (PSA)",
         "Twilight"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Clairvoyance",
@@ -3464,7 +3513,8 @@
       "Warlock": [
         "Great Old One"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Clone",
@@ -3512,7 +3562,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Cloud of Daggers",
@@ -3578,7 +3629,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Cloudkill",
@@ -3661,7 +3713,8 @@
       "Warlock": [
         "Undead"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Color Spray",
@@ -3729,7 +3782,8 @@
       "Bard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Command",
@@ -3858,7 +3912,8 @@
       "Warlock": [
         "Fiend"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Commune",
@@ -3912,7 +3967,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Commune with Nature",
@@ -3971,7 +4027,8 @@
         "Ancients",
         "Open Sea"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Compelled Duel",
@@ -4021,7 +4078,8 @@
     ],
     "availableTo": {
       "Paladin": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Comprehend Languages",
@@ -4082,7 +4140,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Compulsion",
@@ -4141,7 +4200,8 @@
       "Paladin": [
         "Glory"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Cone of Cold",
@@ -4211,7 +4271,8 @@
         "Fathomless",
         "Genie"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Confusion",
@@ -4343,7 +4404,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Conjure Animals",
@@ -4411,7 +4473,8 @@
     "availableTo": {
       "Druid": [],
       "Ranger": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Conjure Barrage",
@@ -4457,7 +4520,8 @@
       "Artificer": [
         "Battle Smith"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Conjure Celestial",
@@ -4517,7 +4581,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Conjure Elemental",
@@ -4576,7 +4641,8 @@
     "availableTo": {
       "Druid": [],
       "Wizard": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Conjure Fey",
@@ -4635,7 +4701,8 @@
     "availableTo": {
       "Druid": [],
       "Warlock": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Conjure Minor Elementals",
@@ -4709,7 +4776,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Conjure Volley",
@@ -4752,7 +4820,8 @@
     ],
     "availableTo": {
       "Ranger": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Conjure Woodland Beings",
@@ -4821,7 +4890,8 @@
     "availableTo": {
       "Druid": [],
       "Ranger": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Contact Other Plane",
@@ -4871,7 +4941,8 @@
     "availableTo": {
       "Warlock": [],
       "Wizard": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Contagion",
@@ -4979,7 +5050,8 @@
       "Warlock": [
         "Undying"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Contingency",
@@ -5028,7 +5100,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Continual Flame",
@@ -5090,7 +5163,8 @@
       "Druid": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Control Water",
@@ -5199,7 +5273,8 @@
         "Fathomless",
         "Genie"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Control Weather",
@@ -5355,7 +5430,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Cordon of Arrows",
@@ -5415,7 +5491,8 @@
     ],
     "availableTo": {
       "Ranger": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Counterspell",
@@ -5474,7 +5551,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Create Food and Water",
@@ -5522,7 +5600,8 @@
       "Warlock": [
         "Genie"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Create or Destroy Water",
@@ -5599,7 +5678,8 @@
       "Warlock": [
         "Fathomless"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Create Undead",
@@ -5664,7 +5744,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Creation",
@@ -5755,7 +5836,8 @@
       "Warlock": [
         "Genie"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Crown of Madness",
@@ -5825,7 +5907,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Crusader's Mantle",
@@ -5878,7 +5961,8 @@
         "War",
         "Solidarity (PSA)"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Cure Wounds",
@@ -5961,7 +6045,8 @@
       "Warlock": [
         "Celestial"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Dancing Lights",
@@ -6028,7 +6113,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Darkness",
@@ -6105,7 +6191,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Darkvision",
@@ -6162,7 +6249,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Daylight",
@@ -6219,7 +6307,8 @@
       "Warlock": [
         "Celestial"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Death Ward",
@@ -6278,7 +6367,8 @@
         "Undying",
         "Undead"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Delayed Blast Fireball",
@@ -6350,7 +6440,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Demiplane",
@@ -6403,7 +6494,8 @@
       "Sorcerer": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Destructive Wave",
@@ -6458,7 +6550,8 @@
         "Strength (PSA)",
         "Zeal (PSA)"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Detect Evil and Good",
@@ -6515,7 +6608,8 @@
       "Warlock": [
         "Genie"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Detect Magic",
@@ -6580,7 +6674,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Detect Poison and Disease",
@@ -6632,7 +6727,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Detect Thoughts",
@@ -6698,7 +6794,8 @@
       "Warlock": [
         "Great Old One"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Dimension Door",
@@ -6763,7 +6860,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Disguise Self",
@@ -6828,7 +6926,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Disintegrate",
@@ -6896,7 +6995,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Dispel Evil and Good",
@@ -6973,7 +7073,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Dispel Magic",
@@ -7048,7 +7149,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Dissonant Whispers",
@@ -7107,7 +7209,8 @@
       "Warlock": [
         "Great Old One"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Divination",
@@ -7169,7 +7272,8 @@
       "Wizard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Divine Favor",
@@ -7220,7 +7324,8 @@
         "War",
         "Strength (PSA)"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Divine Word",
@@ -7283,7 +7388,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Dominate Beast",
@@ -7367,7 +7473,8 @@
       "Ranger": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Dominate Monster",
@@ -7440,7 +7547,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Dominate Person",
@@ -7526,7 +7634,8 @@
         "Archfey",
         "Great Old One"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Drawmij's Instant Summons",
@@ -7581,7 +7690,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Dream",
@@ -7641,7 +7751,8 @@
       "Druid": [
         "Land"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Druidcraft",
@@ -7697,7 +7808,8 @@
       "Fighter": [
         "Arcane Archer"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Earthquake",
@@ -7781,7 +7893,8 @@
       "Cleric": [],
       "Druid": [],
       "Sorcerer": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Eldritch Blast",
@@ -7833,7 +7946,8 @@
     ],
     "availableTo": {
       "Warlock": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Elemental Weapon",
@@ -7905,7 +8019,8 @@
       "Ranger": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Enhance Ability",
@@ -8024,7 +8139,8 @@
       "Wizard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Enlarge/Reduce",
@@ -8107,7 +8223,8 @@
       "Druid": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Ensnaring Strike",
@@ -8171,7 +8288,8 @@
       "Paladin": [
         "Ancients"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Entangle",
@@ -8230,7 +8348,8 @@
       "Ranger": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Enthrall",
@@ -8281,7 +8400,8 @@
     "availableTo": {
       "Bard": [],
       "Warlock": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Etherealness",
@@ -8347,7 +8467,8 @@
       "Sorcerer": [],
       "Warlock": [],
       "Wizard": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Evard's Black Tentacles",
@@ -8424,7 +8545,8 @@
         "Great Old One",
         "Fathomless"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Expeditious Retreat",
@@ -8480,7 +8602,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Eyebite",
@@ -8561,7 +8684,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Fabricate",
@@ -8615,7 +8739,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Faerie Fire",
@@ -8681,7 +8806,8 @@
       "Warlock": [
         "Archfey"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "False Life",
@@ -8751,7 +8877,8 @@
         "Undying",
         "Undead"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Fear",
@@ -8819,7 +8946,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Feather Fall",
@@ -8879,7 +9007,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Feeblemind",
@@ -8938,7 +9067,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Feign Death",
@@ -9018,7 +9148,8 @@
       "Warlock": [
         "Undying"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Find Familiar",
@@ -9080,7 +9211,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Find Steed",
@@ -9125,7 +9257,8 @@
     ],
     "availableTo": {
       "Paladin": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Find the Path",
@@ -9177,7 +9310,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Find Traps",
@@ -9220,7 +9354,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Finger of Death",
@@ -9278,7 +9413,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Fire Bolt",
@@ -9350,7 +9486,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Fire Shield",
@@ -9427,7 +9564,8 @@
       "Sorcerer": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Fire Storm",
@@ -9480,7 +9618,8 @@
       "Cleric": [],
       "Druid": [],
       "Sorcerer": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Fireball",
@@ -9566,7 +9705,8 @@
         "Fiend",
         "Genie"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Flame Blade",
@@ -9635,7 +9775,8 @@
       "Sorcerer": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Flame Strike",
@@ -9708,7 +9849,8 @@
         "Celestial",
         "Genie"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Flaming Sphere",
@@ -9802,7 +9944,8 @@
       "Sorcerer": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Flesh to Stone",
@@ -9872,7 +10015,8 @@
       "Sorcerer": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Fly",
@@ -9942,7 +10086,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Fog Cloud",
@@ -10014,7 +10159,8 @@
       "Warlock": [
         "Genie"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Forbiddance",
@@ -10083,7 +10229,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Forcecage",
@@ -10144,7 +10291,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Foresight",
@@ -10199,7 +10347,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Freedom of Movement",
@@ -10263,7 +10412,8 @@
         "Clockwork Soul",
         "Runechild"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Friends",
@@ -10321,7 +10471,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Gaseous Form",
@@ -10389,7 +10540,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Gate",
@@ -10449,7 +10601,8 @@
       "Warlock": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Geas",
@@ -10523,7 +10676,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Gentle Repose",
@@ -10584,7 +10738,8 @@
       "Paladin": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Giant Insect",
@@ -10635,7 +10790,8 @@
     ],
     "availableTo": {
       "Druid": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Glibness",
@@ -10675,7 +10831,8 @@
     "availableTo": {
       "Bard": [],
       "Warlock": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Globe of Invulnerability",
@@ -10739,7 +10896,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Glyph of Warding",
@@ -10840,7 +10998,8 @@
         "Divine Soul",
         "Runechild"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Goodberry",
@@ -10885,7 +11044,8 @@
       "Cleric": [
         "Community"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Grasping Vine",
@@ -10942,7 +11102,8 @@
       "Cleric": [
         "Nature"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Grease",
@@ -11004,7 +11165,8 @@
       "Sorcerer": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Greater Invisibility",
@@ -11078,7 +11240,8 @@
         "Genie",
         "Undead"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Greater Restoration",
@@ -11146,7 +11309,8 @@
       "Ranger": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Guardian of Faith",
@@ -11208,7 +11372,8 @@
       "Warlock": [
         "Celestial"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Guards and Wards",
@@ -11306,7 +11471,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Guidance",
@@ -11365,7 +11531,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Guiding Bolt",
@@ -11446,7 +11613,8 @@
       "Warlock": [
         "Celestial"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Gust of Wind",
@@ -11520,7 +11688,8 @@
       "Ranger": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Hail of Thorns",
@@ -11577,7 +11746,8 @@
     ],
     "availableTo": {
       "Ranger": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Hallow",
@@ -11729,7 +11899,8 @@
       "Warlock": [
         "Fiend"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Hallucinatory Terrain",
@@ -11793,7 +11964,8 @@
       "Sorcerer": [
         "Lunar"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Harm",
@@ -11846,7 +12018,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Haste",
@@ -11921,7 +12094,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Heal",
@@ -11993,7 +12167,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Healing Word",
@@ -12074,7 +12249,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Heat Metal",
@@ -12146,7 +12322,8 @@
       "Cleric": [
         "Forge"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Hellish Rebuke",
@@ -12208,7 +12385,8 @@
       "Paladin": [
         "Oathbreaker"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Heroes' Feast",
@@ -12271,7 +12449,8 @@
       "Bard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Heroism",
@@ -12339,7 +12518,8 @@
         "Order",
         "Peace"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Hex",
@@ -12402,7 +12582,8 @@
     ],
     "availableTo": {
       "Warlock": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Hold Monster",
@@ -12496,7 +12677,8 @@
       "Ranger": [
         "Monster Slayer"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Hold Person",
@@ -12586,7 +12768,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Holy Aura",
@@ -12648,7 +12831,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Hunger of Hadar",
@@ -12710,7 +12894,8 @@
       "Sorcerer": [
         "Aberrant Mind"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Hunter's Mark",
@@ -12775,7 +12960,8 @@
       "Paladin": [
         "Vengeance"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Hypnotic Pattern",
@@ -12846,7 +13032,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Ice Storm",
@@ -12922,7 +13109,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Identify",
@@ -12992,7 +13180,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Illusory Script",
@@ -13050,7 +13239,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Imprisonment",
@@ -13161,7 +13351,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Incendiary Cloud",
@@ -13224,7 +13415,8 @@
       "Druid": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Inflict Wounds",
@@ -13291,7 +13483,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Insect Plague",
@@ -13363,7 +13556,8 @@
       "Ranger": [
         "Swarmkeeper"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Invisibility",
@@ -13443,7 +13637,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Jump",
@@ -13497,7 +13692,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Knock",
@@ -13549,7 +13745,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Legend Lore",
@@ -13602,7 +13799,8 @@
       "Warlock": [
         "Undying"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Leomund's Secret Chest",
@@ -13657,7 +13855,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Leomund's Tiny Hut",
@@ -13717,7 +13916,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Lesser Restoration",
@@ -13777,7 +13977,8 @@
       "Warlock": [
         "Celestial"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Levitate",
@@ -13841,7 +14042,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Light",
@@ -13909,7 +14111,8 @@
       "Warlock": [
         "Celestial"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Lightning Arrow",
@@ -13969,7 +14172,8 @@
     ],
     "availableTo": {
       "Ranger": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Lightning Bolt",
@@ -14052,7 +14256,8 @@
       "Warlock": [
         "Fathomless"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Locate Animals or Plants",
@@ -14098,7 +14303,8 @@
       "Bard": [],
       "Druid": [],
       "Ranger": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Locate Creature",
@@ -14157,7 +14363,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Locate Object",
@@ -14218,7 +14425,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Longstrider",
@@ -14284,7 +14492,8 @@
       "Sorcerer": [
         "Runechild"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Mage Armor",
@@ -14345,7 +14554,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Mage Hand",
@@ -14414,7 +14624,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Magic Circle",
@@ -14511,7 +14722,8 @@
         "Divine Soul",
         "Runechild"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Magic Jar",
@@ -14572,7 +14784,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Magic Missile",
@@ -14649,7 +14862,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Magic Mouth",
@@ -14711,7 +14925,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Magic Weapon",
@@ -14782,7 +14997,8 @@
       "Sorcerer": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Major Image",
@@ -14856,7 +15072,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Mass Cure Wounds",
@@ -14932,7 +15149,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Mass Heal",
@@ -14994,7 +15212,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Mass Healing Word",
@@ -15076,7 +15295,8 @@
       "Bard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Mass Suggestion",
@@ -15145,7 +15365,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Maze",
@@ -15199,7 +15420,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Meld into Stone",
@@ -15260,7 +15482,8 @@
       "Ranger": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Melf's Acid Arrow",
@@ -15328,7 +15551,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Mending",
@@ -15380,7 +15604,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Message",
@@ -15438,7 +15663,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Meteor Swarm",
@@ -15495,7 +15721,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Mind Blank",
@@ -15548,7 +15775,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Minor Illusion",
@@ -15611,7 +15839,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Mirage Arcane",
@@ -15659,7 +15888,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Mirror Image",
@@ -15724,7 +15954,8 @@
       "Bard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Mislead",
@@ -15788,7 +16019,8 @@
       "Warlock": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Misty Step",
@@ -15854,7 +16086,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Modify Memory",
@@ -15928,7 +16161,8 @@
         "Trickery",
         "Ambition (PSA)"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Moonbeam",
@@ -16004,7 +16238,8 @@
         "Ancients",
         "Watchers"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Mordenkainen's Faithful Hound",
@@ -16064,7 +16299,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Mordenkainen's Magnificent Mansion",
@@ -16118,7 +16354,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Mordenkainen's Private Sanctum",
@@ -16196,7 +16433,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Mordenkainen's Sword",
@@ -16262,7 +16500,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Move Earth",
@@ -16317,7 +16556,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Nondetection",
@@ -16384,7 +16624,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Nystul's Magic Aura",
@@ -16456,7 +16697,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Otiluke's Freezing Sphere",
@@ -16523,7 +16765,8 @@
       "Sorcerer": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Otiluke's Resilient Sphere",
@@ -16606,7 +16849,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Otto's Irresistible Dance",
@@ -16662,7 +16906,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Pass without Trace",
@@ -16714,7 +16959,8 @@
       "Monk": [
         "Shadow"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Passwall",
@@ -16771,7 +17017,8 @@
       "Druid": [
         "Land"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Phantasmal Force",
@@ -16857,7 +17104,8 @@
         "Genie",
         "Undead"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Phantasmal Killer",
@@ -16936,7 +17184,8 @@
       "Bard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Phantom Steed",
@@ -16996,7 +17245,8 @@
       "Warlock": [
         "Undead"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Planar Ally",
@@ -17044,7 +17294,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Planar Binding",
@@ -17124,7 +17375,8 @@
       "Warlock": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Plane Shift",
@@ -17184,7 +17436,8 @@
       "Sorcerer": [],
       "Warlock": [],
       "Wizard": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Plant Growth",
@@ -17239,7 +17492,8 @@
       "Warlock": [
         "Archfey"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Poison Spray",
@@ -17315,7 +17569,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Polymorph",
@@ -17383,7 +17638,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Power Word Heal",
@@ -17444,7 +17700,8 @@
       "Cleric": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Power Word Kill",
@@ -17493,7 +17750,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Power Word Stun",
@@ -17549,7 +17807,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Prayer of Healing",
@@ -17628,7 +17887,8 @@
       "Paladin": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Prestidigitation",
@@ -17706,7 +17966,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Prismatic Spray",
@@ -17830,7 +18091,8 @@
       "Bard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Prismatic Wall",
@@ -17956,7 +18218,8 @@
       "Bard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Produce Flame",
@@ -18024,7 +18287,8 @@
         "Nature",
         "Strength (PSA)"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Programmed Illusion",
@@ -18078,7 +18342,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Project Image",
@@ -18142,7 +18407,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Protection from Energy",
@@ -18216,7 +18482,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Protection from Evil and Good",
@@ -18297,7 +18564,8 @@
       "Druid": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Protection from Poison",
@@ -18355,7 +18623,8 @@
         "Divine Soul",
         "Runechild"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Purify Food and Drink",
@@ -18404,7 +18673,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Raise Dead",
@@ -18475,7 +18745,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Rary's Telepathic Bond",
@@ -18535,7 +18806,8 @@
       "Bard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Ray of Enfeeblement",
@@ -18600,7 +18872,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Ray of Frost",
@@ -18677,7 +18950,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Ray of Sickness",
@@ -18753,7 +19027,8 @@
       "Warlock": [
         "Undying"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Regenerate",
@@ -18807,7 +19082,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Reincarnate",
@@ -19014,7 +19290,8 @@
     ],
     "availableTo": {
       "Druid": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Remove Curse",
@@ -19069,7 +19346,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Resistance",
@@ -19126,7 +19404,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Resurrection",
@@ -19182,7 +19461,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Reverse Gravity",
@@ -19241,7 +19521,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Revivify",
@@ -19309,7 +19590,8 @@
       "Ranger": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Rope Trick",
@@ -19363,7 +19645,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Sacred Flame",
@@ -19437,7 +19720,8 @@
       "Warlock": [
         "Celestial"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Sanctuary",
@@ -19507,7 +19791,8 @@
       "Warlock": [
         "Genie"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Scorching Ray",
@@ -19584,7 +19869,8 @@
         "Fiend",
         "Genie"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Scrying",
@@ -19698,7 +19984,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Searing Smite",
@@ -19762,7 +20049,8 @@
       "Ranger": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "See Invisibility",
@@ -19818,7 +20106,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Seeming",
@@ -19886,7 +20175,8 @@
         "Archfey",
         "Genie"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Sending",
@@ -19943,7 +20233,8 @@
       "Warlock": [
         "Great Old One"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Sequester",
@@ -20001,7 +20292,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Shapechange",
@@ -20069,7 +20361,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Shatter",
@@ -20147,7 +20440,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Shield",
@@ -20212,7 +20506,8 @@
       "Warlock": [
         "Hexblade"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Shield of Faith",
@@ -20272,7 +20567,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Shillelagh",
@@ -20317,7 +20613,8 @@
         "Nature",
         "Strength (PSA)"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Shocking Grasp",
@@ -20393,7 +20690,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Silence",
@@ -20469,7 +20767,8 @@
         "Undying",
         "Fathomless"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Silent Image",
@@ -20529,7 +20828,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Simulacrum",
@@ -20586,7 +20886,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Sleep",
@@ -20687,7 +20988,8 @@
       "Warlock": [
         "Archfey"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Sleet Storm",
@@ -20760,7 +21062,8 @@
         "Fathomless",
         "Genie"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Slow",
@@ -20833,7 +21136,8 @@
       "Bard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Spare the Dying",
@@ -20894,7 +21198,8 @@
       "Warlock": [
         "Undying"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Speak with Animals",
@@ -20951,7 +21256,8 @@
       "Paladin": [
         "Ancients"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Speak with Dead",
@@ -21027,7 +21333,8 @@
       "Wizard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Speak with Plants",
@@ -21074,7 +21381,8 @@
       "Bard": [],
       "Druid": [],
       "Ranger": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Spider Climb",
@@ -21135,7 +21443,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Spike Growth",
@@ -21198,7 +21507,8 @@
       "Warlock": [
         "Genie"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Spirit Guardians",
@@ -21277,7 +21587,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Spiritual Weapon",
@@ -21354,7 +21665,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Staggering Smite",
@@ -21405,7 +21717,8 @@
       "Warlock": [
         "Hexblade"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Stinking Cloud",
@@ -21473,7 +21786,8 @@
       "Warlock": [
         "Fiend"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Stone Shape",
@@ -21528,7 +21842,8 @@
       "Warlock": [
         "Genie"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Stoneskin",
@@ -21603,7 +21918,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Storm of Vengeance",
@@ -21696,7 +22012,8 @@
     ],
     "availableTo": {
       "Druid": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Suggestion",
@@ -21770,7 +22087,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Sunbeam",
@@ -21835,7 +22153,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Sunburst",
@@ -21897,7 +22216,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Swift Quiver",
@@ -21942,7 +22262,8 @@
     ],
     "availableTo": {
       "Ranger": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Symbol",
@@ -22080,7 +22401,8 @@
       "Druid": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Tasha's Hideous Laughter",
@@ -22147,7 +22469,8 @@
       "Warlock": [
         "Great Old One"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Telekinesis",
@@ -22227,7 +22550,8 @@
       "Warlock": [
         "Great Old One"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Telepathy",
@@ -22274,7 +22598,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Teleport",
@@ -22432,7 +22757,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Teleportation Circle",
@@ -22495,7 +22821,8 @@
       "Warlock": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Tenser's Floating Disk",
@@ -22551,7 +22878,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Thaumaturgy",
@@ -22620,7 +22948,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Thorn Whip",
@@ -22685,7 +23014,8 @@
         "Nature",
         "Strength (PSA)"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Thunderous Smite",
@@ -22740,7 +23070,8 @@
       "Cleric": [
         "Zeal (PSA)"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Thunderwave",
@@ -22827,7 +23158,8 @@
         "Fathomless",
         "Genie"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Time Stop",
@@ -22868,7 +23200,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Tongues",
@@ -22921,7 +23254,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Transport via Plants",
@@ -22965,7 +23299,8 @@
     ],
     "availableTo": {
       "Druid": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Tree Stride",
@@ -23017,7 +23352,8 @@
       "Paladin": [
         "Ancients"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "True Polymorph",
@@ -23103,7 +23439,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "True Resurrection",
@@ -23157,7 +23494,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "True Seeing",
@@ -23207,7 +23545,8 @@
       "Sorcerer": [],
       "Warlock": [],
       "Wizard": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "True Strike",
@@ -23266,7 +23605,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Tsunami",
@@ -23321,7 +23661,8 @@
     ],
     "availableTo": {
       "Druid": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Unseen Servant",
@@ -23379,7 +23720,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Vampiric Touch",
@@ -23456,7 +23798,8 @@
       "Sorcerer": [
         "Lunar"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Vicious Mockery",
@@ -23515,7 +23858,8 @@
     ],
     "availableTo": {
       "Bard": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Wall of Fire",
@@ -23598,7 +23942,8 @@
         "Fiend",
         "Celestial"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Wall of Force",
@@ -23658,7 +24003,8 @@
       "Sorcerer": [
         "Clockwork Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Wall of Ice",
@@ -23725,7 +24071,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Wall of Stone",
@@ -23790,7 +24137,8 @@
       "Warlock": [
         "Genie"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Wall of Thorns",
@@ -23854,7 +24202,8 @@
     ],
     "availableTo": {
       "Druid": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Warding Bond",
@@ -23921,7 +24270,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Water Breathing",
@@ -23982,7 +24332,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Water Walk",
@@ -24038,7 +24389,8 @@
       "Ranger": [],
       "Sorcerer": [],
       "Artificer": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Web",
@@ -24122,7 +24474,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Weird",
@@ -24182,7 +24535,8 @@
       "Warlock": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Wind Walk",
@@ -24234,7 +24588,8 @@
     ],
     "availableTo": {
       "Druid": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Wind Wall",
@@ -24298,7 +24653,8 @@
       "Warlock": [
         "Genie"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Wish",
@@ -24376,7 +24732,8 @@
       "Warlock": [
         "Genie"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Witch Bolt",
@@ -24444,7 +24801,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Word of Recall",
@@ -24488,7 +24846,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Wrathful Smite",
@@ -24545,7 +24904,8 @@
       "Warlock": [
         "Hexblade"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Zone of Truth",
@@ -24601,7 +24961,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Create Magen",
@@ -24649,7 +25010,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Frost Fingers",
@@ -24710,7 +25072,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Air Bubble",
@@ -24772,7 +25135,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Create Spelljamming Helm",
@@ -24813,7 +25177,8 @@
     "availableTo": {
       "Wizard": [],
       "Artificer": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Distort Value",
@@ -24870,7 +25235,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Fast Friends",
@@ -24948,7 +25314,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Gift of Gab",
@@ -25003,7 +25370,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Incite Greed",
@@ -25072,7 +25440,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Jim's Glowing Coin",
@@ -25128,7 +25497,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Jim's Magic Missile",
@@ -25202,7 +25572,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Motivational Speech",
@@ -25269,7 +25640,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Antagonize",
@@ -25341,7 +25713,8 @@
       "Wizard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Spirit of Death",
@@ -25413,7 +25786,8 @@
       "Wizard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Spray of Cards",
@@ -25485,7 +25859,8 @@
       "Wizard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Ashardalon's Stride",
@@ -25551,7 +25926,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Draconic Transformation",
@@ -25637,7 +26013,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Fizban's Platinum Shield",
@@ -25717,7 +26094,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Nathair's Mischief",
@@ -25804,7 +26182,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Raulothim's Psychic Lance",
@@ -25870,7 +26249,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Rime's Binding Ice",
@@ -25932,7 +26312,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Summon Draconic Spirit",
@@ -25996,7 +26377,8 @@
       "Druid": [],
       "Sorcerer": [],
       "Wizard": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Encode Thoughts",
@@ -26035,7 +26417,8 @@
       "Casting this spell while holding a thought strand allows you to instantly receive whatever memory, idea, or message the thought strand contains. (Casting {@spell detect thoughts} on the strand has the same effect.)"
     ],
     "hasFluffImages": true,
-    "availableTo": {}
+    "availableTo": {},
+    "favorited": false
   },
   {
     "name": "Gate Seal",
@@ -26099,7 +26482,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Warp Sense",
@@ -26150,7 +26534,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Borrowed Knowledge",
@@ -26205,7 +26590,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Kinetic Jaunt",
@@ -26264,7 +26650,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Silvery Barbs",
@@ -26316,7 +26703,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Vortex Warp",
@@ -26376,7 +26764,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Wither and Bloom",
@@ -26440,7 +26829,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Blade of Disaster",
@@ -26513,7 +26903,8 @@
       "Wizard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Booming Blade",
@@ -26604,7 +26995,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Dream of the Blue Veil",
@@ -26669,7 +27061,8 @@
       "Wizard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Green-Flame Blade",
@@ -26758,7 +27151,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Intellect Fortress",
@@ -26833,7 +27227,8 @@
       "Wizard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Lightning Lure",
@@ -26910,7 +27305,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Mind Sliver",
@@ -26990,7 +27386,8 @@
       "Wizard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Spirit Shroud",
@@ -27069,7 +27466,8 @@
       "Wizard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Summon Aberration",
@@ -27142,7 +27540,8 @@
       "Wizard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Summon Beast",
@@ -27206,7 +27605,8 @@
       "Ranger": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Summon Celestial",
@@ -27274,7 +27674,8 @@
       "Paladin": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Summon Construct",
@@ -27345,7 +27746,8 @@
       "Wizard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Summon Elemental",
@@ -27421,7 +27823,8 @@
       "Wizard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Summon Fey",
@@ -27497,7 +27900,8 @@
       "Wizard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Summon Fiend",
@@ -27564,7 +27968,8 @@
       "Wizard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Summon Shadowspawn",
@@ -27635,7 +28040,8 @@
       "Wizard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Summon Undead",
@@ -27705,7 +28111,8 @@
       "Wizard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Sword Burst",
@@ -27780,7 +28187,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Tasha's Caustic Brew",
@@ -27849,7 +28257,8 @@
       "Wizard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Tasha's Mind Whip",
@@ -27921,7 +28330,8 @@
       "Wizard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Tasha's Otherworldly Guise",
@@ -28000,7 +28410,8 @@
       "Wizard": [
         "variant"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Abi-Dalzim's Horrid Wilting",
@@ -28057,7 +28468,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Absorb Elements",
@@ -28128,7 +28540,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Aganazzar's Scorcher",
@@ -28196,7 +28609,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Beast Bond",
@@ -28257,7 +28671,8 @@
     "availableTo": {
       "Druid": [],
       "Ranger": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Bones of the Earth",
@@ -28330,7 +28745,8 @@
     ],
     "availableTo": {
       "Druid": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Catapult",
@@ -28400,7 +28816,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Catnap",
@@ -28467,7 +28884,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Cause Fear",
@@ -28549,7 +28967,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Ceremony",
@@ -28647,7 +29066,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Chaos Bolt",
@@ -28804,7 +29224,8 @@
     ],
     "availableTo": {
       "Sorcerer": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Charm Monster",
@@ -28875,7 +29296,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Control Flames",
@@ -28954,7 +29376,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Control Winds",
@@ -29036,7 +29459,8 @@
       "Druid": [],
       "Sorcerer": [],
       "Wizard": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Create Bonfire",
@@ -29123,7 +29547,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Create Homunculus",
@@ -29171,7 +29596,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Crown of Stars",
@@ -29239,7 +29665,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Danse Macabre",
@@ -29298,7 +29725,8 @@
     "availableTo": {
       "Warlock": [],
       "Wizard": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Dawn",
@@ -29362,7 +29790,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Dragon's Breath",
@@ -29433,7 +29862,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Druid Grove",
@@ -29524,7 +29954,8 @@
     ],
     "availableTo": {
       "Druid": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Dust Devil",
@@ -29602,7 +30033,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Earth Tremor",
@@ -29677,7 +30109,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Earthbind",
@@ -29741,7 +30174,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Elemental Bane",
@@ -29822,7 +30256,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Enemies Abound",
@@ -29882,7 +30317,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Enervation",
@@ -29948,7 +30384,8 @@
       "Sorcerer": [],
       "Warlock": [],
       "Wizard": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Erupting Earth",
@@ -30022,7 +30459,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Far Step",
@@ -30068,7 +30506,8 @@
       "Sorcerer": [],
       "Warlock": [],
       "Wizard": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Find Greater Steed",
@@ -30128,7 +30567,8 @@
     "hasFluffImages": true,
     "availableTo": {
       "Paladin": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Flame Arrows",
@@ -30199,7 +30639,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Frostbite",
@@ -30279,7 +30720,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Guardian of Nature",
@@ -30360,7 +30802,8 @@
     "availableTo": {
       "Druid": [],
       "Ranger": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Gust",
@@ -30442,7 +30885,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Healing Spirit",
@@ -30517,7 +30961,8 @@
     "availableTo": {
       "Druid": [],
       "Ranger": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Holy Weapon",
@@ -30580,7 +31025,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Ice Knife",
@@ -30652,7 +31098,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Illusory Dragon",
@@ -30723,7 +31170,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Immolation",
@@ -30784,7 +31232,8 @@
     "availableTo": {
       "Sorcerer": [],
       "Wizard": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Infernal Calling",
@@ -30848,7 +31297,8 @@
     "availableTo": {
       "Warlock": [],
       "Wizard": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Infestation",
@@ -30922,7 +31372,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Investiture of Flame",
@@ -31000,7 +31451,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Investiture of Ice",
@@ -31080,7 +31532,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Investiture of Stone",
@@ -31155,7 +31608,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Investiture of Wind",
@@ -31228,7 +31682,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Invulnerability",
@@ -31276,7 +31731,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Life Transference",
@@ -31341,7 +31797,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Maddening Darkness",
@@ -31396,7 +31853,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Maelstrom",
@@ -31458,7 +31916,8 @@
     ],
     "availableTo": {
       "Druid": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Magic Stone",
@@ -31519,7 +31978,8 @@
         "Nature",
         "Strength (PSA)"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Mass Polymorph",
@@ -31580,7 +32040,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Maximilian's Earthen Grasp",
@@ -31656,7 +32117,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Melf's Minute Meteors",
@@ -31731,7 +32193,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Mental Prison",
@@ -31788,7 +32251,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Mighty Fortress",
@@ -31858,7 +32322,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Mind Spike",
@@ -31927,7 +32392,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Mold Earth",
@@ -32004,7 +32470,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Negative Energy Flood",
@@ -32056,7 +32523,8 @@
     "availableTo": {
       "Warlock": [],
       "Wizard": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Power Word Pain",
@@ -32107,7 +32575,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Primal Savagery",
@@ -32167,7 +32636,8 @@
         "Nature",
         "Strength (PSA)"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Primordial Ward",
@@ -32228,7 +32698,8 @@
     ],
     "availableTo": {
       "Druid": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Psychic Scream",
@@ -32286,7 +32757,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Pyrotechnics",
@@ -32365,7 +32837,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Scatter",
@@ -32415,7 +32888,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Shadow Blade",
@@ -32480,7 +32954,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Shadow of Moil",
@@ -32537,7 +33012,8 @@
     ],
     "availableTo": {
       "Warlock": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Shape Water",
@@ -32617,7 +33093,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Sickening Radiance",
@@ -32679,7 +33156,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Skill Empowerment",
@@ -32726,7 +33204,8 @@
       "Sorcerer": [],
       "Wizard": [],
       "Artificer": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Skywrite",
@@ -32787,7 +33266,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Snare",
@@ -32854,7 +33334,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Snilloc's Snowball Swarm",
@@ -32922,7 +33403,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Soul Cage",
@@ -33008,7 +33490,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Steel Wind Strike",
@@ -33062,7 +33545,8 @@
     "availableTo": {
       "Ranger": [],
       "Wizard": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Storm Sphere",
@@ -33146,7 +33630,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Summon Greater Demon",
@@ -33217,7 +33702,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Summon Lesser Demons",
@@ -33329,7 +33815,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Synaptic Static",
@@ -33379,7 +33866,8 @@
       "Sorcerer": [],
       "Warlock": [],
       "Wizard": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Temple of the Gods",
@@ -33450,7 +33938,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Tenser's Transformation",
@@ -33520,7 +34009,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Thunder Step",
@@ -33586,7 +34076,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Thunderclap",
@@ -33665,7 +34156,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Tidal Wave",
@@ -33728,7 +34220,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Tiny Servant",
@@ -33791,7 +34284,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Toll the Dead",
@@ -33872,7 +34366,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Transmute Rock",
@@ -33959,7 +34454,8 @@
       "Druid": [],
       "Wizard": [],
       "Artificer": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Vitriolic Sphere",
@@ -34027,7 +34523,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Wall of Light",
@@ -34103,7 +34600,8 @@
       "Sorcerer": [],
       "Warlock": [],
       "Wizard": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Wall of Sand",
@@ -34166,7 +34664,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Wall of Water",
@@ -34237,7 +34736,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Warding Wind",
@@ -34308,7 +34808,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Watery Sphere",
@@ -34381,7 +34882,8 @@
       "Rogue": [
         "Arcane Trickster"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Whirlwind",
@@ -34457,7 +34959,8 @@
       "Cleric": [
         "Arcana"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Word of Radiance",
@@ -34519,7 +35022,8 @@
       "Sorcerer": [
         "Divine Soul"
       ]
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Wrath of Nature",
@@ -34616,7 +35120,8 @@
     "availableTo": {
       "Druid": [],
       "Ranger": []
-    }
+    },
+    "favorited": false
   },
   {
     "name": "Zephyr Strike",
@@ -34663,6 +35168,7 @@
     ],
     "availableTo": {
       "Ranger": []
-    }
+    },
+    "favorited": false
   }
 ]

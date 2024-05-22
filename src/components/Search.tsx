@@ -13,13 +13,16 @@ import { useEffect, useMemo, useState } from "react";
 import FilterSheet from "./FilterSheet";
 import useClassStore from "@/lib/services/StoreService";
 
-const Search = ({ setSpells }: any) => {
+const Search = () => {
   const {
     selectedLevel,
     selectedVariant,
     selectedClass,
     selectedSubClass,
     toggledSubClasses,
+    spellList,
+    setSpellList,
+    bookSpellList,
   } = useClassStore();
 
   //Solution to having the spells list populate on initial app load.
@@ -39,10 +42,12 @@ const Search = ({ setSpells }: any) => {
             FilterLevel(selectedLevel, x) &&
             FilterClassNonOpinionated(selectedClass, x) &&
             FilterSubclass(toggledSubClasses, x) &&
-            FilterVariant(selectedVariant, x) 
+            FilterVariant(selectedVariant, x)
         );
 
-        cur ? setSpells(cur) : null;
+        setSpellList(cur);
+
+        // cur ? setSpells(cur) : null;
       }, 250),
     [selectedClass, selectedLevel, selectedSubClass, selectedVariant]
   );
@@ -51,10 +56,13 @@ const Search = ({ setSpells }: any) => {
     <div className="flex items-center border-b px-3 mt-8">
       <MagnifyingGlassIcon className="mr-2 h-4 w-4 shrink-0 opacity-50" />
       <input
+        // Once spellList is added to zustand state, make placeholder tiernary
+        //If spellList !null
+        placeholder="Search Any Spell"
         onChange={(e) => handleChange(e)}
         className="flex h-10 w-full rounded-md bg-transparent py-3 text-sm outline-none placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50"
       />
-      <FilterSheet setSpells={setSpells}/>
+      <FilterSheet />
     </div>
   );
 };

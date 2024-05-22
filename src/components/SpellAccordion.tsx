@@ -13,8 +13,14 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 import RenderEntries from "./RenderEntries";
 import RenderClasses from "./RenderClasses"
+import useClassStore from "@/lib/services/StoreService";
 
 const SpellAccordion = (props: any) => {
+
+  const {
+    setBookSpellList,
+    bookSpellList
+  } = useClassStore();
 
   const sp = props.sp;
   const [hideContent, setHideContent] = useState(true);
@@ -22,11 +28,18 @@ const SpellAccordion = (props: any) => {
   const spSchool = sp.school as keyof typeof spellSchools;  
 
 
+  const doStuff = (sp: { name: any; favorited: any; }) => {
+    console.log(sp.name, sp.favorited)
+    sp = { ...sp, favorited: !(sp.favorited)}
+    console.log(sp.name, sp.favorited)
+    setBookSpellList(sp)
+    console.log(bookSpellList)
+  }
   //console.log(sp.availableTo)
 
   return (
     <>
-      <Card className="w-[350px]">
+      <Card className="w-[350px] m-1">
         <div id="cardHeaderTrigger" onClick={() => setHideContent(!hideContent)}>
           <CardHeader>
             <CardTitle>{sp.name}</CardTitle>
@@ -49,6 +62,7 @@ const SpellAccordion = (props: any) => {
             <Separator className="mb-2 -mt-2" />
           <CardContent>
             <RenderEntries entries={sp.entries} />
+            <button className={cn((sp.favorited ? "p-3 bg-red-400" : "p-3 bg-teal-500"))} onClick={() => doStuff(sp)}>Known?</button>
           </CardContent>
           <CardFooter>
            

@@ -11,11 +11,15 @@ interface ClassSubclasses {
 }
 
 interface StoreState {
+  spellList: any[];
+  bookSpellList: any[];
   selectedLevel: number;
   selectedVariant: boolean;
   selectedClass: { [key: string]: boolean };
   selectedSubClass: ClassSubclasses;
   toggledSubClasses: string[];
+  setSpellList: (spells: any[]) => void;
+  setBookSpellList: (spell: any) => void;
   changeLevelSelection: (level: number) => void;
   toggleVariant: () => void;
   toggleClass: (className: string) => void;
@@ -25,6 +29,10 @@ interface StoreState {
 }
 
 const useClassStore = create<StoreState>((set) => ({
+  spellList: [],
+
+  bookSpellList: [],
+
   selectedLevel: -1,
 
   selectedClass: {
@@ -195,6 +203,39 @@ const useClassStore = create<StoreState>((set) => ({
 
   toggledSubClasses: [],
 
+  setSpellList: (spells) =>
+    set(() => ({
+      spellList: spells,
+    })),
+
+    setBookSpellList: (spell) =>
+      set((state) => {
+        // Update the spellList with the favorited status
+        const updatedSpellList = state.spellList.map((s) =>
+          s.name === spell.name ? { ...s, favorited: spell.favorited } : s
+        );
+  
+        // Update the bookSpellList based on the favorited status
+        const updatedBookSpellList = spell.favorited
+          ? [...state.bookSpellList, spell]
+          : state.bookSpellList.filter((s) => s.name !== spell.name);
+  
+        return {
+          spellList: updatedSpellList,
+          bookSpellList: updatedBookSpellList,
+        };
+      }),
+  // setBookSpellList: (spell) =>
+  //   set((state) => {
+  //     console.log("IN STORE", spell);
+  //     const isFavorited = spell.favorited;
+  //     return {
+  //       bookSpellList: isFavorited
+  //         ? [...state.bookSpellList, spell]
+  //         : state.bookSpellList.filter((s) => s.name !== spell.name),
+  //     };
+  //   }),
+
   changeLevelSelection: (level) =>
     set(() => ({
       selectedLevel: level,
@@ -219,15 +260,16 @@ const useClassStore = create<StoreState>((set) => ({
         ...state.selectedSubClass,
         [className]: state.selectedSubClass[className].map((subclass) => {
           const key = Object.keys(subclass)[0];
-          state.toggledSubClasses = state.toggledSubClasses.filter((x) => x !== key)
+          state.toggledSubClasses = state.toggledSubClasses.filter(
+            (x) => x !== key
+          );
           return { [key]: false };
         }),
       };
 
-        return {
-          selectedSubClass: selectedSubClassA,
-        };
-      
+      return {
+        selectedSubClass: selectedSubClassA,
+      };
     }),
 
   updateToggledSubClasses: (subClasses) => {
@@ -244,7 +286,7 @@ const useClassStore = create<StoreState>((set) => ({
     return toggledSubClasses;
   },
 
-  toggleSubClass: (className, subclassName) => 
+  toggleSubClass: (className, subclassName) =>
     set((state) => {
       const updatedSubClass = {
         ...state.selectedSubClass,
@@ -256,12 +298,12 @@ const useClassStore = create<StoreState>((set) => ({
         }),
       };
 
-      const updatedToggledSubClasses = Object.entries(updatedSubClass)
-        .flatMap(([_, subclasses]) =>
+      const updatedToggledSubClasses = Object.entries(updatedSubClass).flatMap(
+        ([_, subclasses]) =>
           subclasses
             .filter((subclass) => Object.values(subclass)[0])
             .map((subclass) => Object.keys(subclass)[0])
-        );
+      );
 
       return {
         selectedSubClass: updatedSubClass,
@@ -271,8 +313,6 @@ const useClassStore = create<StoreState>((set) => ({
 }));
 
 export default useClassStore;
-
-
 
 // { Artificer: false,
 // Barbarian: false,

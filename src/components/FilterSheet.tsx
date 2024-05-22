@@ -21,7 +21,7 @@ import useClassStore from "@/lib/services/StoreService";
 import { useEffect } from "react";
 import { Spell } from "@/lib/types";
 
-const FilterSheet = ({ setSpells }: any) => {
+const FilterSheet = () => {
   const {
     selectedLevel,
     selectedVariant,
@@ -33,6 +33,8 @@ const FilterSheet = ({ setSpells }: any) => {
     changeLevelSelection,
     toggleVariant,
     toggleOffSubClasses,
+    spellList,
+    setSpellList,
   } = useClassStore();
 
   const searchWhenSheetClose = () => {
@@ -44,7 +46,7 @@ const FilterSheet = ({ setSpells }: any) => {
         FilterSubclass(toggledSubClasses, x) &&
         FilterVariant(selectedVariant, x)
     );
-    setSpells(cur);
+    setSpellList(cur);
   };
 
   const classSubclassToggle = (e: string) => {
@@ -96,13 +98,13 @@ const FilterSheet = ({ setSpells }: any) => {
                 <option value="9">9th</option>
               </select>
               <div className="focus:outline-none flex justify-center p-4">
-                <label>Variant?</label>
+                {/* <label>Variant?</label>
                 <button
                   className="w-2 h-2 pr-12 focus:outline-none"
                   onClick={() => handleTogglerVariant()}
                 >
                   {selectedVariant ? " yes" : " no"}
-                </button>
+                </button> */}
               </div>
             </div>
             <div className="flex flex-col justify-evenly">
