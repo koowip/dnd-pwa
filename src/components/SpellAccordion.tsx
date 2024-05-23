@@ -25,15 +25,11 @@ const SpellAccordion = (props: any) => {
 
   const spSchool = sp.school as keyof typeof spellSchools;
 
-  const doStuff = (sp: { name: any; favorited: any }) => {
-    console.log(sp.name, sp.favorited);
+  const changeFavorite = (e: any , sp: { name: any; favorited: any }) => {
+    e.stopPropagation();
     sp = { ...sp, favorited: !sp.favorited };
-    console.log(sp.name, sp.favorited);
     setBookSpellList(sp);
-    console.log(bookSpellList);
-    
   };
-  //console.log(sp.availableTo)
 
   return (
     <>
@@ -46,9 +42,9 @@ const SpellAccordion = (props: any) => {
             <div className="flex justify-between">
               <CardTitle>{sp.name}</CardTitle>
               {sp.favorited ? (
-                <RiBookmark3Line onClick={() => doStuff(sp)} />
+                <RiBookmark3Line onClick={(e) => changeFavorite(e, sp)} />
               ) : (
-                <RiBookmarkLine onClick={() => doStuff(sp)} />
+                <RiBookmarkLine onClick={(e) => changeFavorite(e, sp)} />
               )}
             </div>
             <CardDescription className="flex justify-between">
