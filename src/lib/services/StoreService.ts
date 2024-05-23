@@ -11,6 +11,7 @@ interface ClassSubclasses {
 }
 
 interface StoreState {
+  bookView: boolean;
   spellList: any[];
   bookSpellList: any[];
   selectedLevel: number;
@@ -18,6 +19,7 @@ interface StoreState {
   selectedClass: { [key: string]: boolean };
   selectedSubClass: ClassSubclasses;
   toggledSubClasses: string[];
+  setBookView: (toggle: boolean) => void;
   setSpellList: (spells: any[]) => void;
   setBookSpellList: (spell: any) => void;
   changeLevelSelection: (level: number) => void;
@@ -29,6 +31,9 @@ interface StoreState {
 }
 
 const useClassStore = create<StoreState>((set) => ({
+
+  bookView: false,
+
   spellList: [],
 
   bookSpellList: [],
@@ -202,6 +207,10 @@ const useClassStore = create<StoreState>((set) => ({
   },
 
   toggledSubClasses: [],
+
+  setBookView: (toggle) => set((state) => ({
+    bookView: toggle,
+  })),
 
   setSpellList: (spells) =>
     set(() => ({

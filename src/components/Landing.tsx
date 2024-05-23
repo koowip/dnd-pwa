@@ -5,8 +5,10 @@ import Search from "./Search";
 import useClassStore from "@/lib/services/StoreService";
 
 const Landing = () => {
-  const { spellList, bookSpellList } = useClassStore();
-  const [bookView, setBookView] = useState(false);
+  const { spellList, bookSpellList, bookView, setBookView } = useClassStore();
+
+  //Move this into store
+  //const [bookView, setBookView] = useState(false);
 
   useEffect(() => {}, [spellList, bookSpellList]);
 
