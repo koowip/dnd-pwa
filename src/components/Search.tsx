@@ -15,6 +15,8 @@ import useClassStore from "@/lib/services/StoreService";
 
 const Search = () => {
   const {
+    bookView,
+    setBookView,
     selectedLevel,
     selectedVariant,
     selectedClass,
@@ -37,17 +39,15 @@ const Search = () => {
         let cur;
 
         //Run each spell thru all filters, they return true if no filter selected in FilterSheet.tsx
-        cur = List(e.target.value).filter(
+        cur = List(e.target.value, bookView).filter(
           (x: Spell) =>
             FilterLevel(selectedLevel, x) &&
             FilterClassNonOpinionated(selectedClass, x) &&
             FilterSubclass(toggledSubClasses, x)
-            //FilterVariant(selectedVariant, x)
         );
 
         setSpellList(cur);
 
-        // cur ? setSpells(cur) : null;
       }, 250),
     [selectedClass, selectedLevel, selectedSubClass, selectedVariant]
   );
@@ -56,8 +56,6 @@ const Search = () => {
     <div className="flex items-center border-b px-3 mt-8">
       <MagnifyingGlassIcon className="mr-2 h-4 w-4 shrink-0 opacity-50" />
       <input
-        // Once spellList is added to zustand state, make placeholder tiernary
-        //If spellList !null
         placeholder="Search Any Spell"
         onChange={(e) => handleChange(e)}
         className="flex h-10 w-full rounded-md bg-transparent py-3 text-sm outline-none placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50"

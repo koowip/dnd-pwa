@@ -23,6 +23,8 @@ import { Spell } from "@/lib/types";
 
 const FilterSheet = () => {
   const {
+    bookView,
+    setBookView,
     selectedLevel,
     selectedVariant,
     selectedClass,
@@ -39,12 +41,11 @@ const FilterSheet = () => {
 
   const searchWhenSheetClose = () => {
     let cur;
-    cur = List("").filter(
+    cur = List("", bookView).filter(
       (x: Spell) =>
         FilterLevel(selectedLevel, x) &&
         FilterClassNonOpinionated(selectedClass, x) &&
-        FilterSubclass(toggledSubClasses, x) &&
-        FilterVariant(selectedVariant, x)
+        FilterSubclass(toggledSubClasses, x)
     );
     setSpellList(cur);
   };

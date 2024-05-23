@@ -10,6 +10,8 @@ interface ClassSubclasses {
   [className: string]: Subclass[];
 }
 
+//Add state function to revert class,subclass,level selections to default
+//Call when switching from book and spells, IE on setBookView
 interface StoreState {
   bookView: boolean;
   spellList: any[];

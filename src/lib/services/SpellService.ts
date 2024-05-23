@@ -1,6 +1,5 @@
 import SpellsList from "../../AllSpells.json";
 import { Spell } from "../types";
-
 /* Filter criteria
   By base class //Done
   By subclass
@@ -9,7 +8,7 @@ import { Spell } from "../types";
 */
 
 //Main function that takes a filtered list of spell names and returns a list of spells to be rendered by SpellAccordion
-export function List(name: string): any {
+export function List(name: string, inBook: boolean): any {
   return SpellsList.filter((x) =>
     x.name.toLowerCase().includes(name.toLowerCase())
   );
@@ -70,7 +69,7 @@ export function FilterLevel(specifiedLevel: number, curSpell: Spell): any {
     return true;
 }
 
-
+//Not currently being used as no one is using variant feat. Will correct and use filter at later date.
 //Issue
 //Returns if any class has spell as variant.
 //If variant: yes & Bard: true, Symbol spell gets returned, this is not a bard variant spell but a druid one
