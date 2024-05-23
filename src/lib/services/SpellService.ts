@@ -1,15 +1,13 @@
-import SpellsList from "../../AllSpells.json";
 import { Spell } from "../types";
-/* Filter criteria
-  By base class //Done
-  By subclass
-  By spell level
-  By variant
-*/
+
+//Load spellList from local storage
+//Remember to JSON.parse 
+const spellList = localStorage.getItem('allSpells')
 
 //Main function that takes a filtered list of spell names and returns a list of spells to be rendered by SpellAccordion
 export function List(name: string, inBook: boolean): any {
-  return SpellsList.filter((x) =>
+
+  return JSON.parse(spellList).filter((x) =>
     x.name.toLowerCase().includes(name.toLowerCase())
   );
 }

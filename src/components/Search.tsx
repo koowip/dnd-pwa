@@ -27,18 +27,11 @@ const Search = () => {
     bookSpellList,
   } = useClassStore();
 
-  //Solution to having the spells list populate on initial app load.
-  // useEffect(() => {
-  //   document.getElementById("inputID").addEventListener("defaultSearch", handleChange);
-  //   handleChange({ target: { value: "" } });
-  // }, []);
-
   const handleChange = useMemo(
     () =>
       debounce((e: { target: { value: string } }) => {
         let cur;
 
-        //Run each spell thru all filters, they return true if no filter selected in FilterSheet.tsx
         cur = List(e.target.value, bookView).filter(
           (x: Spell) =>
             FilterLevel(selectedLevel, x) &&
