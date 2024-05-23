@@ -2,10 +2,13 @@ import { Spell } from "../types";
 
 //Load spellList from local storage
 //Remember to JSON.parse 
-const spellList = localStorage.getItem('allSpells')
+
 
 //Main function that takes a filtered list of spell names and returns a list of spells to be rendered by SpellAccordion
-export function List(name: string, inBook: boolean): any {
+export function List(name: string, spells: any[], inBook: boolean): any {
+
+  let spellList;
+  inBook ?  spellList = localStorage.getItem('favoritedSpells') : spellList = localStorage.getItem('allSpells')
 
   return JSON.parse(spellList).filter((x) =>
     x.name.toLowerCase().includes(name.toLowerCase())

@@ -5,7 +5,7 @@ import useClassStore from "@/lib/services/StoreService";
 
 function App() {
 
-  const { setSpellList, spellList} = useClassStore();
+  const { setSpellList, spellList, setBookSpellList, bookSpellList } = useClassStore();
 
   useEffect(() => {
     const localData = localStorage.getItem('allSpells');
@@ -15,7 +15,12 @@ function App() {
     } else {
       setSpellList(JSON.parse(localData))
     }
-  }, [setSpellList])
+
+    setBookSpellList();
+
+    console.log('App component', spellList)
+    // console.log(bookSpellList)
+  }, [])
 
   return (
     <>

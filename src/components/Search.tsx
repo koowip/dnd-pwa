@@ -32,7 +32,7 @@ const Search = () => {
       debounce((e: { target: { value: string } }) => {
         let cur;
 
-        cur = List(e.target.value, bookView).filter(
+        cur = List(e.target.value, spellList, bookView).filter(
           (x: Spell) =>
             FilterLevel(selectedLevel, x) &&
             FilterClassNonOpinionated(selectedClass, x) &&
@@ -40,7 +40,6 @@ const Search = () => {
         );
 
         setSpellList(cur);
-
       }, 250),
     [selectedClass, selectedLevel, selectedSubClass, selectedVariant]
   );
@@ -53,7 +52,7 @@ const Search = () => {
         onChange={(e) => handleChange(e)}
         className="flex h-10 w-full rounded-md bg-transparent py-3 text-sm outline-none placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50"
       />
-      <FilterSheet />
+      {/* <FilterSheet /> */}
     </div>
   );
 };

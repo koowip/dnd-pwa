@@ -7,7 +7,7 @@ import useClassStore from "@/lib/services/StoreService";
 const Landing = () => {
   const { spellList, bookSpellList, bookView, setBookView } = useClassStore();
 
-  useEffect(() => {}, [spellList, bookSpellList]);
+  useEffect(() => {console.log('Landing')}, []);
 
   return (
     <div className="flex flex-col justify-center mt-2">
@@ -26,6 +26,7 @@ const Landing = () => {
         >
           Book
         </Button>
+        <Button onClick={() => localStorage.clear()}>Delete</Button>
       </div>
       <Search />
       {bookView ? (

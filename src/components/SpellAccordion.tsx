@@ -18,17 +18,21 @@ import { RiBookmarkLine } from "react-icons/ri";
 import { RiBookmark3Line } from "react-icons/ri";
 
 const SpellAccordion = (props: any) => {
-  const { setBookSpellList, bookSpellList } = useClassStore();
+  const { setBookSpellList, bookSpellList, addFavorite, removeFavorite } = useClassStore();
 
   const sp = props.sp;
   const [hideContent, setHideContent] = useState(true);
 
   const spSchool = sp.school as keyof typeof spellSchools;
 
-  const changeFavorite = (e: any , sp: { name: any; favorited: any }) => {
+  const addFav = (e: any , sp: { name: any; favorited: any }) => {
     e.stopPropagation();
-    sp = { ...sp, favorited: !sp.favorited };
-    setBookSpellList(sp);
+    addFavorite(sp);
+  };
+
+  const removeFav = (e: any , sp: { name: any; favorited: any }) => {
+    e.stopPropagation();
+    removeFavorite(sp);
   };
 
   return (
@@ -42,9 +46,9 @@ const SpellAccordion = (props: any) => {
             <div className="flex justify-between">
               <CardTitle>{sp.name}</CardTitle>
               {sp.favorited ? (
-                <RiBookmark3Line onClick={(e) => changeFavorite(e, sp)} />
+                <RiBookmark3Line onClick={(e) => removeFav(e, sp)} />
               ) : (
-                <RiBookmarkLine onClick={(e) => changeFavorite(e, sp)} />
+                <RiBookmarkLine onClick={(e) => addFav(e, sp)} />
               )}
             </div>
             <CardDescription className="flex justify-between">

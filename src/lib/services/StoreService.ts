@@ -1,5 +1,4 @@
 import { create } from "zustand";
-
 interface Subclass {
   [subclass: string]: boolean;
 }
@@ -19,9 +18,11 @@ interface StoreState {
   selectedClass: { [key: string]: boolean };
   selectedSubClass: ClassSubclasses;
   toggledSubClasses: string[];
+  addFavorite: (spell: any) => void;
+  removeFavorite: (spell: any) => void;
   setBookView: (toggle: boolean) => void;
   setSpellList: (spells: any[]) => void;
-  setBookSpellList: (spell: any) => void;
+  setBookSpellList: () => void;
   changeLevelSelection: (level: number) => void;
   toggleVariant: () => void;
   toggleClass: (className: string) => void;
@@ -217,23 +218,34 @@ const useClassStore = create<StoreState>((set) => ({
       spellList: spells,
     })),
 
-  setBookSpellList: (spell) =>
-    set((state) => {
-      // Update the spellList with the favorited status
-      const updatedSpellList = state.spellList.map((s) =>
-        s.name === spell.name ? { ...s, favorited: spell.favorited } : s
+    addFavorite: (spell) => set((state) => {
+      
+      let spellListFromLocal = JSON.parse(localStorage.getItem('allSpells'))
+      const updatedFavorites = [...state.bookSpellList, {...spell, favorited: true}];
+      const updatedSpells = spellListFromLocal.map(sp =>
+        spell.name === sp.name ? { ...sp, favorited: true } : sp
       );
-
-      // Update the bookSpellList based on the favorited status
-      const updatedBookSpellList = spell.favorited
-        ? [...state.bookSpellList, spell]
-        : state.bookSpellList.filter((s) => s.name !== spell.name);
-
-      return {
-        spellList: updatedSpellList,
-        bookSpellList: updatedBookSpellList,
-      };
+      localStorage.setItem('favoritedSpells', JSON.stringify(updatedFavorites));
+      localStorage.setItem('allSpells', JSON.stringify(updatedSpells));
+      //console.log(updatedSpells)
+      return { bookSpellList: updatedFavorites, spellList: updatedSpells };
     }),
+
+    removeFavorite: (spell) => set((state) => {
+      let spellListFromLocal = JSON.parse(localStorage.getItem('allSpells'))
+      const updatedFavorites = state.bookSpellList.filter(sp => sp.name !== spell.name);
+      const updatedSpells = spellListFromLocal.map(sp =>
+        spell.name === sp.name ? { ...sp, favorited: false } : sp
+      );
+      localStorage.setItem('favoritedSpells', JSON.stringify(updatedFavorites));
+      localStorage.setItem('allSpells', JSON.stringify(updatedSpells));
+      return { bookSpellList: updatedFavorites, spellList: updatedSpells };
+    }),
+
+    setBookSpellList: () => {
+      const favorited = JSON.parse(localStorage.getItem('favoritedSpells')) || [];
+      set({ bookSpellList: favorited });
+    },
 
   changeLevelSelection: (level) =>
     set(() => ({
