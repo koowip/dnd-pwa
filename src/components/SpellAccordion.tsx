@@ -79,14 +79,6 @@ const SpellAccordion = (props: any) => {
           <Separator className="mb-2 -mt-2" />
           <CardContent>
             <RenderEntries entries={sp.entries} />
-            <button
-              className={cn(
-                sp.favorited ? "p-3 bg-red-400" : "p-3 bg-teal-500"
-              )}
-              onClick={() => doStuff(sp)}
-            >
-              Known?
-            </button>
           </CardContent>
           <CardFooter>
             <RenderClasses availableTo={sp.availableTo} />
