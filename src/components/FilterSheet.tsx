@@ -37,12 +37,13 @@ const FilterSheet = () => {
     toggleOffSubClasses,
     spellList,
     setSpellList,
-    setBookSpellList
+    setBookSpellList,
+    searchCriteria
   } = useClassStore();
 
   const searchWhenSheetClose = () => {
     let cur;
-    cur = List("", bookView).filter(
+    cur = List(searchCriteria, bookView).filter(
       (x: Spell) =>
         FilterLevel(selectedLevel, x) &&
         FilterClassNonOpinionated(selectedClass, x) &&

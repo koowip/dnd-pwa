@@ -25,13 +25,16 @@ const Search = () => {
     spellList,
     setSpellList,
     bookSpellList,
-    setBookSpellList
+    setBookSpellList,
+    searchCriteria,
+    setSearchCriteria
   } = useClassStore();
 
   const handleChange = useMemo(
     () =>
       debounce((e: { target: { value: string } }) => {
         let cur;
+        setSearchCriteria(e.target.value);
 
         cur = List(e.target.value, bookView).filter(
           (x: Spell) =>
@@ -42,7 +45,7 @@ const Search = () => {
 
         bookView ? setBookSpellList(cur) :  setSpellList(cur);
       }, 250),
-    [selectedClass, selectedLevel, selectedSubClass, selectedVariant, bookView]
+    [selectedClass, selectedLevel, selectedSubClass, selectedVariant, bookView, searchCriteria]
   );
 
   return (

@@ -42,13 +42,13 @@ const Landing = () => {
       </div>
       <Search />
       {bookView ? (
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center pt-2">
           {bookSpellList.map((spell, i) => (
             <SpellAccordion key={i} sp={spell} />
           ))}
         </div>
       ) : (
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center pt-2">
           {spellList.map((spell, i) => (
             <SpellAccordion key={i} sp={spell} />
           ))}

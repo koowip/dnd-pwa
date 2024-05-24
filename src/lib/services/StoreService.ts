@@ -18,6 +18,8 @@ interface StoreState {
   selectedClass: { [key: string]: boolean };
   selectedSubClass: ClassSubclasses;
   toggledSubClasses: string[];
+  searchCriteria: string;
+  setSearchCriteria: (param: string) => void;
   clearSearch: () => void;
   addFavorite: (spell: any) => void;
   removeFavorite: (spell: any) => void;
@@ -208,6 +210,17 @@ const useClassStore = create<StoreState>((set) => ({
   },
 
   toggledSubClasses: [],
+
+  searchCriteria: "",
+
+  setSearchCriteria: (param) => set(() => ({
+    searchCriteria: param,
+  })),
+
+  setSpellList: (spells) =>
+    set(() => ({
+      spellList: spells,
+    })),
 
   clearSearch: () =>
     set((state) => ({
