@@ -25,20 +25,14 @@ const Search = () => {
     spellList,
     setSpellList,
     bookSpellList,
+    setBookSpellList
   } = useClassStore();
-
-  //Solution to having the spells list populate on initial app load.
-  // useEffect(() => {
-  //   document.getElementById("inputID").addEventListener("defaultSearch", handleChange);
-  //   handleChange({ target: { value: "" } });
-  // }, []);
 
   const handleChange = useMemo(
     () =>
       debounce((e: { target: { value: string } }) => {
         let cur;
 
-        //Run each spell thru all filters, they return true if no filter selected in FilterSheet.tsx
         cur = List(e.target.value, bookView).filter(
           (x: Spell) =>
             FilterLevel(selectedLevel, x) &&
@@ -46,16 +40,16 @@ const Search = () => {
             FilterSubclass(toggledSubClasses, x)
         );
 
-        setSpellList(cur);
-
+        bookView ? setBookSpellList(cur) :  setSpellList(cur);
       }, 250),
-    [selectedClass, selectedLevel, selectedSubClass, selectedVariant]
+    [selectedClass, selectedLevel, selectedSubClass, selectedVariant, bookView]
   );
 
   return (
     <div className="flex items-center border-b px-3 mt-8">
       <MagnifyingGlassIcon className="mr-2 h-4 w-4 shrink-0 opacity-50" />
       <input
+        id="inputBox"
         placeholder="Search Any Spell"
         onChange={(e) => handleChange(e)}
         className="flex h-10 w-full rounded-md bg-transparent py-3 text-sm outline-none placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50"
