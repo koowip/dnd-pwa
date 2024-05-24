@@ -2,6 +2,7 @@ import { useEffect } from "react"
 import Landing from "./components/Landing"
 import SpellsList from "../src/AllSpells.json";
 import useClassStore from "@/lib/services/StoreService";
+import FileDialog from "./components/FileDialog";
 
 function App() {
 
@@ -28,6 +29,9 @@ function App() {
   return (
     <>
     <div className="p-4">
+      <div className="absolute left-1 top-8">
+        <FileDialog />
+      </div>
       <Landing />
     </div>
       
