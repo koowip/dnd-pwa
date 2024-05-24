@@ -13,20 +13,26 @@ const Landing = () => {
     document.getElementById('inputBox').value = ''
   }
 
+  const changeView = (viewBool: boolean) => {
+    clearSearch()
+    setBookView(viewBool)
+    document.getElementById('inputBox').value = ''
+  }
+
   return (
     <div className="flex flex-col justify-center mt-2">
       <div className="flex justify-evenly">
         <Button
           className={bookView ? "" : "bg-accent"}
           variant="ghost"
-          onClick={() => setBookView(false)}
+          onClick={() => changeView(false)}
         >
           Spells
         </Button>
         <Button
           className={bookView ? "bg-accent" : ""}
           variant="ghost"
-          onClick={() => setBookView(true)}
+          onClick={() => changeView(true)}
         >
           Book
         </Button>
