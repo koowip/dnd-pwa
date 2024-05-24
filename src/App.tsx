@@ -16,10 +16,13 @@ function App() {
       setSpellList(JSON.parse(localData))
     }
 
-    setBookSpellList();
-
-    console.log('App component', spellList)
-    // console.log(bookSpellList)
+    const fav = localStorage.getItem('favoritedSpells');
+    if(!fav) {
+      localStorage.setItem('favoritedSpells', JSON.stringify([]))
+      setBookSpellList(JSON.parse(fav));
+    } else {
+      setBookSpellList(JSON.parse(fav));
+    }
   }, [])
 
   return (

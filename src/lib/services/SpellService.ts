@@ -5,7 +5,7 @@ import { Spell } from "../types";
 
 
 //Main function that takes a filtered list of spell names and returns a list of spells to be rendered by SpellAccordion
-export function List(name: string, spells: any[], inBook: boolean): any {
+export function List(name: string, inBook: boolean): any {
 
   let spellList;
   inBook ?  spellList = localStorage.getItem('favoritedSpells') : spellList = localStorage.getItem('allSpells')

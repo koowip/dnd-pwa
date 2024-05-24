@@ -5,9 +5,13 @@ import Search from "./Search";
 import useClassStore from "@/lib/services/StoreService";
 
 const Landing = () => {
-  const { spellList, bookSpellList, bookView, setBookView } = useClassStore();
+  const { spellList, bookSpellList, bookView, setBookView, clearSearch } = useClassStore();
 
-  useEffect(() => {console.log('Landing')}, []);
+
+  const clearUserInputs = () => {
+    clearSearch()
+    document.getElementById('inputBox').value = ''
+  }
 
   return (
     <div className="flex flex-col justify-center mt-2">
@@ -27,6 +31,7 @@ const Landing = () => {
           Book
         </Button>
         <Button onClick={() => localStorage.clear()}>Delete</Button>
+        <Button variant="destructive" onClick={clearUserInputs}>Clear Search</Button>
       </div>
       <Search />
       {bookView ? (
