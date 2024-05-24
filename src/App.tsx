@@ -29,7 +29,7 @@ function App() {
   return (
     <>
     <div className="p-4">
-      <div className="absolute left-1 top-8">
+      <div className="absolute left-1 top-8 pl-1 -py-2">
         <FileDialog />
       </div>
       <Landing />
