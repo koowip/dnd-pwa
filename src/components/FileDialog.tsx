@@ -96,13 +96,13 @@ const FileDialog = () => {
       <DialogContent className="rounded-md size-90">
         <DialogHeader>
           <DialogTitle>Export / Import Spells</DialogTitle>
-          <DialogDescription className="py-2">
+          <DialogDescription className="py-2 text-wrap">
             SpellBook will be deleted if cache is cleared, backup your spellbook
             via downloading it locally.
           </DialogDescription>
         </DialogHeader>
         <Button
-          className={bookSpellList.length > 0 ? "bg-green-600" : "bg-red-700"}
+          className={bookSpellList.length > 0 ? "bg-green-600 p-1" : "bg-red-700 text-wrap p-1"}
           onClick={() => downloadLocalStorage()}
         >
           {bookSpellList.length > 0
@@ -110,10 +110,10 @@ const FileDialog = () => {
             : "Favorite some spells to enable download"}
         </Button>
         <input
+        className="hidden"
           type="file"
           ref={fileInputRef}
           accept=".json"
-          style={{ display: "none" }}
           onChange={uploadLocalStorage}
         />
         <Button onClick={() => fileInputRef.current.click()}>

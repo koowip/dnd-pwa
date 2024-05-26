@@ -81,11 +81,14 @@ const SpellAccordion = (props: any) => {
           )}
         >
           <Separator className="mb-2 -mt-2" />
-          <CardContent>
+          <CardContent className="flex flex-col justify-end">
             <RenderEntries entries={sp.entries} />
-          </CardContent>
-          <CardFooter>
             <RenderClasses availableTo={sp.availableTo} />
+          </CardContent>
+          {/* This is a trash idea, make own component for range and components */}
+          <CardFooter>
+            components: {Object.keys(sp.components).map((x: string) => (<p className="px-1" key={x}>{x}</p>))}
+
           </CardFooter>
         </div>
       </Card>
