@@ -18,15 +18,15 @@ const FileDialog = () => {
       </DialogTrigger>
       <DialogContent className="rounded-md size-80">
         <DialogHeader>
-          <DialogTitle>
-          Place to download shit
-          </DialogTitle>
-          <DialogDescription>
-            desc
+          <DialogTitle>Export / Import Spells</DialogTitle>
+          <DialogDescription className="py-2">
+            SpellBook will be deleted if cache is cleared, backup your spellbook
+            via downloading it locally.
           </DialogDescription>
         </DialogHeader>
-        <Button>button 1</Button>
-        <Button>button 2</Button>
+        <Button>Download Book</Button>
+        <Button>Upload Book</Button>
+        <DialogFooter className="text-slate-400 inline">Your DM <span className="text-red-500">&hearts;'s</span> you.</DialogFooter>
       </DialogContent>
     </Dialog>
   );

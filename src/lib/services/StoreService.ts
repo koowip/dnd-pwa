@@ -219,6 +219,7 @@ const useClassStore = create<StoreState>((set) => ({
 
   clearSearch: () =>
     set((state) => ({
+      searchCriteria: "",
       spellList: JSON.parse(localStorage.getItem('allSpells')),
       bookSpellList: JSON.parse(localStorage.getItem('favoritedSpells')),
       selectedLevel: -1,
