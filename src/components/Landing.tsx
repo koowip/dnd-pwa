@@ -14,6 +14,7 @@ const Landing = () => {
   }
 
   const changeView = (viewBool: boolean) => {
+    
     clearSearch()
     setBookView(viewBool)
     document.getElementById('inputBox').value = ''

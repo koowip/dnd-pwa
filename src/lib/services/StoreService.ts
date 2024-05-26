@@ -217,11 +217,6 @@ const useClassStore = create<StoreState>((set) => ({
     searchCriteria: param,
   })),
 
-  setSpellList: (spells) =>
-    set(() => ({
-      spellList: spells,
-    })),
-
   clearSearch: () =>
     set((state) => ({
       spellList: JSON.parse(localStorage.getItem('allSpells')),

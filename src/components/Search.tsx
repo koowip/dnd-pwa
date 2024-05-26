@@ -12,6 +12,7 @@ import {
 import { useEffect, useMemo, useState } from "react";
 import FilterSheet from "./FilterSheet";
 import useClassStore from "@/lib/services/StoreService";
+import { VscClose } from "react-icons/vsc";
 
 const Search = () => {
   const {
@@ -27,7 +28,7 @@ const Search = () => {
     bookSpellList,
     setBookSpellList,
     searchCriteria,
-    setSearchCriteria
+    setSearchCriteria,
   } = useClassStore();
 
   const handleChange = useMemo(
@@ -43,13 +44,32 @@ const Search = () => {
             FilterSubclass(toggledSubClasses, x)
         );
 
-        bookView ? setBookSpellList(cur) :  setSpellList(cur);
+        bookView ? setBookSpellList(cur) : setSpellList(cur);
       }, 250),
-    [selectedClass, selectedLevel, selectedSubClass, selectedVariant, bookView, searchCriteria]
+    [
+      selectedClass,
+      selectedLevel,
+      selectedSubClass,
+      selectedVariant,
+      bookView,
+      searchCriteria,
+      setSearchCriteria
+    ]
   );
 
+  //Fix the state so that pressing the exit icon clears the input and brings back the list of spells
+  const searchExit = () => {
+    setSearchCriteria("")
+    document.getElementById('inputBox').value = ""
+    if(bookView) {
+      setBookSpellList(JSON.parse(localStorage.getItem('favoritedSpells')))
+    } else {
+      setSpellList(JSON.parse(localStorage.getItem('allSpells')))
+    }
+  }
+
   return (
-    <div className="flex items-center border-b px-3 mt-8">
+    <div className="flex items-center border-b px-3 mt-8 bg-white rounded-2xl">
       <MagnifyingGlassIcon className="mr-2 h-4 w-4 shrink-0 opacity-50" />
       <input
         id="inputBox"
@@ -57,6 +77,7 @@ const Search = () => {
         onChange={(e) => handleChange(e)}
         className="flex h-10 w-full rounded-md bg-transparent py-3 text-sm outline-none placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50"
       />
+      {searchCriteria !== "" ? <VscClose className="pr-3" size={30} onClick={() => searchExit()}/> : <></>}
       <FilterSheet />
     </div>
   );

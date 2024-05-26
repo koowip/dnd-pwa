@@ -20,6 +20,7 @@ import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import useClassStore from "@/lib/services/StoreService";
 import { useEffect } from "react";
 import { Spell } from "@/lib/types";
+import { Button } from "./ui/button";
 
 const FilterSheet = () => {
   const {
@@ -38,7 +39,7 @@ const FilterSheet = () => {
     spellList,
     setSpellList,
     setBookSpellList,
-    searchCriteria
+    searchCriteria,
   } = useClassStore();
 
   const searchWhenSheetClose = () => {
@@ -49,7 +50,7 @@ const FilterSheet = () => {
         FilterClassNonOpinionated(selectedClass, x) &&
         FilterSubclass(toggledSubClasses, x)
     );
-    bookView ? setBookSpellList(cur) :  setSpellList(cur);
+    bookView ? setBookSpellList(cur) : setSpellList(cur);
   };
 
   const classSubclassToggle = (e: string) => {
@@ -66,9 +67,10 @@ const FilterSheet = () => {
     changeLevelSelection(newlvl);
   };
 
-  const handleTogglerVariant = () => {
-    toggleVariant();
-  };
+  // Am not worried about Variant as no players are currently variant
+  // const handleTogglerVariant = () => {
+  //   toggleVariant();
+  // };
 
   return (
     <Sheet>
@@ -82,74 +84,75 @@ const FilterSheet = () => {
             <SheetDescription>make your selections</SheetDescription>
           </SheetHeader>
           <div className="overflow-y-auto">
-            <div className="flex justify-around">
-              <select
-                onChange={handleLevelChange}
-                defaultValue={selectedLevel}
-                className="focus:outline-none"
-              >
-                <option value="-1">All</option>
-                <option value="0">Cantrip</option>
-                <option value="1">1st</option>
-                <option value="2">2nd</option>
-                <option value="3">3rd</option>
-                <option value="4">4th</option>
-                <option value="5">5th</option>
-                <option value="6">6th</option>
-                <option value="7">7th</option>
-                <option value="8">8th</option>
-                <option value="9">9th</option>
-              </select>
-              <div className="focus:outline-none flex justify-center p-4">
-                {/* <label>Variant?</label>
+            <div className="flex justify-center p-4">
+              <strong>Level Select: </strong>
+              <div className="pl-7">
+                <select
+                  onChange={handleLevelChange}
+                  defaultValue={selectedLevel}
+                  className="focus:outline-none"
+                >
+                  <option value="-1">All</option>
+                  <option value="0">Cantrip</option>
+                  <option value="1">1st</option>
+                  <option value="2">2nd</option>
+                  <option value="3">3rd</option>
+                  <option value="4">4th</option>
+                  <option value="5">5th</option>
+                  <option value="6">6th</option>
+                  <option value="7">7th</option>
+                  <option value="8">8th</option>
+                  <option value="9">9th</option>
+                </select>
+              </div>
+              {/* <div className="focus:outline-none flex justify-center p-4">
+                <label>Variant?</label>
                 <button
                   className="w-2 h-2 pr-12 focus:outline-none"
                   onClick={() => handleTogglerVariant()}
                 >
                   {selectedVariant ? " yes" : " no"}
-                </button> */}
-              </div>
+                </button>
+              </div> */}
             </div>
-            <div className="flex flex-col justify-evenly">
-              <div className=" flex flex-wrap justify-between p-4">
+            <div className="flex flex-col justify-evenly p-1">
+              <strong>Class Select: </strong>
+              <div className="grid grid-cols-4 gap-4 p-3">
                 {Object.entries(selectedClass).map(
                   ([classLabel, isSelected]) => (
-                    <button
-                      className={
-                        isSelected
-                          ? " bg-green-200 m-1 p-1 outline rounded-md"
-                          : "m-1 p-1 outline rounded-md"
-                      }
+                    <Button
+                      className={isSelected ? "bg-accent p-2" : "p-2"}
                       key={classLabel}
                       onClick={() => classSubclassToggle(classLabel)}
+                      variant="ghost"
                     >
                       {classLabel}
-                    </button>
+                    </Button>
                   )
                 )}
               </div>
-              <div className="pt-8">
+              <div className="">
                 {Object.entries(selectedClass)
                   .filter(([className, isSelected]) => isSelected)
                   .map(([className]) => (
-                    <div key={className}>
-                      <strong>{className} Subclasses:</strong>
-                      <div>
+                    <div className="py-6" key={className}>
+                      <strong className="">{className} Subclasses:</strong>
+                      <div className="grid grid-cols-4 gap-4 p-2">
                         {selectedSubClass[className].map((subclassObj) => {
                           const subClassName = Object.keys(subclassObj)[0];
                           return (
-                            <button
-                              className="m-1 p-1 outline rounded-md"
+                            <Button
+                              className={
+                                subclassObj[subClassName] ? "bg-accent p-2 text-wrap" : "p-2 text-wrap"
+                              }
                               key={subClassName}
+                              variant="ghost"
                               onClick={() =>
                                 toggleSubClass(className, subClassName)
                               }
                             >
-                              {subClassName}{" "}
-                              {subclassObj[subClassName]
-                                ? "Selected"
-                                : "Not Selected"}
-                            </button>
+                              {subClassName}
+                            </Button>
                           );
                         })}
                       </div>
