@@ -17,6 +17,8 @@ import useClassStore from "@/lib/services/StoreService";
 import { RiBookmarkLine } from "react-icons/ri";
 import { RiBookmark3Line } from "react-icons/ri";
 import RenderRange from "./RenderRange";
+import RenderDuration from "./RenderDuration";
+import RenderComponents from "./RenderComponents";
 
 const SpellAccordion = (props: any) => {
   const { setBookSpellList, bookSpellList, addFavorite, removeFavorite } =
@@ -85,15 +87,10 @@ const SpellAccordion = (props: any) => {
           <Separator className="mb-2 -mt-2" />
           <CardContent className="flex flex-col justify-end">
             <RenderEntries entries={sp.entries} />
+            <Separator className="my-2" />
             <RenderRange spellRange={sp.range} />
-            {/* Make RenderSpellComponents 
-              Make RenderSpellSuration */}
-            components:{" "}
-            {Object.keys(sp.components).map((x: string) => (
-              <p className="px-1" key={x}>
-                {x}
-              </p>
-            ))}
+            <RenderDuration />
+            <RenderComponents />
             <RenderClasses availableTo={sp.availableTo} />
           </CardContent>
           <CardFooter>
