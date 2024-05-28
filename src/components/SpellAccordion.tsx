@@ -16,21 +16,23 @@ import RenderClasses from "./RenderClasses";
 import useClassStore from "@/lib/services/StoreService";
 import { RiBookmarkLine } from "react-icons/ri";
 import { RiBookmark3Line } from "react-icons/ri";
+import RenderRange from "./RenderRange";
 
 const SpellAccordion = (props: any) => {
-  const { setBookSpellList, bookSpellList, addFavorite, removeFavorite } = useClassStore();
+  const { setBookSpellList, bookSpellList, addFavorite, removeFavorite } =
+    useClassStore();
 
   const sp = props.sp;
   const [hideContent, setHideContent] = useState(true);
 
   const spSchool = sp.school as keyof typeof spellSchools;
 
-  const addFav = (e: any , sp: { name: any; favorited: any }) => {
+  const addFav = (e: any, sp: { name: any; favorited: any }) => {
     e.stopPropagation();
     addFavorite(sp);
   };
 
-  const removeFav = (e: any , sp: { name: any; favorited: any }) => {
+  const removeFav = (e: any, sp: { name: any; favorited: any }) => {
     e.stopPropagation();
     removeFavorite(sp);
   };
@@ -83,12 +85,18 @@ const SpellAccordion = (props: any) => {
           <Separator className="mb-2 -mt-2" />
           <CardContent className="flex flex-col justify-end">
             <RenderEntries entries={sp.entries} />
+            <RenderRange spellRange={sp.range} />
+            {/* Make RenderSpellComponents 
+              Make RenderSpellSuration */}
+            components:{" "}
+            {Object.keys(sp.components).map((x: string) => (
+              <p className="px-1" key={x}>
+                {x}
+              </p>
+            ))}
             <RenderClasses availableTo={sp.availableTo} />
           </CardContent>
-          {/* This is a trash idea, make own component for range and components */}
           <CardFooter>
-            components: {Object.keys(sp.components).map((x: string) => (<p className="px-1" key={x}>{x}</p>))}
-
           </CardFooter>
         </div>
       </Card>
