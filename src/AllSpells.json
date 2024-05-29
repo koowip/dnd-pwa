@@ -469,7 +469,7 @@
       }
     ],
     "entries": [
-      "Your magic turns others into beasts. Choose any number of willing creatures that you can see within range. You transform each target into the form of a {@filter Large or smaller beast with a challenge rating of 4 or lower|bestiary|challenge rating=[&0;&4]|type=beast|size=f;d;t;s;m;l|miscellaneous=!swarm}. On subsequent turns, you can use your action to transform affected creatures into new forms.",
+      "Your magic turns others into beasts. Choose any number of willing creatures that you can see within range. You transform each target into the form of a Large or smaller beast with a challenge rating of 4 or lower. On subsequent turns, you can use your action to transform affected creatures into new forms.",
       "The transformation lasts for the duration for each target, or until the target drops to 0 hit points or dies. You can choose a different form for each target. A target's game statistics are replaced by the statistics of the chosen beast, though the target retains its alignment and Intelligence, Wisdom, and Charisma scores. The target assumes the hit points of its new form, and when it reverts to its normal form, it returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn't reduce the creature's normal form to 0 hit points, it isn't knocked unconscious. The creature is limited in the actions it can perform by the nature of its new form, and it can't speak or cast spells.",
       "The target's gear melds into the new form. The target can't activate, wield, or otherwise benefit from any of its equipment."
     ],
@@ -516,7 +516,7 @@
       }
     ],
     "entries": [
-      "This spell creates an undead servant. Choose a pile of bones or a corpse of a Medium or Small humanoid within range. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes a {@creature skeleton} if you chose bones or a zombie if you chose a corpse (the DM has the creature's game statistics).",
+      "This spell creates an undead servant. Choose a pile of bones or a corpse of a Medium or Small humanoid within range. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes a skeleton if you chose bones or a zombie if you chose a corpse (the DM has the creature's game statistics).",
       "On each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.",
       "The creature is under your control for 24 hours, after which it stops obeying any command you've given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell, rather than animating a new one."
     ],
@@ -598,6 +598,7 @@
       "As a bonus action, you can mentally command any creature you made with this spell if the creature is within 500 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.",
       {
         "type": "table",
+        "source": "https://5e.tools/spells.html#animate%20objects_phb",
         "caption": "Animated Object Statistics",
         "colLabels": [
           "Size",
@@ -607,54 +608,46 @@
           "Str",
           "Dex"
         ],
-        "colStyles": [
-          "col-2",
-          "col-1 text-center",
-          "col-1 text-center",
-          "col-6",
-          "col-1 text-center",
-          "col-1 text-center"
-        ],
         "rows": [
           [
-            "{@creature animated object (tiny)|phb|Tiny}",
+            "Tiny",
             "20",
             "18",
             "+8 to hit, 1d4 + 4damage",
-            "{dice 1d20 - 3|4}",
-            "{dice 1d20 + 4|18}"
+            "1d20 - 3|4",
+            "1d20 + 4|18"
           ],
           [
-            "{@creature animated object (small)|phb|Small}",
+            "Small",
             "25",
             "16",
             "+6 to hit, 1d8 + 2 damage",
-            "{dice 1d20 - 2|6}",
-            "{dice 1d20 + 2|14}"
+            "1d20 - 2|6",
+            "1d20 + 2|14"
           ],
           [
-            "{@creature animated object (medium)|phb|Medium}",
+            "Medium",
             "40",
             "13",
             "+5 to hit, 2d6 + 1 damage",
-            "{dice 1d20|10}",
-            "{dice 1d20 + 1|12}"
+            "1d20|10",
+            "1d20 + 1|12"
           ],
           [
-            "{@creature animated object (large)|phb|Large}",
+            "Large",
             "50",
             "10",
             "+6 to hit, 2d10 + 2 damage",
-            "{dice 1d20 + 2|14}",
-            "{dice 1d20|10}"
+            "1d20 + 2|14",
+            "1d20|10"
           ],
           [
-            "{@creature animated object (huge)|phb|Huge}",
+            "Huge",
             "80",
             "10",
             "+8 to hit, 2d12 + 4 damage",
-            "{dice 1d20 + 4|18}",
-            "{dice 1d20 - 3|6}"
+            "1d20 + 4|18",
+            "1d20 - 3|6"
           ]
         ]
       },
@@ -807,14 +800,14 @@
         "type": "entries",
         "name": "Targeted Effects",
         "entries": [
-          "Spells and other magical effects, such as {@spell magic missile} and {@spell charm person}, that target a creature or an object in the sphere have no effect on that target."
+          "Spells and other magical effects, such as magic missile and charm person, that target a creature or an object in the sphere have no effect on that target."
         ]
       },
       {
         "type": "entries",
         "name": "Areas of Magic",
         "entries": [
-          "The area of another spell or magical effect, such as {@spell fireball}, can't extend into the sphere. If the sphere overlaps an area of magic, the part of the area that is covered by the sphere is suppressed. For example, the flames created by a wall of fire are suppressed within the sphere, creating a gap in the wall if the overlap is large enough."
+          "The area of another spell or magical effect, such as fireball, can't extend into the sphere. If the sphere overlaps an area of magic, the part of the area that is covered by the sphere is suppressed. For example, the flames created by a wall of fire are suppressed within the sphere, creating a gap in the wall if the overlap is large enough."
         ]
       },
       {
@@ -850,7 +843,7 @@
         "type": "entries",
         "name": "Dispel Magic",
         "entries": [
-          "Spells and magical effects such as {@spell dispel magic} have no effect on the sphere. Likewise, the spheres created by different {@spell antimagic field} spells don't nullify each other."
+          "Spells and magical effects such as dispel magic have no effect on the sphere. Likewise, the spheres created by different {@spell antimagic field} spells don't nullify each other."
         ]
       }
     ],
@@ -4315,6 +4308,7 @@
       "An affected target can't take reactions and must roll a d10 at the start of each of its turns to determine its behavior for that turn.",
       {
         "type": "table",
+        "source": "https://5e.tools/spells.html#confusion_phb",
         "caption": "Confusion Behavior",
         "colLabels": [
           "{@dice d10}",
@@ -4447,10 +4441,10 @@
       {
         "type": "list",
         "items": [
-          "One {@filter beast of challenge rating 2 or lower|bestiary|challenge rating=[&0;&2]|type=beast|miscellaneous=!swarm}",
-          "Two {@filter beasts of challenge rating 1 or lower|bestiary|challenge rating=[&0;&1]|type=beast|miscellaneous=!swarm}",
-          "Four {@filter beasts of challenge rating 1/2 or lower|bestiary|challenge rating=[&0;&1/2]|type=beast|miscellaneous=!swarm}",
-          "Eight {@filter beasts of challenge rating 1/4 or lower|bestiary|challenge rating=[&0;&1/4]|type=beast|miscellaneous=!swarm}"
+          "One beast of challenge rating 2 or lower",
+          "Two beasts of challenge rating 1 or lower",
+          "Four beasts of challenge rating 1/2 or lower",
+          "Eight beasts of challenge rating 1/4 or lower"
         ]
       },
       "Each beast is also considered fey, and it disappears when it drops to 0 hit points or when the spell ends.",
@@ -4559,16 +4553,16 @@
       }
     ],
     "entries": [
-      "You summon a {@filter celestial of challenge rating 4 or lower|bestiary|challenge rating=[&0;&4]|type=celestial|miscellaneous=!swarm}, which appears in an unoccupied space that you can see within range. The celestial disappears when it drops to 0 hit points or when the spell ends.",
+      "You summon a celestial of challenge rating 4 or lower, which appears in an unoccupied space that you can see within range. The celestial disappears when it drops to 0 hit points or when the spell ends.",
       "The celestial is friendly to you and your companions for the duration. Roll initiative for the celestial, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you), as long as they don't violate its alignment. If you don't issue any commands to the celestial, it defends itself from hostile creatures but otherwise takes no actions.",
-      "The DM has {@creature couatl||the celestial}'s statistics."
+      "The DM has couatl the celestial's statistics."
     ],
     "entriesHigherLevel": [
       {
         "type": "entries",
         "name": "At Higher Levels",
         "entries": [
-          "When you cast this spell using a 9th-level spell slot, you summon a {@filter celestial of challenge rating 5 or lower|bestiary|challenge rating=[&0;&5]|type=celestial|miscellaneous=!swarm}."
+          "When you cast this spell using a 9th-level spell slot, you summon a celestial of challenge rating 5 or lower."
         ]
       }
     ],
@@ -4621,7 +4615,7 @@
       }
     ],
     "entries": [
-      "You call forth an elemental servant. Choose an area of air, earth, fire, or water that fills a 10-foot cube within range. An {@filter elemental of challenge rating 5 or lower|bestiary|challenge rating=[&0;&5]|type=elemental|miscellaneous=!swarm} appropriate to the area you chose appears in an unoccupied space within 10 feet of it. For example, a {@creature fire elemental} emerges from a bonfire, and an {@creature earth elemental} rises up from the ground. The elemental disappears when it drops to 0 hit points or when the spell ends.",
+      "You call forth an elemental servant. Choose an area of air, earth, fire, or water that fills a 10-foot cube within range. An elemental of challenge rating 5 or lower appropriate to the area you chose appears in an unoccupied space within 10 feet of it. For example, a fire elemental emerges from a bonfire, and an earth elemental rises up from the ground. The elemental disappears when it drops to 0 hit points or when the spell ends.",
       "The elemental is friendly to you and your companions for the duration. Roll initiative for the elemental, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you). If you don't issue any commands to the elemental, it defends itself from hostile creatures but otherwise takes no actions.",
       "If your concentration is broken, the elemental doesn't disappear. Instead, you lose control of the elemental, it becomes hostile toward you and your companions, and it might attack. An uncontrolled elemental can't be dismissed by you, and it disappears 1 hour after you summoned it.",
       "The DM has the elemental's statistics."
@@ -4680,7 +4674,7 @@
       }
     ],
     "entries": [
-      "You summon a {@filter fey creature of challenge rating 6 or lower|bestiary|challenge rating=[&0;&6]|type=fey|miscellaneous=!swarm}, or a fey spirit that takes the form of a {@filter beast of challenge rating 6 or lower|bestiary|challenge rating=[&0;&6]|type=beast|miscellaneous=!swarm}. It appears in an unoccupied space that you can see within range. The fey creature disappears when it drops to 0 hit points or when the spell ends.",
+      "You summon a fey creature of challenge rating 6 or lower, or a fey spirit that takes the form of a beast of challenge rating 6 or lower. It appears in an unoccupied space that you can see within range. The fey creature disappears when it drops to 0 hit points or when the spell ends.",
       "The fey creature is friendly to you and your companions for the duration. Roll initiative for the creature, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you), as long as they don't violate its alignment. If you don't issue any commands to the fey creature, it defends itself from hostile creatures but otherwise takes no actions.",
       "If your concentration is broken, the fey creature doesn't disappear. Instead, you lose control of the fey creature, it becomes hostile toward you and your companions, and it might attack. An uncontrolled fey creature can't be dismissed by you, and it disappears 1 hour after you summoned it.",
       "The DM has the fey creature's statistics."
@@ -4744,10 +4738,10 @@
       {
         "type": "list",
         "items": [
-          "One {@filter elemental of challenge rating 2 or lower|bestiary|challenge rating=[&0;&2]|type=elemental|miscellaneous=!swarm}",
-          "Two {@filter elementals of challenge rating 1 or lower|bestiary|challenge rating=[&0;&1]|type=elemental|miscellaneous=!swarm}",
-          "Four {@filter elementals of challenge rating 1/2 or lower|bestiary|challenge rating=[&0;&1/2]|type=elemental|miscellaneous=!swarm}",
-          "Eight {@filter elementals of challenge rating 1/4 or lower|bestiary|challenge rating=[&0;&1/4]|type=elemental|miscellaneous=!swarm}."
+          "One elemental of challenge rating 2 or lower",
+          "Two elementals of challenge rating 1 or lower",
+          "Four elementals of challenge rating 1/2 or lower",
+          "Eight elementals of challenge rating 1/4 or lower"
         ]
       },
       "An elemental summoned by this spell disappears when it drops to 0 hit points or when the spell ends.",
@@ -4864,10 +4858,10 @@
       {
         "type": "list",
         "items": [
-          "One {@filter fey creature of challenge rating 2 or lower|bestiary|challenge rating=[&0;&2]|type=fey|miscellaneous=!swarm}",
-          "Two {@filter fey creatures of challenge rating 1 or lower|bestiary|challenge rating=[&0;&1]|type=fey|miscellaneous=!swarm}",
-          "Four {@filter fey creatures of challenge rating 1/2 or lower|bestiary|challenge rating=[&0;&1/2]|type=fey|miscellaneous=!swarm}",
-          "Eight {@filter fey creatures of challenge rating 1/4 or lower|bestiary|challenge rating=[&0;&1/4]|type=fey|miscellaneous=!swarm}"
+          "One fey creature of challenge rating 2 or lower",
+          "Two fey creatures of challenge rating 1 or lower",
+          "Four fey creatures of challenge rating 1/2 or lower",
+          "Eight fey creatures of challenge rating 1/4 or lower"
         ]
       },
       "A summoned creature disappears when it drops to 0 hit points or when the spell ends.",
@@ -5318,6 +5312,7 @@
       "When you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction.",
       {
         "type": "table",
+        "source": "https://5e.tools/spells.html#control%20weather_phb",
         "caption": "Precipitation",
         "colLabels": [
           "Stage",
@@ -5783,6 +5778,7 @@
       "The duration depends on the object's material. If the object is composed of multiple materials, use the shortest duration.",
       {
         "type": "table",
+        "srouce": "https://5e.tools/spells.html#creation_phb",
         "caption": "Creation",
         "colLabels": [
           "Material",
@@ -19124,6 +19120,7 @@
       "The magic fashions a new body for the creature to inhabit, which likely causes the creature's race to change. The DM rolls a d100 and consults the following table to determine what form the creature takes when restored to life, or the DM chooses a form.",
       {
         "type": "table",
+        "source": "https://5e.tools/spells.html#reincarnate_phb",
         "caption": "Reincarnate Races",
         "colLabels": [
           "{@dice d100}",
@@ -19914,6 +19911,7 @@
       "You can see and hear a particular creature you choose that is on the same plane of existence as you. The target must make a Wisdom saving throw, which is modified by how well you know the target and the sort of physical connection you have to it. If a target knows you're casting this spell, it can fail the saving throw voluntarily if it wants to be observed.",
       {
         "type": "table",
+        "source": "https://5e.tools/spells.html#scrying_phb",
         "caption": "Knowledge of Target",
         "colLabels": [
           "Knowledge",
@@ -22636,6 +22634,7 @@
       "The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The DM rolls d100 and consults the table.",
       {
         "type": "table",
+        "source": "https://5e.tools/spells.html#teleport_phb",
         "caption": "Teleportation",
         "colLabels": [
           "Familiarity",
@@ -26135,6 +26134,7 @@
       "You fill a 20-foot cube you can see within range with fey and draconic magic. Roll on the Mischievous Surge table to determine the magical effect produced, and roll again at the start of each of your turns until the spell ends. You can move the cube up to 10 feet before you roll.",
       {
         "type": "table",
+        "source": "https://5e.tools/spells.html#nathair's%20mischief_ftd",
         "caption": "Mischievous Surge",
         "colLabels": [
           "d4",
@@ -29107,6 +29107,7 @@
       "You hurl an undulating, warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 + 1d6 damage. Choose one of the {@dice d8}s. The number rolled on that die determines the attack's damage type, as shown below.",
       {
         "type": "table",
+        "source": "https://5e.tools/spells.html#chaos%20bolt_xge",
         "caption": "Chaos Bolt",
         "colLabels": [
           "{@dice d8}",
@@ -33672,9 +33673,9 @@
       }
     ],
     "entries": [
-      "You utter foul words, summoning one demon from the chaos of the Abyss. You choose the demon's type, which must be {@filter one of challenge rating 5 or lower|bestiary|challenge rating=[&0;&5]|tag=demon|miscellaneous=!swarm}, such as a {@creature shadow demon} or a {@creature barlgura}. The demon appears in an unoccupied space you can see within range, and the demon disappears when it drops to 0 hit points or when the spell ends.",
+      "You utter foul words, summoning one demon from the chaos of the Abyss. You choose the demon's type, which must be one of challenge rating 5 or lower, such as a shadow demon or a barlgura. The demon appears in an unoccupied space you can see within range, and the demon disappears when it drops to 0 hit points or when the spell ends.",
       "Roll initiative for the demon, which has its own turns. When you summon it and on each of your turns thereafter, you can issue a verbal command to it (requiring no action on your part), telling it what it must do on its next turn. If you issue no command, it spends its turn attacking any creature within reach that has attacked it.",
-      "At the end of each of the demon's turns, it makes a Charisma saving throw. The demon has disadvantage on this saving throw if you say its true name. On a failed save, the demon continues to obey you. On a successful save, your control of the demon ends for the rest of the duration, and the demon spends its turns pursuing and attacking the nearest non-demons to the best of its ability. If you stop {@status concentration||concentrating} on the spell before it reaches its full duration, an uncontrolled demon doesn't disappear for 1d6 rounds if it still has hit points.",
+      "At the end of each of the demon's turns, it makes a Charisma saving throw. The demon has disadvantage on this saving throw if you say its true name. On a failed save, the demon continues to obey you. On a successful save, your control of the demon ends for the rest of the duration, and the demon spends its turns pursuing and attacking the nearest non-demons to the best of its ability. If you stop concentration on the spell before it reaches its full duration, an uncontrolled demon doesn't disappear for 1d6 rounds if it still has hit points.",
       "As part of casting the spell, you can form a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. While the spell lasts, the summoned demon can't cross the circle or harm it, and it can't target anyone within it. Using the material component in this manner consumes it when the spell ends."
     ],
     "entriesHigherLevel": [
@@ -33747,6 +33748,7 @@
       "You utter foul words, summoning demons from the chaos of the Abyss. Roll on the following table to determine what appears.",
       {
         "type": "table",
+        "source": "https://5e.tools/spells.html#summon%20lesser%20demons_xge",
         "colLabels": [
           "{@dice d6}",
           "Demons Summoned"

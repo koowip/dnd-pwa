@@ -85,15 +85,16 @@ const SpellAccordion = (props: any) => {
           )}
         >
           <Separator className="mb-2 -mt-2" />
-          <CardContent className="flex flex-col justify-end">
-            <RenderEntries entries={sp.entries} />
-            <Separator className="my-2" />
+          <CardContent className="flex flex-col justify-end -m-1">
             <RenderRange spellRange={sp.range} />
             <RenderDuration spellDuration={sp.duration}/>
             <RenderComponents spellComponents={sp.components}/>
-            <RenderClasses availableTo={sp.availableTo} />
+            <Separator className="my-2" />
+            <RenderEntries entries={sp.entries} />
           </CardContent>
+          <Separator className="-mb-2 -mt-2" />
           <CardFooter>
+            <RenderClasses availableTo={sp.availableTo} />
           </CardFooter>
         </div>
       </Card>

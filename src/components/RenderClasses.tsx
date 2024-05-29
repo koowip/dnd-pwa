@@ -14,7 +14,7 @@ const RenderClasses: React.FC<AvailableToProps> = ({ availableTo }) => {
   return (
     <div className="pt-4" onClick={() => setHideContent(!hideContent)}>
       <div className="flex">
-        <p>Tap for availability </p>
+        <p>Tap for class availability </p>
         {/* <ChevronDownIcon
           className={
             hideContent
