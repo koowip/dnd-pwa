@@ -89,7 +89,7 @@ const SpellAccordion = (props: any) => {
             <RenderEntries entries={sp.entries} />
             <Separator className="my-2" />
             <RenderRange spellRange={sp.range} />
-            <RenderDuration />
+            <RenderDuration spellDuration={sp.duration}/>
             <RenderComponents />
             <RenderClasses availableTo={sp.availableTo} />
           </CardContent>

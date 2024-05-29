@@ -1,4 +1,6 @@
 const RenderEntries = ({ entries }: any) => {
+
+  //Control Flames, need to render list as well
   // Function to render each entry
   const renderEntry = (entry: any) => {
     // Handle if the entry is a simple string
