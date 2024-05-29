@@ -31,7 +31,7 @@ const RenderRange = ({ spellRange }: any) => {
 
   return (
     <div>
-      Spell Range:
+      Range:
       <div className="inline">
         {distanceAmount !== undefined
           ? spellRangeWithAmount(spellRange)
