@@ -3,13 +3,11 @@ import { debounce } from "@/lib/utils";
 import { Spell } from "@/lib/types";
 import {
   List,
-  FilterClass,
   FilterClassNonOpinionated,
   FilterLevel,
-  FilterVariant,
   FilterSubclass,
 } from "@/lib/services/SpellService";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo } from "react";
 import FilterSheet from "./FilterSheet";
 import useClassStore from "@/lib/services/StoreService";
 import { VscClose } from "react-icons/vsc";
@@ -17,15 +15,12 @@ import { VscClose } from "react-icons/vsc";
 const Search = () => {
   const {
     bookView,
-    setBookView,
     selectedLevel,
     selectedVariant,
     selectedClass,
     selectedSubClass,
     toggledSubClasses,
-    spellList,
     setSpellList,
-    bookSpellList,
     setBookSpellList,
     searchCriteria,
     setSearchCriteria,
@@ -60,6 +55,7 @@ const Search = () => {
   //Fix the state so that pressing the exit icon clears the input and brings back the list of spells
   const searchExit = () => {
     setSearchCriteria("")
+    {/* @ts-ignore */}
     document.getElementById('inputBox').value = ""
     if(bookView) {
       setBookSpellList(JSON.parse(localStorage.getItem('favoritedSpells')))

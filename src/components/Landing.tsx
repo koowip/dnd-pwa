@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { useEffect, useState } from "react";
 import SpellAccordion from "./SpellAccordion";
 import Search from "./Search";
 import useClassStore from "@/lib/services/StoreService";
@@ -10,6 +9,7 @@ const Landing = () => {
 
   const clearUserInputs = () => {
     clearSearch()
+    {/* @ts-ignore */}
     document.getElementById('inputBox').value = ''
   }
 
@@ -17,6 +17,7 @@ const Landing = () => {
     
     clearSearch()
     setBookView(viewBool)
+    {/* @ts-ignore */}
     document.getElementById('inputBox').value = ''
   }
 

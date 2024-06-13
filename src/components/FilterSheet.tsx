@@ -10,33 +10,27 @@ import {
 } from "@/components/ui/sheet";
 import {
   List,
-  FilterClass,
   FilterClassNonOpinionated,
   FilterLevel,
-  FilterVariant,
   FilterSubclass,
 } from "@/lib/services/SpellService";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import useClassStore from "@/lib/services/StoreService";
-import { useEffect, useMemo } from "react";
+import { useMemo } from "react";
 import { Spell } from "@/lib/types";
 import { Button } from "./ui/button";
 
 const FilterSheet = () => {
   const {
     bookView,
-    setBookView,
     selectedLevel,
-    selectedVariant,
     selectedClass,
     selectedSubClass,
     toggleClass,
     toggleSubClass,
     toggledSubClasses,
     changeLevelSelection,
-    toggleVariant,
     toggleOffSubClasses,
-    spellList,
     setSpellList,
     setBookSpellList,
     searchCriteria,

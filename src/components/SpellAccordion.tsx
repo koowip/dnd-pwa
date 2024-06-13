@@ -21,7 +21,7 @@ import RenderDuration from "./RenderDuration";
 import RenderComponents from "./RenderComponents";
 
 const SpellAccordion = (props: any) => {
-  const { setBookSpellList, bookSpellList, addFavorite, removeFavorite } =
+  const { addFavorite, removeFavorite } =
     useClassStore();
 
   const sp = props.sp;
@@ -90,6 +90,7 @@ const SpellAccordion = (props: any) => {
             <RenderDuration spellDuration={sp.duration}/>
             <RenderComponents spellComponents={sp.components}/>
             <Separator className="my-2" />
+            {/* @ts-ignore */}
             <RenderEntries entries={sp.entries} />
           </CardContent>
           <Separator className="-mb-2 -mt-2" />

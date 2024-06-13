@@ -1,11 +1,11 @@
-import { useEffect, useMemo } from "react";
+import { useEffect } from "react";
 import Landing from "./components/Landing";
 import SpellsList from "../src/AllSpells.json";
 import useClassStore from "@/lib/services/StoreService";
 import FileDialog from "./components/FileDialog";
 
 function App() {
-  const { setSpellList, spellList, setBookSpellList, bookSpellList } =
+  const { setSpellList, setBookSpellList } =
     useClassStore();
 
     
@@ -22,7 +22,7 @@ function App() {
     const fav = localStorage.getItem("favoritedSpells");
     if (!fav) {
       localStorage.setItem("favoritedSpells", JSON.stringify([]));
-      setBookSpellList(JSON.parse(fav));
+      setBookSpellList(JSON.parse(localStorage.getItem("favoritedSpells")));
     } else {
       setBookSpellList(JSON.parse(fav));
     }

@@ -53,6 +53,7 @@ export function FilterClass(specifiedClasses: {}, curSpell: Spell): any {
 //Reference the code in Search.tsx => handleChange for unfucking this
 export function FilterSubclass(specifiedSubclasses: any[], curSpell: Spell): any {
    
+  {/* @ts-ignore */}
   let a = Object.values(curSpell.availableTo).filter(subclasses => subclasses.length > 0).flat()
    //console.log("Spell subclasses" , a);
   // console.log("Selected Subclasses", specifiedSubclasses)

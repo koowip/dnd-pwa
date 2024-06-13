@@ -56,6 +56,7 @@ const FileDialog = () => {
     const reader = new FileReader();
     reader.onload = (e) => {
       try {
+        {/* @ts-ignore */}
         const jsonData = JSON.parse(e.target.result);
 
         // Check if jsonData has the expected structure
