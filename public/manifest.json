@@ -3,7 +3,7 @@
   "short_name": "SpellBook",
   "description": "Pat's Shitty SpellBook App",
   "start_url": ".",
-  "display": "standalone",
+  "display": "fullscreen",
   "background_color": "#ffffff",
   "theme_color": "#FFD059",
   "icons": [
