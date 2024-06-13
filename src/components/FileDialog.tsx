@@ -98,7 +98,7 @@ const FileDialog = () => {
           <DialogTitle>Export / Import Spells</DialogTitle>
           <DialogDescription className="py-2 text-wrap">
             SpellBook will be deleted if cache is cleared, backup your spellbook
-            via downloading it locally.
+            via download.
           </DialogDescription>
         </DialogHeader>
         <Button
@@ -107,7 +107,7 @@ const FileDialog = () => {
         >
           {bookSpellList.length > 0
             ? "Download Book"
-            : "Favorite some spells to enable download"}
+            : "Favorite spells to enable download"}
         </Button>
         <input
         className="hidden"

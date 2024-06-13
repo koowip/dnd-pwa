@@ -18,7 +18,7 @@ import {
 } from "@/lib/services/SpellService";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import useClassStore from "@/lib/services/StoreService";
-import { useEffect } from "react";
+import { useEffect, useMemo } from "react";
 import { Spell } from "@/lib/types";
 import { Button } from "./ui/button";
 
@@ -41,6 +41,8 @@ const FilterSheet = () => {
     setBookSpellList,
     searchCriteria,
   } = useClassStore();
+
+  useMemo(() => {},[selectedClass, selectedLevel, selectedSubClass])
 
   const searchWhenSheetClose = () => {
     let cur;
