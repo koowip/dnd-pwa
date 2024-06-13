@@ -86,7 +86,7 @@ const FilterSheet = () => {
                 <select
                   onChange={handleLevelChange}
                   defaultValue={selectedLevel}
-                  className="focus:outline-none"
+                  className="block appearance-none w-full bg-white border border-gray-300 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline"
                 >
                   <option value="-1">All</option>
                   <option value="0">Cantrip</option>
@@ -113,7 +113,7 @@ const FilterSheet = () => {
             </div>
             <div className="flex flex-col justify-evenly p-1">
               <strong>Class Select: </strong>
-              <div className="grid grid-cols-4 gap-4 p-3">
+              <div className="grid grid-cols-3 gap-4 p-3">
                 {Object.entries(selectedClass).map(
                   ([classLabel, isSelected]) => (
                     <Button
@@ -133,13 +133,13 @@ const FilterSheet = () => {
                   .map(([className]) => (
                     <div className="py-6" key={className}>
                       <strong className="">{className} Subclasses:</strong>
-                      <div className="grid grid-cols-4 gap-4 p-2">
+                      <div className="grid grid-cols-2 gap-4 p-3">
                         {selectedSubClass[className].map((subclassObj) => {
                           const subClassName = Object.keys(subclassObj)[0];
                           return (
                             <Button
                               className={
-                                subclassObj[subClassName] ? "bg-accent p-2 text-wrap" : "p-2 text-wrap"
+                                subclassObj[subClassName] ? "bg-accent p-2 text-wrap overflow-hidden text-ellipsis" : "p-2 flex justify-center items-center text-wrap overflow-hidden text-ellipsis "
                               }
                               key={subClassName}
                               variant="ghost"
@@ -147,7 +147,7 @@ const FilterSheet = () => {
                                 toggleSubClass(className, subClassName)
                               }
                             >
-                              {subClassName}
+                              <p className="">{subClassName}</p>
                             </Button>
                           );
                         })}
