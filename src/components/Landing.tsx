@@ -38,12 +38,12 @@ const Landing = () => {
         >
           Book
         </Button>
-
+        
         {/* Button to delete localstorage for easier troubleshooting in dev */}
         {import.meta.env.DEV && (
            <Button onClick={() => localStorage.clear()}>Delete</Button>
         )}
-
+        
         <Button variant="destructive" onClick={clearUserInputs}>Clear Search</Button>
       </div>
       <Search />
