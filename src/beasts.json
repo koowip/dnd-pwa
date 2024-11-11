@@ -65,13 +65,13 @@
       {
         "name": "Fist",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+          "Melee: 5 to hit, reach 5 ft., one target. 6 or 1d6 + 3 bludgeoning damage."
         ]
       },
       {
         "name": "Rock",
         "entries": [
-          "{@atk rw} {@hit 5} to hit, range 25/50 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+          "Ranged: 5 to hit, range 25/50 ft., one target. 6 or 1d6 + 3 bludgeoning damage."
         ]
       }
     ],
@@ -146,7 +146,7 @@
       {
         "name": "Beak",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage."
+          "Melee: 4 to hit, reach 5 ft., one target. 6 or 1d8 + 2 slashing damage."
         ]
       }
     ],
@@ -223,7 +223,7 @@
       {
         "name": "Pack Tactics",
         "entries": [
-          "The baboon has advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+          "The baboon has advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 feet of the creature and the ally isn't incapacitated."
         ]
       }
     ],
@@ -231,7 +231,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 - 1}) piercing damage."
+          "Melee: 1 to hit, reach 5 ft., one target. 1 or 1d4 - 1 piercing damage."
         ]
       }
     ],
@@ -304,7 +304,7 @@
       {
         "name": "Keen Smell",
         "entries": [
-          "The badger has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+          "The badger has advantage on Wisdom (Perception) checks that rely on smell."
         ]
       }
     ],
@@ -312,7 +312,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}1 piercing damage."
+          "Melee: 2 to hit, reach 5 ft., one target. 1 piercing damage."
         ]
       }
     ],
@@ -403,13 +403,13 @@
       {
         "name": "Echolocation",
         "entries": [
-          "The bat can't use its blindsight while {@condition deafened}."
+          "The bat can't use its blindsight while deafened."
         ]
       },
       {
         "name": "Keen Hearing",
         "entries": [
-          "The bat has advantage on Wisdom ({@skill Perception}) checks that rely on hearing."
+          "The bat has advantage on Wisdom (Perception) checks that rely on hearing."
         ]
       }
     ],
@@ -417,7 +417,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 0} to hit, reach 5 ft., one creature. {@h}1 piercing damage."
+          "Melee: 0 to hit, reach 5 ft., one creature. 1 piercing damage."
         ]
       }
     ],
@@ -514,7 +514,7 @@
       {
         "name": "Keen Smell",
         "entries": [
-          "The bear has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+          "The bear has advantage on Wisdom (Perception) checks that rely on smell."
         ]
       }
     ],
@@ -528,13 +528,13 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+          "Melee: 4 to hit, reach 5 ft., one target. 5 or 1d6 + 2 piercing damage."
         ]
       },
       {
         "name": "Claws",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) slashing damage."
+          "Melee: 4 to hit, reach 5 ft., one target. 7 or 2d4 + 2 slashing damage."
         ]
       }
     ],
@@ -616,13 +616,13 @@
       {
         "name": "Keen Sight",
         "entries": [
-          "The hawk has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+          "The hawk has advantage on Wisdom (Perception) checks that rely on sight."
         ]
       },
       {
         "name": "Pack Tactics",
         "entries": [
-          "The hawk has advantage on an attack roll against a creature if at least one of the hawk's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+          "The hawk has advantage on an attack roll against a creature if at least one of the hawk's allies is within 5 feet of the creature and the ally isn't incapacitated."
         ]
       }
     ],
@@ -630,7 +630,7 @@
       {
         "name": "Beak",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+          "Melee: 4 to hit, reach 5 ft., one target. 4 or 1d4 + 2 piercing damage."
         ]
       }
     ],
@@ -727,7 +727,7 @@
       {
         "name": "Charge",
         "entries": [
-          "If the boar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 3 ({@damage 1d6}) slashing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
+          "If the boar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 3 or 1d6 slashing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone."
         ]
       },
       {
@@ -741,7 +741,7 @@
       {
         "name": "Tusk",
         "entries": [
-          "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) slashing damage."
+          "Melee: 3 to hit, reach 5 ft., one target. 4 or 1d6 + 1 slashing damage."
         ]
       }
     ],
@@ -850,7 +850,7 @@
       {
         "name": "Keen Smell",
         "entries": [
-          "The bear has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+          "The bear has advantage on Wisdom (Perception) checks that rely on smell."
         ]
       }
     ],
@@ -864,13 +864,13 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage."
+          "Melee: 6 to hit, reach 5 ft., one target. 8 or 1d8 + 4 piercing damage."
         ]
       },
       {
         "name": "Claws",
         "entries": [
-          "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+          "Melee: 6 to hit, reach 5 ft., one target. 11 or 2d6 + 4 slashing damage."
         ]
       }
     ],
@@ -947,7 +947,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
+          "Melee: 5 to hit, reach 5 ft., one target. 2 or 1d4 bludgeoning damage."
         ]
       }
     ],
@@ -1047,7 +1047,7 @@
       {
         "name": "Keen Smell",
         "entries": [
-          "The cat has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+          "The cat has advantage on Wisdom (Perception) checks that rely on smell."
         ]
       }
     ],
@@ -1055,7 +1055,7 @@
       {
         "name": "Claws",
         "entries": [
-          "{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}1 slashing damage."
+          "Melee: 0 to hit, reach 5 ft., one target. 1 slashing damage."
         ]
       }
     ],
@@ -1134,13 +1134,13 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+          "Melee: 4 to hit, reach 5 ft., one creature. 5 or 1d6 + 2 piercing damage."
         ]
       },
       {
         "name": "Constrict",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 14}). Until this grapple ends, the creature is {@condition restrained}, and the snake can't constrict another target."
+          "Melee: 4 to hit, reach 5 ft., one creature. 6 or 1d8 + 2 bludgeoning damage, and the target is grappled (escape DC 14). Until this grapple ends, the creature is restrained, and the snake can't constrict another target."
         ]
       }
     ],
@@ -1242,7 +1242,7 @@
       {
         "name": "Claw",
         "entries": [
-          "{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}1 bludgeoning damage."
+          "Melee: 0 to hit, reach 5 ft., one target. 1 bludgeoning damage."
         ]
       }
     ],
@@ -1358,7 +1358,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d10 + 2}) piercing damage, and the target is {@condition grappled} (escape {@dc 12}). Until this grapple ends, the target is {@condition restrained}, and the crocodile can't bite another target"
+          "Melee: 4 to hit, reach 5 ft., one creature. 7 or 1d10 + 2 piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can't bite another target"
         ]
       }
     ],
@@ -1428,7 +1428,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) piercing damage."
+          "Melee: 2 to hit, reach 5 ft., one target. 2 or 1d4 piercing damage."
         ]
       }
     ],
@@ -1524,13 +1524,13 @@
       {
         "name": "Keen Hearing and Smell",
         "entries": [
-          "The wolf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+          "The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
         ]
       },
       {
         "name": "Pack Tactics",
         "entries": [
-          "The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+          "The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated."
         ]
       }
     ],
@@ -1538,7 +1538,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+          "Melee: 5 to hit, reach 5 ft., one target. 10 or 2d6 + 3 piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
         ]
       }
     ],
@@ -1633,7 +1633,7 @@
       {
         "name": "Hooves",
         "entries": [
-          "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage."
+          "Melee: 6 to hit, reach 5 ft., one target. 9 or 2d4 + 4 bludgeoning damage."
         ]
       }
     ],
@@ -1699,7 +1699,7 @@
       {
         "name": "Keen Sight",
         "entries": [
-          "The eagle has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+          "The eagle has advantage on Wisdom (Perception) checks that rely on sight."
         ]
       }
     ],
@@ -1707,7 +1707,7 @@
       {
         "name": "Talons",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage."
+          "Melee: 4 to hit, reach 5 ft., one target. 4 or 1d4 + 2 slashing damage."
         ]
       }
     ],
@@ -1791,7 +1791,7 @@
       {
         "name": "Charge",
         "entries": [
-          "If the elk moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 ({@dice 2d6}) damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+          "If the elk moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
         ]
       }
     ],
@@ -1799,13 +1799,13 @@
       {
         "name": "Ram",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+          "Melee: 5 to hit, reach 5 ft., one target. 6 or 1d6 + 3 bludgeoning damage."
         ]
       },
       {
         "name": "Hooves",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 5 ft., one {@condition prone} creature. {@h}8 ({@damage 2d4 + 3}) bludgeoning damage."
+          "Melee: 5 to hit, reach 5 ft., one prone creature. 8 or 2d4 + 3 bludgeoning damage."
         ]
       }
     ],
@@ -1900,7 +1900,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}1 piercing damage plus 7 ({@damage 3d4}) poison damage."
+          "Melee: 6 to hit, reach 5 ft., one target. 1 piercing damage plus 7 or 3d4 poison damage."
         ]
       }
     ],
@@ -1987,7 +1987,7 @@
       {
         "name": "Keen Smell",
         "entries": [
-          "The badger has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+          "The badger has advantage on Wisdom (Perception) checks that rely on smell."
         ]
       }
     ],
@@ -2001,13 +2001,13 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage."
+          "Melee: 3 to hit, reach 5 ft., one target. 4 or 1d6 + 1 piercing damage."
         ]
       },
       {
         "name": "Claws",
         "entries": [
-          "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}6 ({@damage 2d4 + 1}) slashing damage."
+          "Melee: 3 to hit, reach 5 ft., one target. 6 or 2d4 + 1 slashing damage."
         ]
       }
     ],
@@ -2096,13 +2096,13 @@
       {
         "name": "Echolocation",
         "entries": [
-          "The bat can't use its blindsight while {@condition deafened}."
+          "The bat can't use its blindsight while deafened."
         ]
       },
       {
         "name": "Keen Hearing",
         "entries": [
-          "The bat has advantage on Wisdom ({@skill Perception}) checks that rely on hearing."
+          "The bat has advantage on Wisdom (Perception) checks that rely on hearing."
         ]
       }
     ],
@@ -2110,7 +2110,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+          "Melee: 4 to hit, reach 5 ft., one creature. 5 or 1d6 + 2 piercing damage."
         ]
       }
     ],
@@ -2209,7 +2209,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}4 ({@damage 1d4 + 2}) piercing damage, and the target must succeed on a {@dc 11} Constitution saving throw or take 10 ({@damage 3d6}) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
+          "Melee: 4 to hit, reach 5 ft., one creature. 4 or 1d4 + 2 piercing damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 or 3d6 poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
         ]
       }
     ],
@@ -2333,7 +2333,7 @@
       {
         "name": "Claw",
         "entries": [
-          "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 11}). The crab has two claws, each of which can grapple only one target."
+          "Melee: 3 to hit, reach 5 ft., one target. 4 or 1d6 + 1 bludgeoning damage, and the target is grappled (escape DC 11). The crab has two claws, each of which can grapple only one target."
         ]
       }
     ],
@@ -2422,7 +2422,7 @@
       {
         "name": "Keen Sight",
         "entries": [
-          "The eagle has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+          "The eagle has advantage on Wisdom (Perception) checks that rely on sight."
         ]
       }
     ],
@@ -2436,13 +2436,13 @@
       {
         "name": "Beak",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+          "Melee: 5 to hit, reach 5 ft., one target. 6 or 1d6 + 3 piercing damage."
         ]
       },
       {
         "name": "Talons",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage."
+          "Melee: 5 to hit, reach 5 ft., one target. 10 or 2d6 + 3 slashing damage."
         ]
       }
     ],
@@ -2547,7 +2547,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d6 - 1}) slashing damage."
+          "Melee: 1 to hit, reach 5 ft., one target. 2 or 1d6 - 1 slashing damage."
         ]
       }
     ],
@@ -2661,13 +2661,13 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage, and the target is {@condition grappled} (escape {@dc 11}). Until this grapple ends, the target is {@condition restrained}, and the frog can't bite another target."
+          "Melee: 3 to hit, reach 5 ft., one target. 4 or 1d6 + 1 piercing damage, and the target is grappled (escape DC 11). Until this grapple ends, the target is restrained, and the frog can't bite another target."
         ]
       },
       {
         "name": "Swallow",
         "entries": [
-          "The frog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is {@condition blinded} and {@condition restrained}, it has {@quickref Cover||3||total cover} against attacks and other effects outside the frog, and it takes 5 ({@damage 2d4}) acid damage at the start of each of the frog's turns. The frog can have only one target swallowed at a time. If the frog dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse using 5 feet of movement, exiting {@condition prone}."
+          "The frog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the frog, and it takes 5 or 2d4 acid damage at the start of each of the frog's turns. The frog can have only one target swallowed at a time. If the frog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone."
         ]
       }
     ],
@@ -2766,13 +2766,13 @@
       {
         "name": "Charge",
         "entries": [
-          "If the goat moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 ({@damage 2d4}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+          "If the goat moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 or 2d4 bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
         ]
       },
       {
         "name": "Sure-Footed",
         "entries": [
-          "The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+          "The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
         ]
       }
     ],
@@ -2780,7 +2780,7 @@
       {
         "name": "Ram",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) bludgeoning damage."
+          "Melee: 5 to hit, reach 5 ft., one target. 8 or 2d4 + 3 bludgeoning damage."
         ]
       }
     ],
@@ -2867,7 +2867,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage."
+          "Melee: 5 to hit, reach 5 ft., one target. 10 or 2d6 + 3 piercing damage."
         ]
       }
     ],
@@ -2971,7 +2971,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+          "Melee: 4 to hit, reach 5 ft., one target. 6 or 1d8 + 2 piercing damage."
         ]
       }
     ],
@@ -3130,7 +3130,7 @@
       {
         "name": "Underwater Camouflage",
         "entries": [
-          "The octopus has advantage on Dexterity ({@skill Stealth}) checks made while underwater."
+          "The octopus has advantage on Dexterity (Stealth) checks made while underwater."
         ]
       },
       {
@@ -3144,7 +3144,7 @@
       {
         "name": "Tentacles",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 15 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the target is {@condition restrained}, and the octopus can't use its tentacles on another target."
+          "Melee: 5 to hit, reach 15 ft., one target. 10 or 2d6 + 3 bludgeoning damage. If the target is a creature, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the octopus can't use its tentacles on another target."
         ]
       },
       {
@@ -3257,7 +3257,7 @@
       {
         "name": "Keen Hearing and Sight",
         "entries": [
-          "The owl has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+          "The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight."
         ]
       }
     ],
@@ -3265,7 +3265,7 @@
       {
         "name": "Talons",
         "entries": [
-          "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d6 + 1}) slashing damage."
+          "Melee: 3 to hit, reach 5 ft., one target. 8 or 2d6 + 1 slashing damage."
         ]
       }
     ],
@@ -3373,7 +3373,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage, and the target must make a {@dc 11} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one."
+          "Melee: 6 to hit, reach 10 ft., one target. 6 or 1d4 + 4 piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 or 3d6 poison damage on a failed save, or half as much damage on a successful one."
         ]
       }
     ],
@@ -3487,13 +3487,13 @@
       {
         "name": "Keen Smell",
         "entries": [
-          "The rat has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+          "The rat has advantage on Wisdom (Perception) checks that rely on smell."
         ]
       },
       {
         "name": "Pack Tactics",
         "entries": [
-          "The rat has advantage on an attack roll against a creature if at least one of the rat's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+          "The rat has advantage on an attack roll against a creature if at least one of the rat's allies is within 5 feet of the creature and the ally isn't incapacitated."
         ]
       }
     ],
@@ -3501,7 +3501,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+          "Melee: 4 to hit, reach 5 ft., one target. 4 or 1d4 + 2 piercing damage."
         ]
       }
     ],
@@ -3515,7 +3515,7 @@
             "type": "entries",
             "name": "Bite",
             "entries": [
-              "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 10} Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 ({@dice 1d6}) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies."
+              "Melee: 4 to hit, reach 5 ft., one target. 4 or 1d4 + 2 piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 (1d6) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies."
             ]
           }
         ]
@@ -3558,7 +3558,7 @@
           {
             "name": "Bite",
             "entries": [
-              "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 10} Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 ({@dice 1d6}) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies."
+              "Melee: 4 to hit, reach 5 ft., one target. 4 or 1d4 + 2 piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 (1d6) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies."
             ]
           }
         ],
@@ -3618,7 +3618,7 @@
       {
         "name": "Charge",
         "entries": [
-          "If the sea horse moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 ({@damage 2d6}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
+          "If the sea horse moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 or 2d6 bludgeoning damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone."
         ]
       },
       {
@@ -3632,7 +3632,7 @@
       {
         "name": "Ram",
         "entries": [
-          "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage."
+          "Melee: 3 to hit, reach 5 ft., one target. 4 or 1d6 + 1 bludgeoning damage."
         ]
       }
     ],
@@ -3813,13 +3813,13 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) piercing damage, and the target must make a {@dc 11} Constitution saving throw, taking 9 ({@damage 2d8}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
+          "Melee: 5 to hit, reach 5 ft., one creature. 7 or 1d8 + 3 piercing damage, and the target must make a DC 11 Constitution saving throw, taking 9 or 2d8 poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
         ]
       },
       {
-        "name": "Web {@recharge 5}",
+        "name": "Web (recharge on 5/6)",
         "entries": [
-          "{@atk rw} {@hit 5} to hit, range 30/60 ft., one creature. {@h}The target is {@condition restrained} by webbing. As an action, the {@condition restrained} target can make a {@dc 12} Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+          "Ranged: 5 to hit, range 30/60 ft., one creature. The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
         ]
       }
     ],
@@ -3939,14 +3939,14 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage plus 5 ({@damage 1d10}) poison damage, and the target is {@condition grappled} (escape {@dc 13}). Until this grapple ends, the target is {@condition restrained}, and the toad can't bite another target."
+          "Melee: 4 to hit, reach 5 ft., one target. 7 or 1d10 + 2 piercing damage plus 5 or 1d10 poison damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the toad can't bite another target."
         ]
       },
       {
         "name": "Swallow",
         "entries": [
-          "The toad makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is {@condition blinded} and {@condition restrained}, it has {@quickref Cover||3||total cover} against attacks and other effects outside the toad, and it takes 10 ({@damage 3d6}) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time.",
-          "If the toad dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse using 5 feet of movement, exiting {@condition prone}."
+          "The toad makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 or 3d6 acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time.",
+          "If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone."
         ]
       }
     ],
@@ -4051,13 +4051,13 @@
       {
         "name": "Keen Sight and Smell",
         "entries": [
-          "The vulture has advantage on Wisdom ({@skill Perception}) checks that rely on sight or smell."
+          "The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell."
         ]
       },
       {
         "name": "Pack Tactics",
         "entries": [
-          "The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+          "The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally isn't incapacitated."
         ]
       }
     ],
@@ -4071,13 +4071,13 @@
       {
         "name": "Beak",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage."
+          "Melee: 4 to hit, reach 5 ft., one target. 7 or 2d4 + 2 piercing damage."
         ]
       },
       {
         "name": "Talons",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d6 + 2}) slashing damage."
+          "Melee: 4 to hit, reach 5 ft., one target. 9 or 2d6 + 2 slashing damage."
         ]
       }
     ],
@@ -4163,7 +4163,7 @@
       {
         "name": "Sting",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d6 + 2}) piercing damage, and the target must make a {@dc 11} Constitution saving throw, taking 10 ({@damage 3d6}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
+          "Melee: 4 to hit, reach 5 ft., one creature. 5 or 1d6 + 2 piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 or 3d6 poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
         ]
       }
     ],
@@ -4248,7 +4248,7 @@
       {
         "name": "Keen Hearing and Smell",
         "entries": [
-          "The weasel has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+          "The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell."
         ]
       }
     ],
@@ -4256,7 +4256,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+          "Melee: 5 to hit, reach 5 ft., one target. 5 or 1d4 + 3 piercing damage."
         ]
       }
     ],
@@ -4370,7 +4370,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 3} to hit, reach 5 ft., one creature. {@h}4 ({@damage 1d6 + 1}) piercing damage, and the target must make a {@dc 11} Constitution saving throw, taking 7 ({@damage 2d6}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
+          "Melee: 3 to hit, reach 5 ft., one creature. 4 or 1d6 + 1 piercing damage, and the target must make a DC 11 Constitution saving throw, taking 7 or 2d6 poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
         ]
       }
     ],
@@ -4484,13 +4484,13 @@
       {
         "name": "Charge",
         "entries": [
-          "If the goat moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 ({@damage 1d4}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 10} Strength saving throw or be knocked {@condition prone}."
+          "If the goat moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 or 1d4 bludgeoning damage. If the target is a creature, it must succeed on a DC 10 Strength saving throw or be knocked prone."
         ]
       },
       {
         "name": "Sure-Footed",
         "entries": [
-          "The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+          "The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
         ]
       }
     ],
@@ -4498,7 +4498,7 @@
       {
         "name": "Ram",
         "entries": [
-          "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) bludgeoning damage."
+          "Melee: 3 to hit, reach 5 ft., one target. 3 or 1d4 + 1 bludgeoning damage."
         ]
       }
     ],
@@ -4594,7 +4594,7 @@
       {
         "name": "Keen Sight",
         "entries": [
-          "The hawk has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+          "The hawk has advantage on Wisdom (Perception) checks that rely on sight."
         ]
       }
     ],
@@ -4602,7 +4602,7 @@
       {
         "name": "Talons",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}1 slashing damage."
+          "Melee: 5 to hit, reach 5 ft., one target. 1 slashing damage."
         ]
       }
     ],
@@ -4672,7 +4672,7 @@
       {
         "name": "Pack Tactics",
         "entries": [
-          "The hyena has advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+          "The hyena has advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 feet of the creature and the ally isn't incapacitated."
         ]
       }
     ],
@@ -4680,7 +4680,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) piercing damage."
+          "Melee: 2 to hit, reach 5 ft., one target. 3 or 1d6 piercing damage."
         ]
       }
     ],
@@ -4749,13 +4749,13 @@
       {
         "name": "Keen Hearing and Smell",
         "entries": [
-          "The jackal has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+          "The jackal has advantage on Wisdom (Perception) checks that rely on hearing or smell."
         ]
       },
       {
         "name": "Pack Tactics",
         "entries": [
-          "The jackal has advantage on an attack roll against a creature if at least one of the jackal's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+          "The jackal has advantage on an attack roll against a creature if at least one of the jackal's allies is within 5 feet of the creature and the ally isn't incapacitated."
         ]
       }
     ],
@@ -4763,7 +4763,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 1} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4 - 1}) piercing damage."
+          "Melee: 1 to hit, reach 5 ft., one target. 1 or 1d4 - 1 piercing damage."
         ]
       }
     ],
@@ -4840,19 +4840,19 @@
       {
         "name": "Keen Smell",
         "entries": [
-          "The lion has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+          "The lion has advantage on Wisdom (Perception) checks that rely on smell."
         ]
       },
       {
         "name": "Pack Tactics",
         "entries": [
-          "The lion has advantage on an attack roll against a creature if at least one of the lion's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+          "The lion has advantage on an attack roll against a creature if at least one of the lion's allies is within 5 feet of the creature and the ally isn't incapacitated."
         ]
       },
       {
         "name": "Pounce",
         "entries": [
-          "If the lion moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the lion can make one bite attack against it as a bonus action."
+          "If the lion moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the lion can make one bite attack against it as a bonus action."
         ]
       },
       {
@@ -4866,13 +4866,13 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage."
+          "Melee: 5 to hit, reach 5 ft., one target. 7 or 1d8 + 3 piercing damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+          "Melee: 5 to hit, reach 5 ft., one target. 6 or 1d6 + 3 slashing damage."
         ]
       }
     ],
@@ -4959,7 +4959,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}1 piercing damage."
+          "Melee: 0 to hit, reach 5 ft., one target. 1 piercing damage."
         ]
       }
     ],
@@ -5058,7 +5058,7 @@
       {
         "name": "Keen Hearing and Smell",
         "entries": [
-          "The mastiff has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+          "The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell."
         ]
       }
     ],
@@ -5066,7 +5066,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
+          "Melee: 3 to hit, reach 5 ft., one target. 4 or 1d6 + 1 piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone."
         ]
       }
     ],
@@ -5159,7 +5159,7 @@
       {
         "name": "Sure-Footed",
         "entries": [
-          "The mule has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+          "The mule has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
         ]
       }
     ],
@@ -5167,7 +5167,7 @@
       {
         "name": "Hooves",
         "entries": [
-          "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage."
+          "Melee: 2 to hit, reach 5 ft., one target. 4 or 1d4 + 2 bludgeoning damage."
         ]
       }
     ],
@@ -5260,7 +5260,7 @@
       {
         "name": "Underwater Camouflage",
         "entries": [
-          "The octopus has advantage on Dexterity ({@skill Stealth}) checks made while underwater."
+          "The octopus has advantage on Dexterity (Stealth) checks made while underwater."
         ]
       },
       {
@@ -5274,7 +5274,7 @@
       {
         "name": "Tentacles",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}1 bludgeoning damage, and the target is {@condition grappled} (escape {@dc 10}). Until this grapple ends, the octopus can't use its tentacles on another target."
+          "Melee: 4 to hit, reach 5 ft., one target. 1 bludgeoning damage, and the target is grappled (escape DC 10). Until this grapple ends, the octopus can't use its tentacles on another target."
         ]
       },
       {
@@ -5385,7 +5385,7 @@
       {
         "name": "Keen Hearing and Sight",
         "entries": [
-          "The owl has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or sight."
+          "The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight."
         ]
       }
     ],
@@ -5393,7 +5393,7 @@
       {
         "name": "Talons",
         "entries": [
-          "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}1 slashing damage."
+          "Melee: 3 to hit, reach 5 ft., one target. 1 slashing damage."
         ]
       }
     ],
@@ -5475,13 +5475,13 @@
       {
         "name": "Keen Smell",
         "entries": [
-          "The panther has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+          "The panther has advantage on Wisdom (Perception) checks that rely on smell."
         ]
       },
       {
         "name": "Pounce",
         "entries": [
-          "If the panther moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 12} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the panther can make one bite attack against it as a bonus action."
+          "If the panther moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target is prone, the panther can make one bite attack against it as a bonus action."
         ]
       }
     ],
@@ -5489,13 +5489,13 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+          "Melee: 4 to hit, reach 5 ft., one target. 5 or 1d6 + 2 piercing damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) slashing damage."
+          "Melee: 4 to hit, reach 5 ft., one target. 4 or 1d4 + 2 slashing damage."
         ]
       }
     ],
@@ -5586,7 +5586,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}1 piercing damage, and the target must make a {@dc 10} Constitution saving throw, taking 5 ({@damage 2d4}) poison damage on a failed save, or half as much damage on a successful one."
+          "Melee: 5 to hit, reach 5 ft., one target. 1 piercing damage, and the target must make a DC 10 Constitution saving throw, taking 5 or 2d4 poison damage on a failed save, or half as much damage on a successful one."
         ]
       }
     ],
@@ -5667,7 +5667,7 @@
       {
         "name": "Hooves",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) bludgeoning damage."
+          "Melee: 4 to hit, reach 5 ft., one target. 7 or 2d4 + 2 bludgeoning damage."
         ]
       }
     ],
@@ -5757,7 +5757,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}6 ({@damage 2d4 + 1}) piercing damage"
+          "Melee: 3 to hit, reach 5 ft., one target. 6 or 2d4 + 1 piercing damage"
         ]
       }
     ],
@@ -5861,7 +5861,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}1 piercing damage."
+          "Melee: 5 to hit, reach 5 ft., one target. 1 piercing damage."
         ]
       }
     ],
@@ -5962,7 +5962,7 @@
       {
         "name": "Keen Smell",
         "entries": [
-          "The rat has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+          "The rat has advantage on Wisdom (Perception) checks that rely on smell."
         ]
       }
     ],
@@ -5970,7 +5970,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}1 piercing damage."
+          "Melee: 0 to hit, reach 5 ft., one target. 1 piercing damage."
         ]
       }
     ],
@@ -6060,7 +6060,7 @@
       {
         "name": "Mimicry",
         "entries": [
-          "The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful {@dc 10} Wisdom ({@skill Insight}) check."
+          "The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check."
         ]
       }
     ],
@@ -6068,7 +6068,7 @@
       {
         "name": "Beak",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}1 piercing damage."
+          "Melee: 4 to hit, reach 5 ft., one target. 1 piercing damage."
         ]
       }
     ],
@@ -6160,7 +6160,7 @@
       {
         "name": "Pack Tactics",
         "entries": [
-          "The shark has advantage on an attack roll against a creature if at least one of the shark's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+          "The shark has advantage on an attack roll against a creature if at least one of the shark's allies is within 5 feet of the creature and the ally isn't incapacitated."
         ]
       },
       {
@@ -6174,7 +6174,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+          "Melee: 4 to hit, reach 5 ft., one target. 6 or 1d8 + 2 piercing damage."
         ]
       }
     ],
@@ -6280,7 +6280,7 @@
       {
         "name": "Hooves",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) bludgeoning damage."
+          "Melee: 5 to hit, reach 5 ft., one target. 8 or 2d4 + 3 bludgeoning damage."
         ]
       }
     ],
@@ -6355,7 +6355,7 @@
       {
         "name": "Sting",
         "entries": [
-          "{@atk mw} {@hit 2} to hit, reach 5 ft., one creature. {@h}1 piercing damage, and the target must make a {@dc 9} Constitution saving throw, taking 4 ({@damage 1d8}) poison damage on a failed save, or half as much damage on a successful one."
+          "Melee: 2 to hit, reach 5 ft., one creature. 1 piercing damage, and the target must make a DC 9 Constitution saving throw, taking 4 or 1d8 poison damage on a failed save, or half as much damage on a successful one."
         ]
       }
     ],
@@ -6460,7 +6460,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}1 piercing damage, and the target must succeed on a {@dc 9} Constitution saving throw or take 2 ({@damage 1d4}) poison damage."
+          "Melee: 4 to hit, reach 5 ft., one creature. 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 2 or 1d4 poison damage."
         ]
       }
     ],
@@ -6590,7 +6590,7 @@
       {
         "name": "Blood Drain",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d4 + 3}) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn't attack. Instead, at the start of each of the stirge's turns, the target loses 5 ({@dice 1d4 + 3}) hit points due to blood loss.",
+          "Melee: 5 to hit, reach 5 ft., one creature. 5 or 1d4 + 3 piercing damage, and the stirge attaches to the target. While attached, the stirge doesn't attack. Instead, at the start of each of the stirge's turns, the target loses 5 or 1d4 + 3 hit points due to blood loss.",
           "The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge."
         ]
       }
@@ -6715,13 +6715,13 @@
       {
         "name": "Echolocation",
         "entries": [
-          "The swarm can't use its blindsight while {@condition deafened}."
+          "The swarm can't use its blindsight while deafened."
         ]
       },
       {
         "name": "Keen Hearing",
         "entries": [
-          "The swarm has advantage on Wisdom ({@skill Perception}) checks that rely on hearing."
+          "The swarm has advantage on Wisdom (Perception) checks that rely on hearing."
         ]
       },
       {
@@ -6735,7 +6735,7 @@
       {
         "name": "Bites",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 0 ft., one creature in the swarm's space. {@h}5 ({@damage 2d4}) piercing damage, or 2 ({@damage 1d4}) piercing damage if the swarm has half of its hit points or fewer."
+          "Melee: 4 to hit, reach 0 ft., one creature in the swarm's space. 5 or 2d4 piercing damage, or 2 or 1d4 piercing damage if the swarm has half of its hit points or fewer."
         ]
       }
     ],
@@ -6835,7 +6835,7 @@
       {
         "name": "Bites",
         "entries": [
-          "{@atk mw} {@hit 3} to hit, reach 0 ft., one target in the swarm's space. {@h}10 ({@damage 4d4}) piercing damage, or 5 ({@damage 2d4}) piercing damage if the swarm has half of its hit points or fewer."
+          "Melee: 3 to hit, reach 0 ft., one target in the swarm's space. 10 or 4d4 piercing damage, or 5 or 2d4 piercing damage if the swarm has half of its hit points or fewer."
         ]
       }
     ],
@@ -6940,8 +6940,8 @@
       {
         "name": "Bites",
         "entries": [
-          "{@atk mw} {@hit 3} to hit, reach 0 ft., one target in the swarm's space. {@h}10 ({@damage 4d4}) piercing damage, or 5 ({@damage 2d4}) piercing damage if the swarm has half of its hit points or fewer.",
-          "A creature reduced to 0 hit points by a swarm of centipedes is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and {@condition paralyzed} while {@condition poisoned} in this way."
+          "Melee: 3 to hit, reach 0 ft., one target in the swarm's space. 10 or 4d4 piercing damage, or 5 or 2d4 piercing damage if the swarm has half of its hit points or fewer.",
+          "A creature reduced to 0 hit points by a swarm of centipedes is stable but poisoned for 1 hour, even after regaining hit points, and paralyzed while poisoned in this way."
         ]
       }
     ],
@@ -7068,7 +7068,7 @@
       {
         "name": "Bites",
         "entries": [
-          "{@atk mw} {@hit 3} to hit, reach 0 ft., one target in the swarm's space. {@h}10 ({@damage 4d4}) piercing damage, or 5 ({@damage 2d4}) piercing damage if the swarm has half of its hit points or fewer."
+          "Melee: 3 to hit, reach 0 ft., one target in the swarm's space. 10 or 4d4 piercing damage, or 5 or 2d4 piercing damage if the swarm has half of its hit points or fewer."
         ]
       }
     ],
@@ -7221,7 +7221,7 @@
       {
         "name": "Bites",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 0 ft., one creature in the swarm's space. {@h}14 ({@damage 4d6}) piercing damage, or 7 ({@damage 2d6}) piercing damage if the swarm has half of its hit points or fewer."
+          "Melee: 5 to hit, reach 0 ft., one creature in the swarm's space. 14 or 4d6 piercing damage, or 7 or 2d6 piercing damage if the swarm has half of its hit points or fewer."
         ]
       }
     ],
@@ -7336,7 +7336,7 @@
       {
         "name": "Keen Smell",
         "entries": [
-          "The swarm has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+          "The swarm has advantage on Wisdom (Perception) checks that rely on smell."
         ]
       },
       {
@@ -7350,7 +7350,7 @@
       {
         "name": "Bites",
         "entries": [
-          "{@atk mw} {@hit 2} to hit, reach 0 ft., one target in the swarm's space. {@h}7 ({@damage 2d6}) piercing damage, or 3 ({@damage 1d6}) piercing damage if the swarm has half of its hit points or fewer."
+          "Melee: 2 to hit, reach 0 ft., one target in the swarm's space. 7 or 2d6 piercing damage, or 3 or 1d6 piercing damage if the swarm has half of its hit points or fewer."
         ]
       }
     ],
@@ -7469,7 +7469,7 @@
       {
         "name": "Beaks",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one target in the swarm's space. {@h}7 ({@damage 2d6}) piercing damage, or 3 ({@damage 1d6}) piercing damage if the swarm has half of its hit points or fewer."
+          "Melee: 4 to hit, reach 5 ft., one target in the swarm's space. 7 or 2d6 piercing damage, or 3 or 1d6 piercing damage if the swarm has half of its hit points or fewer."
         ]
       }
     ],
@@ -7609,7 +7609,7 @@
       {
         "name": "Bites",
         "entries": [
-          "{@atk mw} {@hit 3} to hit, reach 0 ft., one target in the swarm's space. {@h}10 ({@damage 4d4}) piercing damage, or 5 ({@damage 2d4}) piercing damage if the swarm has half of its hit points or fewer."
+          "Melee: 3 to hit, reach 0 ft., one target in the swarm's space. 10 or 4d4 piercing damage, or 5 or 2d4 piercing damage if the swarm has half of its hit points or fewer."
         ]
       }
     ],
@@ -7725,7 +7725,7 @@
       {
         "name": "Bites",
         "entries": [
-          "{@atk mw} {@hit 3} to hit, reach 0 ft., one target in the swarm's space. {@h}10 ({@damage 4d4}) piercing damage, or 5 ({@damage 2d4}) piercing damage if the swarm has half of its hit points or fewer."
+          "Melee: 3 to hit, reach 0 ft., one target in the swarm's space. 10 or 4d4 piercing damage, or 5 or 2d4 piercing damage if the swarm has half of its hit points or fewer."
         ]
       }
     ],
@@ -7812,13 +7812,13 @@
       {
         "name": "Keen Smell",
         "entries": [
-          "The tiger has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+          "The tiger has advantage on Wisdom (Perception) checks that rely on smell."
         ]
       },
       {
         "name": "Pounce",
         "entries": [
-          "If the tiger moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the tiger can make one bite attack against it as a bonus action."
+          "If the tiger moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action."
         ]
       }
     ],
@@ -7826,13 +7826,13 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
+          "Melee: 5 to hit, reach 5 ft., one target. 8 or 1d10 + 3 piercing damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage."
+          "Melee: 5 to hit, reach 5 ft., one target. 7 or 1d8 + 3 slashing damage."
         ]
       }
     ],
@@ -7925,13 +7925,13 @@
       {
         "name": "Keen Sight and Smell",
         "entries": [
-          "The vulture has advantage on Wisdom ({@skill Perception}) checks that rely on sight or smell."
+          "The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell."
         ]
       },
       {
         "name": "Pack Tactics",
         "entries": [
-          "The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+          "The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally isn't incapacitated."
         ]
       }
     ],
@@ -7939,7 +7939,7 @@
       {
         "name": "Beak",
         "entries": [
-          "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) piercing damage."
+          "Melee: 2 to hit, reach 5 ft., one target. 2 or 1d4 piercing damage."
         ]
       }
     ],
@@ -8034,7 +8034,7 @@
       {
         "name": "Trampling Charge",
         "entries": [
-          "If the horse moves at least 20 feet straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the horse can make another attack with its hooves against it as a bonus action."
+          "If the horse moves at least 20 feet straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the horse can make another attack with its hooves against it as a bonus action."
         ]
       }
     ],
@@ -8042,7 +8042,7 @@
       {
         "name": "Hooves",
         "entries": [
-          "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage."
+          "Melee: 6 to hit, reach 5 ft., one target. 11 or 2d6 + 4 bludgeoning damage."
         ]
       }
     ],
@@ -8266,7 +8266,7 @@
       {
         "name": "Keen Hearing and Smell",
         "entries": [
-          "The weasel has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+          "The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell."
         ]
       }
     ],
@@ -8274,7 +8274,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}1 piercing damage."
+          "Melee: 5 to hit, reach 5 ft., one creature. 1 piercing damage."
         ]
       }
     ],
@@ -8397,13 +8397,13 @@
       {
         "name": "Keen Hearing and Smell",
         "entries": [
-          "The wolf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+          "The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
         ]
       },
       {
         "name": "Pack Tactics",
         "entries": [
-          "The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+          "The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated."
         ]
       }
     ],
@@ -8411,7 +8411,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be knocked {@condition prone}."
+          "Melee: 4 to hit, reach 5 ft., one target. 7 or 2d4 + 2 piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone."
         ]
       }
     ],
@@ -8500,7 +8500,7 @@
       {
         "name": "Bite",
         "entries": [
-          "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d10 + 2}) piercing damage."
+          "Melee: 4 to hit, reach 5 ft., one target. 13 or 2d10 + 2 piercing damage."
         ]
       }
     ],
