@@ -39,7 +39,7 @@ const Landing = () => {
           Book
         </Button>
         {/* Delete button when published, only for dev use */}
-        {/* <Button onClick={() => localStorage.clear()}>Delete</Button> */}
+        { <Button onClick={() => localStorage.clear()}>Delete</Button> }
         <Button variant="destructive" onClick={clearUserInputs}>Clear Search</Button>
       </div>
       <Search />
