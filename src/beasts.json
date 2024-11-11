@@ -1,0 +1,8522 @@
+[
+  {
+    "name": "Ape",
+    "source": "MM",
+    "page": 317,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "WDH"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "CM"
+      }
+    ],
+    "reprintedAs": [
+      "Ape|XPHB"
+    ],
+    "size": [
+      "M"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      12
+    ],
+    "hp": {
+      "average": 19,
+      "formula": "3d8 + 6"
+    },
+    "speed": {
+      "walk": 30,
+      "climb": 30
+    },
+    "str": 16,
+    "dex": 14,
+    "con": 14,
+    "int": 6,
+    "wis": 12,
+    "cha": 7,
+    "skill": {
+      "athletics": "+5",
+      "perception": "+3"
+    },
+    "passive": 13,
+    "cr": "1/2",
+    "action": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The ape makes two fist attacks."
+        ]
+      },
+      {
+        "name": "Fist",
+        "entries": [
+          "Melee: 5 to hit, reach 5 ft., one target. 6 or 1d6 + 3 bludgeoning damage."
+        ]
+      },
+      {
+        "name": "Rock",
+        "entries": [
+          "Ranged: 5 to hit, range 25/50 ft., one target. 6 or 1d6 + 3 bludgeoning damage."
+        ]
+      }
+    ],
+    "environment": [
+      "forest"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/ape.mp3"
+    },
+    "actionTags": [
+      "Multiattack"
+    ],
+    "damageTags": [
+      "B"
+    ],
+    "miscTags": [
+      "MW",
+      "RW"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Axe Beak",
+    "source": "MM",
+    "page": 317,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "WDH"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "IDRotF"
+      }
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      11
+    ],
+    "hp": {
+      "average": 19,
+      "formula": "3d10 + 3"
+    },
+    "speed": {
+      "walk": 50
+    },
+    "str": 14,
+    "dex": 12,
+    "con": 12,
+    "int": 2,
+    "wis": 10,
+    "cha": 5,
+    "passive": 10,
+    "cr": "1/4",
+    "action": [
+      {
+        "name": "Beak",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one target. 6 or 1d8 + 2 slashing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "grassland",
+      "hill"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/axe-beak.mp3"
+    },
+    "damageTags": [
+      "S"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluff": true
+  },
+  {
+    "name": "Baboon",
+    "source": "MM",
+    "page": 318,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "CM"
+      },
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "KftGV"
+      }
+    ],
+    "size": [
+      "S"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      12
+    ],
+    "hp": {
+      "average": 3,
+      "formula": "1d6"
+    },
+    "speed": {
+      "walk": 30,
+      "climb": 30
+    },
+    "str": 8,
+    "dex": 14,
+    "con": 11,
+    "int": 4,
+    "wis": 12,
+    "cha": 6,
+    "passive": 11,
+    "cr": "0",
+    "trait": [
+      {
+        "name": "Pack Tactics",
+        "entries": [
+          "The baboon has advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 feet of the creature and the ally isn't incapacitated."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 1 to hit, reach 5 ft., one target. 1 or 1d4 - 1 piercing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "forest",
+      "hill"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/baboon.mp3"
+    },
+    "traitTags": [
+      "Pack Tactics"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Badger",
+    "source": "MM",
+    "page": 318,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "reprintedAs": [
+      "Badger|XPHB"
+    ],
+    "size": [
+      "T"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      10
+    ],
+    "hp": {
+      "average": 3,
+      "formula": "1d4 + 1"
+    },
+    "speed": {
+      "walk": 20,
+      "burrow": 5
+    },
+    "str": 4,
+    "dex": 11,
+    "con": 12,
+    "int": 2,
+    "wis": 12,
+    "cha": 5,
+    "senses": [
+      "darkvision 30 ft."
+    ],
+    "passive": 11,
+    "cr": "0",
+    "trait": [
+      {
+        "name": "Keen Smell",
+        "entries": [
+          "The badger has advantage on Wisdom (Perception) checks that rely on smell."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 2 to hit, reach 5 ft., one target. 1 piercing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "forest"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/badger.mp3"
+    },
+    "traitTags": [
+      "Keen Senses"
+    ],
+    "senseTags": [
+      "D"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Bat",
+    "source": "MM",
+    "page": 318,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "WDMM"
+      },
+      {
+        "source": "IDRotF"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "PSX"
+      },
+      {
+        "source": "DoDk"
+      }
+    ],
+    "reprintedAs": [
+      "Bat|XPHB"
+    ],
+    "size": [
+      "T"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      12
+    ],
+    "hp": {
+      "average": 1,
+      "formula": "1d4 - 1"
+    },
+    "speed": {
+      "walk": 5,
+      "fly": 30
+    },
+    "str": 2,
+    "dex": 15,
+    "con": 8,
+    "int": 2,
+    "wis": 12,
+    "cha": 4,
+    "senses": [
+      "blindsight 60 ft."
+    ],
+    "passive": 11,
+    "cr": "0",
+    "trait": [
+      {
+        "name": "Echolocation",
+        "entries": [
+          "The bat can't use its blindsight while deafened."
+        ]
+      },
+      {
+        "name": "Keen Hearing",
+        "entries": [
+          "The bat has advantage on Wisdom (Perception) checks that rely on hearing."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 0 to hit, reach 5 ft., one creature. 1 piercing damage."
+        ]
+      }
+    ],
+    "familiar": true,
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/bat.mp3"
+    },
+    "traitTags": [
+      "Keen Senses"
+    ],
+    "senseTags": [
+      "B"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Black Bear",
+    "source": "MM",
+    "page": 318,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "PotA"
+      },
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "WDMM"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "IMR"
+      },
+      {
+        "source": "SatO"
+      },
+      {
+        "source": "ToFW"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "reprintedAs": [
+      "Black Bear|XPHB"
+    ],
+    "size": [
+      "M"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 11,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 19,
+      "formula": "3d8 + 6"
+    },
+    "speed": {
+      "walk": 40,
+      "climb": 30
+    },
+    "str": 15,
+    "dex": 10,
+    "con": 14,
+    "int": 2,
+    "wis": 12,
+    "cha": 7,
+    "skill": {
+      "perception": "+3"
+    },
+    "passive": 13,
+    "cr": "1/2",
+    "trait": [
+      {
+        "name": "Keen Smell",
+        "entries": [
+          "The bear has advantage on Wisdom (Perception) checks that rely on smell."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The bear makes two attacks: one with its bite and one with its claws."
+        ]
+      },
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one target. 5 or 1d6 + 2 piercing damage."
+        ]
+      },
+      {
+        "name": "Claws",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one target. 7 or 2d4 + 2 slashing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "forest"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/black-bear.mp3"
+    },
+    "traitTags": [
+      "Keen Senses"
+    ],
+    "actionTags": [
+      "Multiattack"
+    ],
+    "damageTags": [
+      "P",
+      "S"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Blood Hawk",
+    "source": "MM",
+    "page": 319,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "PotA"
+      },
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "EGW"
+      },
+      {
+        "source": "CM"
+      }
+    ],
+    "size": [
+      "S"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      12
+    ],
+    "hp": {
+      "average": 7,
+      "formula": "2d6"
+    },
+    "speed": {
+      "walk": 10,
+      "fly": 60
+    },
+    "str": 6,
+    "dex": 14,
+    "con": 10,
+    "int": 3,
+    "wis": 14,
+    "cha": 5,
+    "skill": {
+      "perception": "+4"
+    },
+    "passive": 14,
+    "cr": "1/8",
+    "trait": [
+      {
+        "name": "Keen Sight",
+        "entries": [
+          "The hawk has advantage on Wisdom (Perception) checks that rely on sight."
+        ]
+      },
+      {
+        "name": "Pack Tactics",
+        "entries": [
+          "The hawk has advantage on an attack roll against a creature if at least one of the hawk's allies is within 5 feet of the creature and the ally isn't incapacitated."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Beak",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one target. 4 or 1d4 + 2 piercing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "mountain",
+      "grassland",
+      "forest",
+      "hill",
+      "coastal",
+      "arctic"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/blood-hawk.mp3"
+    },
+    "traitTags": [
+      "Keen Senses",
+      "Pack Tactics"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluff": true
+  },
+  {
+    "name": "Boar",
+    "source": "MM",
+    "page": 319,
+    "srd": true,
+    "otherSources": [
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "WDMM"
+      },
+      {
+        "source": "DIP"
+      },
+      {
+        "source": "MOT"
+      },
+      {
+        "source": "CM"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "reprintedAs": [
+      "Boar|XPHB"
+    ],
+    "size": [
+      "M"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 11,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 11,
+      "formula": "2d8 + 2"
+    },
+    "speed": {
+      "walk": 40
+    },
+    "str": 13,
+    "dex": 11,
+    "con": 12,
+    "int": 2,
+    "wis": 9,
+    "cha": 5,
+    "passive": 9,
+    "cr": "1/4",
+    "trait": [
+      {
+        "name": "Charge",
+        "entries": [
+          "If the boar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 3 or 1d6 slashing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone."
+        ]
+      },
+      {
+        "name": "Relentless (Recharges after a Short or Long Rest)",
+        "entries": [
+          "If the boar takes 7 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Tusk",
+        "entries": [
+          "Melee: 3 to hit, reach 5 ft., one target. 4 or 1d6 + 1 slashing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "grassland",
+      "forest",
+      "hill"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/boar.mp3"
+    },
+    "traitTags": [
+      "Charge"
+    ],
+    "damageTags": [
+      "S"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "conditionInflict": [
+      "prone"
+    ],
+    "savingThrowForced": [
+      "strength"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Brown Bear",
+    "source": "MM",
+    "page": 319,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "PotA"
+      },
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "IMR"
+      },
+      {
+        "source": "MOT"
+      },
+      {
+        "source": "IDRotF"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "BMT"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "reprintedAs": [
+      "Brown Bear|XPHB"
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 11,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 34,
+      "formula": "4d10 + 12"
+    },
+    "speed": {
+      "walk": 40,
+      "climb": 30
+    },
+    "str": 19,
+    "dex": 10,
+    "con": 16,
+    "int": 2,
+    "wis": 13,
+    "cha": 7,
+    "skill": {
+      "perception": "+3"
+    },
+    "passive": 13,
+    "cr": "1",
+    "trait": [
+      {
+        "name": "Keen Smell",
+        "entries": [
+          "The bear has advantage on Wisdom (Perception) checks that rely on smell."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The bear makes two attacks: one with its bite and one with its claws."
+        ]
+      },
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 6 to hit, reach 5 ft., one target. 8 or 1d8 + 4 piercing damage."
+        ]
+      },
+      {
+        "name": "Claws",
+        "entries": [
+          "Melee: 6 to hit, reach 5 ft., one target. 11 or 2d6 + 4 slashing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "forest",
+      "hill",
+      "arctic"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/brown-bear.mp3"
+    },
+    "traitTags": [
+      "Keen Senses"
+    ],
+    "actionTags": [
+      "Multiattack"
+    ],
+    "damageTags": [
+      "P",
+      "S"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Camel",
+    "source": "MM",
+    "page": 320,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "CM"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "reprintedAs": [
+      "Camel|XPHB"
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      9
+    ],
+    "hp": {
+      "average": 15,
+      "formula": "2d10 + 4"
+    },
+    "speed": {
+      "walk": 50
+    },
+    "str": 16,
+    "dex": 8,
+    "con": 14,
+    "int": 2,
+    "wis": 8,
+    "cha": 5,
+    "passive": 9,
+    "cr": "1/8",
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 5 to hit, reach 5 ft., one target. 2 or 1d4 bludgeoning damage."
+        ]
+      }
+    ],
+    "environment": [
+      "desert"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/camel.mp3"
+    },
+    "damageTags": [
+      "B"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Cat",
+    "source": "MM",
+    "page": 320,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "HotDQ"
+      },
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "WDH"
+      },
+      {
+        "source": "IMR"
+      },
+      {
+        "source": "IDRotF"
+      },
+      {
+        "source": "TCE"
+      },
+      {
+        "source": "CM"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "JttRC"
+      },
+      {
+        "source": "DoDk"
+      }
+    ],
+    "reprintedAs": [
+      "Cat|XPHB"
+    ],
+    "size": [
+      "T"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      12
+    ],
+    "hp": {
+      "average": 2,
+      "formula": "1d4"
+    },
+    "speed": {
+      "walk": 40,
+      "climb": 30
+    },
+    "str": 3,
+    "dex": 15,
+    "con": 10,
+    "int": 3,
+    "wis": 12,
+    "cha": 7,
+    "skill": {
+      "perception": "+3",
+      "stealth": "+4"
+    },
+    "passive": 13,
+    "cr": "0",
+    "trait": [
+      {
+        "name": "Keen Smell",
+        "entries": [
+          "The cat has advantage on Wisdom (Perception) checks that rely on smell."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Claws",
+        "entries": [
+          "Melee: 0 to hit, reach 5 ft., one target. 1 slashing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "grassland",
+      "forest",
+      "urban",
+      "desert"
+    ],
+    "familiar": true,
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/cat.mp3"
+    },
+    "traitTags": [
+      "Keen Senses"
+    ],
+    "damageTags": [
+      "S"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Constrictor Snake",
+    "source": "MM",
+    "page": 320,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "WDMM"
+      }
+    ],
+    "reprintedAs": [
+      "Constrictor Snake|XPHB"
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      12
+    ],
+    "hp": {
+      "average": 13,
+      "formula": "2d10 + 2"
+    },
+    "speed": {
+      "walk": 30,
+      "swim": 30
+    },
+    "str": 15,
+    "dex": 14,
+    "con": 12,
+    "int": 1,
+    "wis": 10,
+    "cha": 3,
+    "senses": [
+      "blindsight 10 ft."
+    ],
+    "passive": 10,
+    "cr": "1/4",
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one creature. 5 or 1d6 + 2 piercing damage."
+        ]
+      },
+      {
+        "name": "Constrict",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one creature. 6 or 1d8 + 2 bludgeoning damage, and the target is grappled (escape DC 14). Until this grapple ends, the creature is restrained, and the snake can't constrict another target."
+        ]
+      }
+    ],
+    "environment": [
+      "underwater",
+      "forest",
+      "swamp",
+      "desert"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/constrictor-snake.mp3"
+    },
+    "senseTags": [
+      "B"
+    ],
+    "damageTags": [
+      "B",
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "conditionInflict": [
+      "grappled",
+      "restrained"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Crab",
+    "source": "MM",
+    "page": 320,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "BGDIA"
+      },
+      {
+        "source": "VEoR"
+      }
+    ],
+    "reprintedAs": [
+      "Crab|XPHB"
+    ],
+    "size": [
+      "T"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 11,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 2,
+      "formula": "1d4"
+    },
+    "speed": {
+      "walk": 20,
+      "swim": 20
+    },
+    "str": 2,
+    "dex": 11,
+    "con": 10,
+    "int": 1,
+    "wis": 8,
+    "cha": 2,
+    "skill": {
+      "stealth": "+2"
+    },
+    "senses": [
+      "blindsight 30 ft."
+    ],
+    "passive": 9,
+    "cr": "0",
+    "trait": [
+      {
+        "name": "Amphibious",
+        "entries": [
+          "The crab can breathe air and water."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Claw",
+        "entries": [
+          "Melee: 0 to hit, reach 5 ft., one target. 1 bludgeoning damage."
+        ]
+      }
+    ],
+    "environment": [
+      "coastal"
+    ],
+    "familiar": true,
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/crab.mp3"
+    },
+    "traitTags": [
+      "Amphibious"
+    ],
+    "senseTags": [
+      "B"
+    ],
+    "damageTags": [
+      "B"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Crocodile",
+    "source": "MM",
+    "page": 320,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "HotDQ"
+      },
+      {
+        "source": "PotA"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "DIP"
+      },
+      {
+        "source": "SLW"
+      },
+      {
+        "source": "IMR"
+      },
+      {
+        "source": "EGW"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "PSX"
+      },
+      {
+        "source": "PSA"
+      }
+    ],
+    "reprintedAs": [
+      "Crocodile|XPHB"
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 12,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 19,
+      "formula": "3d10 + 3"
+    },
+    "speed": {
+      "walk": 20,
+      "swim": 30
+    },
+    "str": 15,
+    "dex": 10,
+    "con": 13,
+    "int": 2,
+    "wis": 10,
+    "cha": 5,
+    "skill": {
+      "stealth": "+2"
+    },
+    "passive": 10,
+    "cr": "1/2",
+    "trait": [
+      {
+        "name": "Hold Breath",
+        "entries": [
+          "The crocodile can hold its breath for 15 minutes."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one creature. 7 or 1d10 + 2 piercing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the crocodile can't bite another target"
+        ]
+      }
+    ],
+    "environment": [
+      "swamp",
+      "urban"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/crocodile.mp3"
+    },
+    "traitTags": [
+      "Hold Breath"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "conditionInflict": [
+      "grappled",
+      "restrained"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Deer",
+    "source": "MM",
+    "page": 321,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "HotDQ"
+      },
+      {
+        "source": "DIP"
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      13
+    ],
+    "hp": {
+      "average": 4,
+      "formula": "1d8"
+    },
+    "speed": {
+      "walk": 50
+    },
+    "str": 11,
+    "dex": 16,
+    "con": 11,
+    "int": 2,
+    "wis": 14,
+    "cha": 5,
+    "passive": 12,
+    "cr": "0",
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 2 to hit, reach 5 ft., one target. 2 or 1d4 piercing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "grassland",
+      "forest"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/deer.mp3"
+    },
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Dire Wolf",
+    "source": "MM",
+    "page": 321,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "IDRotF"
+      },
+      {
+        "source": "JttRC"
+      },
+      {
+        "source": "PaBTSO"
+      },
+      {
+        "source": "ToFW"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "reprintedAs": [
+      "Dire Wolf|XPHB"
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 14,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 37,
+      "formula": "5d10 + 10"
+    },
+    "speed": {
+      "walk": 50
+    },
+    "str": 17,
+    "dex": 15,
+    "con": 15,
+    "int": 3,
+    "wis": 12,
+    "cha": 7,
+    "skill": {
+      "perception": "+3",
+      "stealth": "+4"
+    },
+    "passive": 13,
+    "cr": "1",
+    "trait": [
+      {
+        "name": "Keen Hearing and Smell",
+        "entries": [
+          "The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+        ]
+      },
+      {
+        "name": "Pack Tactics",
+        "entries": [
+          "The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 5 to hit, reach 5 ft., one target. 10 or 2d6 + 3 piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+        ]
+      }
+    ],
+    "environment": [
+      "forest",
+      "hill"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/dire-wolf.mp3"
+    },
+    "traitTags": [
+      "Keen Senses",
+      "Pack Tactics"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "conditionInflict": [
+      "prone"
+    ],
+    "savingThrowForced": [
+      "strength"
+    ],
+    "hasToken": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Draft Horse",
+    "source": "MM",
+    "page": 321,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "WDH"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "BGDIA"
+      },
+      {
+        "source": "PaBTSO"
+      },
+      {
+        "source": "DoDk"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "reprintedAs": [
+      "Draft Horse|XPHB"
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      10
+    ],
+    "hp": {
+      "average": 19,
+      "formula": "3d10 + 3"
+    },
+    "speed": {
+      "walk": 40
+    },
+    "str": 18,
+    "dex": 10,
+    "con": 12,
+    "int": 2,
+    "wis": 11,
+    "cha": 7,
+    "passive": 10,
+    "cr": "1/4",
+    "action": [
+      {
+        "name": "Hooves",
+        "entries": [
+          "Melee: 6 to hit, reach 5 ft., one target. 9 or 2d4 + 4 bludgeoning damage."
+        ]
+      }
+    ],
+    "environment": [
+      "urban"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/draft-horse.mp3"
+    },
+    "damageTags": [
+      "B"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Eagle",
+    "source": "MM",
+    "page": 322,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "CM"
+      },
+      {
+        "source": "ToFW"
+      }
+    ],
+    "size": [
+      "S"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      12
+    ],
+    "hp": {
+      "average": 3,
+      "formula": "1d6"
+    },
+    "speed": {
+      "walk": 10,
+      "fly": 60
+    },
+    "str": 6,
+    "dex": 15,
+    "con": 10,
+    "int": 2,
+    "wis": 14,
+    "cha": 7,
+    "skill": {
+      "perception": "+4"
+    },
+    "passive": 14,
+    "cr": "0",
+    "trait": [
+      {
+        "name": "Keen Sight",
+        "entries": [
+          "The eagle has advantage on Wisdom (Perception) checks that rely on sight."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Talons",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one target. 4 or 1d4 + 2 slashing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "mountain",
+      "grassland",
+      "hill",
+      "coastal"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/eagle.mp3"
+    },
+    "traitTags": [
+      "Keen Senses"
+    ],
+    "damageTags": [
+      "S"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Elk",
+    "source": "MM",
+    "page": 322,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "HotDQ"
+      },
+      {
+        "source": "PotA"
+      },
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "EGW"
+      },
+      {
+        "source": "IDRotF"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "reprintedAs": [
+      "Elk|XPHB"
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      10
+    ],
+    "hp": {
+      "average": 13,
+      "formula": "2d10 + 2"
+    },
+    "speed": {
+      "walk": 50
+    },
+    "str": 16,
+    "dex": 10,
+    "con": 12,
+    "int": 2,
+    "wis": 10,
+    "cha": 6,
+    "passive": 10,
+    "cr": "1/4",
+    "trait": [
+      {
+        "name": "Charge",
+        "entries": [
+          "If the elk moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Ram",
+        "entries": [
+          "Melee: 5 to hit, reach 5 ft., one target. 6 or 1d6 + 3 bludgeoning damage."
+        ]
+      },
+      {
+        "name": "Hooves",
+        "entries": [
+          "Melee: 5 to hit, reach 5 ft., one prone creature. 8 or 2d4 + 3 bludgeoning damage."
+        ]
+      }
+    ],
+    "environment": [
+      "grassland",
+      "forest",
+      "hill"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/elk.mp3"
+    },
+    "traitTags": [
+      "Charge"
+    ],
+    "damageTags": [
+      "B"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "conditionInflict": [
+      "prone"
+    ],
+    "savingThrowForced": [
+      "strength"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Flying Snake",
+    "source": "MM",
+    "page": 322,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "WDH"
+      },
+      {
+        "source": "IDRotF"
+      },
+      {
+        "source": "KftGV"
+      }
+    ],
+    "size": [
+      "T"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      14
+    ],
+    "hp": {
+      "average": 5,
+      "formula": "2d4"
+    },
+    "speed": {
+      "walk": 30,
+      "fly": 60,
+      "swim": 30
+    },
+    "str": 4,
+    "dex": 18,
+    "con": 11,
+    "int": 2,
+    "wis": 12,
+    "cha": 5,
+    "senses": [
+      "blindsight 10 ft."
+    ],
+    "passive": 11,
+    "cr": "1/8",
+    "trait": [
+      {
+        "name": "Flyby",
+        "entries": [
+          "The snake doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 6 to hit, reach 5 ft., one target. 1 piercing damage plus 7 or 3d4 poison damage."
+        ]
+      }
+    ],
+    "environment": [
+      "grassland",
+      "forest",
+      "urban",
+      "desert"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/flying-snake.mp3"
+    },
+    "traitTags": [
+      "Flyby"
+    ],
+    "senseTags": [
+      "B"
+    ],
+    "damageTags": [
+      "I",
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluff": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Giant Badger",
+    "source": "MM",
+    "page": 323,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "WDMM"
+      },
+      {
+        "source": "JttRC"
+      },
+      {
+        "source": "PaBTSO"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "reprintedAs": [
+      "Giant Badger|XPHB"
+    ],
+    "size": [
+      "M"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      10
+    ],
+    "hp": {
+      "average": 13,
+      "formula": "2d8 + 4"
+    },
+    "speed": {
+      "walk": 30,
+      "burrow": 10
+    },
+    "str": 13,
+    "dex": 10,
+    "con": 15,
+    "int": 2,
+    "wis": 12,
+    "cha": 5,
+    "senses": [
+      "darkvision 30 ft."
+    ],
+    "passive": 11,
+    "cr": "1/4",
+    "trait": [
+      {
+        "name": "Keen Smell",
+        "entries": [
+          "The badger has advantage on Wisdom (Perception) checks that rely on smell."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The badger makes two attacks: one with its bite and one with its claws."
+        ]
+      },
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 3 to hit, reach 5 ft., one target. 4 or 1d6 + 1 piercing damage."
+        ]
+      },
+      {
+        "name": "Claws",
+        "entries": [
+          "Melee: 3 to hit, reach 5 ft., one target. 6 or 2d4 + 1 slashing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "forest"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/giant-badger.mp3"
+    },
+    "traitTags": [
+      "Keen Senses"
+    ],
+    "senseTags": [
+      "D"
+    ],
+    "actionTags": [
+      "Multiattack"
+    ],
+    "damageTags": [
+      "P",
+      "S"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Giant Bat",
+    "source": "MM",
+    "page": 323,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "PotA"
+      },
+      {
+        "source": "WDMM"
+      },
+      {
+        "source": "MOT"
+      },
+      {
+        "source": "TCE"
+      },
+      {
+        "source": "PSX"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      13
+    ],
+    "hp": {
+      "average": 22,
+      "formula": "4d10"
+    },
+    "speed": {
+      "walk": 10,
+      "fly": 60
+    },
+    "str": 15,
+    "dex": 16,
+    "con": 11,
+    "int": 2,
+    "wis": 12,
+    "cha": 6,
+    "senses": [
+      "blindsight 60 ft."
+    ],
+    "passive": 11,
+    "cr": "1/4",
+    "trait": [
+      {
+        "name": "Echolocation",
+        "entries": [
+          "The bat can't use its blindsight while deafened."
+        ]
+      },
+      {
+        "name": "Keen Hearing",
+        "entries": [
+          "The bat has advantage on Wisdom (Perception) checks that rely on hearing."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one creature. 5 or 1d6 + 2 piercing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "underdark",
+      "forest"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/giant-bat.mp3"
+    },
+    "traitTags": [
+      "Keen Senses"
+    ],
+    "senseTags": [
+      "B"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Giant Centipede",
+    "source": "MM",
+    "page": 323,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "HotDQ"
+      },
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "WDMM"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "BGDIA"
+      },
+      {
+        "source": "TCE"
+      },
+      {
+        "source": "PSX"
+      },
+      {
+        "source": "PSA"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "size": [
+      "S"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 13,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 4,
+      "formula": "1d6 + 1"
+    },
+    "speed": {
+      "walk": 30,
+      "climb": 30
+    },
+    "str": 5,
+    "dex": 14,
+    "con": 12,
+    "int": 1,
+    "wis": 7,
+    "cha": 3,
+    "senses": [
+      "blindsight 30 ft."
+    ],
+    "passive": 8,
+    "cr": "1/4",
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one creature. 4 or 1d4 + 2 piercing damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 or 3d6 poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+        ]
+      }
+    ],
+    "environment": [
+      "underdark",
+      "urban"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/giant-centipede.mp3"
+    },
+    "senseTags": [
+      "B"
+    ],
+    "damageTags": [
+      "I",
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "conditionInflict": [
+      "paralyzed",
+      "poisoned"
+    ],
+    "savingThrowForced": [
+      "constitution"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Giant Crab",
+    "source": "MM",
+    "page": 324,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "PotA"
+      },
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "WDMM"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "DIP"
+      },
+      {
+        "source": "BGDIA"
+      },
+      {
+        "source": "EGW"
+      },
+      {
+        "source": "MOT"
+      },
+      {
+        "source": "CM"
+      },
+      {
+        "source": "VEoR"
+      }
+    ],
+    "reprintedAs": [
+      "Giant Crab|XPHB"
+    ],
+    "size": [
+      "M"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 15,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 13,
+      "formula": "3d8"
+    },
+    "speed": {
+      "walk": 30,
+      "swim": 30
+    },
+    "str": 13,
+    "dex": 15,
+    "con": 11,
+    "int": 1,
+    "wis": 9,
+    "cha": 3,
+    "skill": {
+      "stealth": "+4"
+    },
+    "senses": [
+      "blindsight 30 ft."
+    ],
+    "passive": 9,
+    "cr": "1/8",
+    "trait": [
+      {
+        "name": "Amphibious",
+        "entries": [
+          "The crab can breathe air and water."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Claw",
+        "entries": [
+          "Melee: 3 to hit, reach 5 ft., one target. 4 or 1d6 + 1 bludgeoning damage, and the target is grappled (escape DC 11). The crab has two claws, each of which can grapple only one target."
+        ]
+      }
+    ],
+    "environment": [
+      "coastal"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/giant-crab.mp3"
+    },
+    "traitTags": [
+      "Amphibious"
+    ],
+    "senseTags": [
+      "B"
+    ],
+    "damageTags": [
+      "B"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "conditionInflict": [
+      "grappled"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Giant Eagle",
+    "source": "MM",
+    "page": 324,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "SatO"
+      },
+      {
+        "source": "ToFW"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "N",
+      "G"
+    ],
+    "ac": [
+      13
+    ],
+    "hp": {
+      "average": 26,
+      "formula": "4d10 + 4"
+    },
+    "speed": {
+      "walk": 10,
+      "fly": 80
+    },
+    "str": 16,
+    "dex": 17,
+    "con": 13,
+    "int": 8,
+    "wis": 14,
+    "cha": 10,
+    "skill": {
+      "perception": "+4"
+    },
+    "passive": 14,
+    "languages": [
+      "Giant Eagle",
+      "understands Common and Auran but can't speak them"
+    ],
+    "cr": "1",
+    "trait": [
+      {
+        "name": "Keen Sight",
+        "entries": [
+          "The eagle has advantage on Wisdom (Perception) checks that rely on sight."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The eagle makes two attacks: one with its beak and one with its talons."
+        ]
+      },
+      {
+        "name": "Beak",
+        "entries": [
+          "Melee: 5 to hit, reach 5 ft., one target. 6 or 1d6 + 3 piercing damage."
+        ]
+      },
+      {
+        "name": "Talons",
+        "entries": [
+          "Melee: 5 to hit, reach 5 ft., one target. 10 or 2d6 + 3 slashing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "mountain",
+      "grassland",
+      "hill",
+      "coastal"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/giant-eagle.mp3"
+    },
+    "traitTags": [
+      "Keen Senses"
+    ],
+    "actionTags": [
+      "Multiattack"
+    ],
+    "languageTags": [
+      "AU",
+      "C",
+      "CS",
+      "OTH"
+    ],
+    "damageTags": [
+      "P",
+      "S"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluff": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Giant Fire Beetle",
+    "source": "MM",
+    "page": 325,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "WDH"
+      },
+      {
+        "source": "WDMM"
+      },
+      {
+        "source": "PSX"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "size": [
+      "S"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 13,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 4,
+      "formula": "1d6 + 1"
+    },
+    "speed": {
+      "walk": 30
+    },
+    "str": 8,
+    "dex": 10,
+    "con": 12,
+    "int": 1,
+    "wis": 7,
+    "cha": 3,
+    "senses": [
+      "blindsight 30 ft."
+    ],
+    "passive": 8,
+    "cr": "0",
+    "trait": [
+      {
+        "name": "Illumination",
+        "entries": [
+          "The beetle sheds bright light in a 10-foot radius and dim light for an additional 10 ft.."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 1 to hit, reach 5 ft., one target. 2 or 1d6 - 1 slashing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "underdark"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/giant-fire-beetle.mp3"
+    },
+    "traitTags": [
+      "Illumination"
+    ],
+    "senseTags": [
+      "B"
+    ],
+    "damageTags": [
+      "S"
+    ],
+    "miscTags": [
+      "AOE",
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluff": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Giant Frog",
+    "source": "MM",
+    "page": 325,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "HotDQ"
+      },
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "WDMM"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "EGW"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "PSA"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      11
+    ],
+    "hp": {
+      "average": 18,
+      "formula": "4d8"
+    },
+    "speed": {
+      "walk": 30,
+      "swim": 30
+    },
+    "str": 12,
+    "dex": 13,
+    "con": 11,
+    "int": 2,
+    "wis": 10,
+    "cha": 3,
+    "skill": {
+      "perception": "+2",
+      "stealth": "+3"
+    },
+    "senses": [
+      "darkvision 30 ft."
+    ],
+    "passive": 12,
+    "cr": "1/4",
+    "trait": [
+      {
+        "name": "Amphibious",
+        "entries": [
+          "The frog can breathe air and water."
+        ]
+      },
+      {
+        "name": "Standing Leap",
+        "entries": [
+          "The frog's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 3 to hit, reach 5 ft., one target. 4 or 1d6 + 1 piercing damage, and the target is grappled (escape DC 11). Until this grapple ends, the target is restrained, and the frog can't bite another target."
+        ]
+      },
+      {
+        "name": "Swallow",
+        "entries": [
+          "The frog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the frog, and it takes 5 or 2d4 acid damage at the start of each of the frog's turns. The frog can have only one target swallowed at a time. If the frog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone."
+        ]
+      }
+    ],
+    "environment": [
+      "forest",
+      "swamp"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/giant-frog.mp3"
+    },
+    "traitTags": [
+      "Amphibious"
+    ],
+    "senseTags": [
+      "D"
+    ],
+    "actionTags": [
+      "Swallow"
+    ],
+    "damageTags": [
+      "A",
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "conditionInflict": [
+      "blinded",
+      "grappled",
+      "restrained"
+    ],
+    "hasToken": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Giant Goat",
+    "source": "MM",
+    "page": 326,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "SLW"
+      },
+      {
+        "source": "IDRotF"
+      },
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "reprintedAs": [
+      "Giant Goat|XPHB"
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 11,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 19,
+      "formula": "3d10 + 3"
+    },
+    "speed": {
+      "walk": 40
+    },
+    "str": 17,
+    "dex": 11,
+    "con": 12,
+    "int": 3,
+    "wis": 12,
+    "cha": 6,
+    "passive": 11,
+    "cr": "1/2",
+    "trait": [
+      {
+        "name": "Charge",
+        "entries": [
+          "If the goat moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 or 2d4 bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+        ]
+      },
+      {
+        "name": "Sure-Footed",
+        "entries": [
+          "The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Ram",
+        "entries": [
+          "Melee: 5 to hit, reach 5 ft., one target. 8 or 2d4 + 3 bludgeoning damage."
+        ]
+      }
+    ],
+    "environment": [
+      "mountain",
+      "grassland",
+      "hill"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/giant-goat.mp3"
+    },
+    "traitTags": [
+      "Charge"
+    ],
+    "damageTags": [
+      "B"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "conditionInflict": [
+      "prone"
+    ],
+    "savingThrowForced": [
+      "strength"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Giant Hyena",
+    "source": "MM",
+    "page": 326,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "BGDIA"
+      }
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      12
+    ],
+    "hp": {
+      "average": 45,
+      "formula": "6d10 + 12"
+    },
+    "speed": {
+      "walk": 50
+    },
+    "str": 16,
+    "dex": 14,
+    "con": 14,
+    "int": 2,
+    "wis": 12,
+    "cha": 7,
+    "skill": {
+      "perception": "+3"
+    },
+    "passive": 13,
+    "cr": "1",
+    "trait": [
+      {
+        "name": "Rampage",
+        "entries": [
+          "When the hyena reduces a creature to 0 hit points with a melee attack on its turn, the hyena can take a bonus action to move up to half its speed and make a bite attack."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 5 to hit, reach 5 ft., one target. 10 or 2d6 + 3 piercing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "grassland",
+      "forest",
+      "hill",
+      "desert"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/giant-hyena.mp3"
+    },
+    "traitTags": [
+      "Rampage"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Giant Lizard",
+    "source": "MM",
+    "page": 326,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "HotDQ"
+      },
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "WDMM"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "IDRotF"
+      },
+      {
+        "source": "JttRC"
+      },
+      {
+        "source": "KftGV"
+      },
+      {
+        "source": "PSA"
+      },
+      {
+        "source": "VEoR"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 12,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 19,
+      "formula": "3d10 + 3"
+    },
+    "speed": {
+      "walk": 30,
+      "climb": 30
+    },
+    "str": 15,
+    "dex": 12,
+    "con": 13,
+    "int": 2,
+    "wis": 10,
+    "cha": 5,
+    "senses": [
+      "darkvision 30 ft."
+    ],
+    "passive": 10,
+    "cr": "1/4",
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one target. 6 or 1d8 + 2 piercing damage."
+        ]
+      }
+    ],
+    "variant": [
+      {
+        "type": "variant",
+        "name": "Giant Lizard Traits",
+        "entries": [
+          "Some giant lizards have one or both of the following traits:",
+          {
+            "type": "entries",
+            "name": "Hold Breath",
+            "entries": [
+              "The lizard can hold its breath for 15 minutes. (A lizard that has this trait also has a swimming speed of 30 feet.)"
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Spider Climb",
+            "entries": [
+              "The lizard can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+            ]
+          }
+        ]
+      }
+    ],
+    "environment": [
+      "underdark",
+      "forest",
+      "swamp",
+      "desert",
+      "coastal"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/giant-lizard.mp3"
+    },
+    "senseTags": [
+      "D"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluff": true,
+    "_versions": [
+      {
+        "name": "Giant Lizard (Hold Breath and Spider Climb)",
+        "source": "MM",
+        "_mod": {
+          "trait": {
+            "mode": "appendArr",
+            "items": [
+              {
+                "name": "Hold Breath",
+                "entries": [
+                  "The lizard can hold its breath for 15 minutes."
+                ]
+              },
+              {
+                "name": "Spider Climb",
+                "entries": [
+                  "The lizard can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+                ]
+              }
+            ]
+          }
+        },
+        "speed": {
+          "walk": 30,
+          "climb": 30,
+          "swim": 30
+        },
+        "variant": null
+      }
+    ]
+  },
+  {
+    "name": "Giant Octopus",
+    "source": "MM",
+    "page": 326,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "PotA"
+      },
+      {
+        "source": "RoT"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "EGW"
+      },
+      {
+        "source": "MOT"
+      },
+      {
+        "source": "TCE"
+      },
+      {
+        "source": "CRCotN"
+      },
+      {
+        "source": "DSotDQ"
+      },
+      {
+        "source": "PaBTSO"
+      }
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      11
+    ],
+    "hp": {
+      "average": 52,
+      "formula": "8d10 + 8"
+    },
+    "speed": {
+      "walk": 10,
+      "swim": 60
+    },
+    "str": 17,
+    "dex": 13,
+    "con": 13,
+    "int": 4,
+    "wis": 10,
+    "cha": 4,
+    "skill": {
+      "perception": "+4",
+      "stealth": "+5"
+    },
+    "senses": [
+      "darkvision 60 ft."
+    ],
+    "passive": 14,
+    "cr": "1",
+    "trait": [
+      {
+        "name": "Hold Breath",
+        "entries": [
+          "While out of water, the octopus can hold its breath for 1 hour."
+        ]
+      },
+      {
+        "name": "Underwater Camouflage",
+        "entries": [
+          "The octopus has advantage on Dexterity (Stealth) checks made while underwater."
+        ]
+      },
+      {
+        "name": "Water Breathing",
+        "entries": [
+          "The octopus can breathe only underwater."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Tentacles",
+        "entries": [
+          "Melee: 5 to hit, reach 15 ft., one target. 10 or 2d6 + 3 bludgeoning damage. If the target is a creature, it is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the octopus can't use its tentacles on another target."
+        ]
+      },
+      {
+        "name": "Ink Cloud (Recharges after a Short or Long Rest)",
+        "entries": [
+          "A 20-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action."
+        ]
+      }
+    ],
+    "environment": [
+      "underwater"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/giant-octopus.mp3"
+    },
+    "traitTags": [
+      "Camouflage",
+      "Hold Breath",
+      "Water Breathing"
+    ],
+    "senseTags": [
+      "D"
+    ],
+    "actionTags": [
+      "Tentacles"
+    ],
+    "damageTags": [
+      "B"
+    ],
+    "miscTags": [
+      "AOE",
+      "MW",
+      "RCH"
+    ],
+    "conditionInflict": [
+      "grappled",
+      "restrained"
+    ],
+    "hasToken": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Giant Owl",
+    "source": "MM",
+    "page": 327,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "ERLW"
+      },
+      {
+        "source": "IMR"
+      },
+      {
+        "source": "EGW"
+      },
+      {
+        "source": "BMT"
+      }
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "N"
+    ],
+    "ac": [
+      12
+    ],
+    "hp": {
+      "average": 19,
+      "formula": "3d10 + 3"
+    },
+    "speed": {
+      "walk": 5,
+      "fly": 60
+    },
+    "str": 13,
+    "dex": 15,
+    "con": 12,
+    "int": 8,
+    "wis": 13,
+    "cha": 10,
+    "skill": {
+      "perception": "+5",
+      "stealth": "+4"
+    },
+    "senses": [
+      "darkvision 120 ft."
+    ],
+    "passive": 15,
+    "languages": [
+      "Giant Owl",
+      "understands Common, Elvish, and Sylvan but can't speak them"
+    ],
+    "cr": "1/4",
+    "trait": [
+      {
+        "name": "Flyby",
+        "entries": [
+          "The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+        ]
+      },
+      {
+        "name": "Keen Hearing and Sight",
+        "entries": [
+          "The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Talons",
+        "entries": [
+          "Melee: 3 to hit, reach 5 ft., one target. 8 or 2d6 + 1 slashing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "forest",
+      "hill",
+      "arctic"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/giant-owl.mp3"
+    },
+    "traitTags": [
+      "Flyby",
+      "Keen Senses"
+    ],
+    "senseTags": [
+      "SD"
+    ],
+    "languageTags": [
+      "C",
+      "CS",
+      "E",
+      "OTH",
+      "S"
+    ],
+    "damageTags": [
+      "S"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluff": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Giant Poisonous Snake",
+    "source": "MM",
+    "page": 327,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "MOT"
+      },
+      {
+        "source": "TCE"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "PaBTSO"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      14
+    ],
+    "hp": {
+      "average": 11,
+      "formula": "2d8 + 2"
+    },
+    "speed": {
+      "walk": 30,
+      "swim": 30
+    },
+    "str": 10,
+    "dex": 18,
+    "con": 13,
+    "int": 2,
+    "wis": 10,
+    "cha": 3,
+    "skill": {
+      "perception": "+2"
+    },
+    "senses": [
+      "blindsight 10 ft."
+    ],
+    "passive": 12,
+    "cr": "1/4",
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 6 to hit, reach 10 ft., one target. 6 or 1d4 + 4 piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 or 3d6 poison damage on a failed save, or half as much damage on a successful one."
+        ]
+      }
+    ],
+    "environment": [
+      "underdark",
+      "grassland",
+      "forest",
+      "swamp",
+      "urban",
+      "desert"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/giant-poisonous-snake.mp3"
+    },
+    "senseTags": [
+      "B"
+    ],
+    "damageTags": [
+      "I",
+      "P"
+    ],
+    "miscTags": [
+      "MW",
+      "RCH"
+    ],
+    "savingThrowForced": [
+      "constitution"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Giant Rat",
+    "source": "MM",
+    "page": 327,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "PotA"
+      },
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "WDMM"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "DIP"
+      },
+      {
+        "source": "BGDIA"
+      },
+      {
+        "source": "EGW"
+      },
+      {
+        "source": "IDRotF"
+      },
+      {
+        "source": "CM"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "GHLoE"
+      },
+      {
+        "source": "DoDk"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "size": [
+      "S"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      12
+    ],
+    "hp": {
+      "average": 7,
+      "formula": "2d6"
+    },
+    "speed": {
+      "walk": 30
+    },
+    "str": 7,
+    "dex": 15,
+    "con": 11,
+    "int": 2,
+    "wis": 10,
+    "cha": 4,
+    "senses": [
+      "darkvision 60 ft."
+    ],
+    "passive": 10,
+    "cr": "1/8",
+    "trait": [
+      {
+        "name": "Keen Smell",
+        "entries": [
+          "The rat has advantage on Wisdom (Perception) checks that rely on smell."
+        ]
+      },
+      {
+        "name": "Pack Tactics",
+        "entries": [
+          "The rat has advantage on an attack roll against a creature if at least one of the rat's allies is within 5 feet of the creature and the ally isn't incapacitated."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one target. 4 or 1d4 + 2 piercing damage."
+        ]
+      }
+    ],
+    "variant": [
+      {
+        "type": "variant",
+        "name": "Diseased Giant Rats",
+        "entries": [
+          "Some giant rats carry vile diseases that they spread with their bites.",
+          {
+            "type": "entries",
+            "name": "Bite",
+            "entries": [
+              "Melee: 4 to hit, reach 5 ft., one target. 4 or 1d4 + 2 piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 (1d6) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies."
+            ]
+          }
+        ]
+      }
+    ],
+    "environment": [
+      "underdark",
+      "forest",
+      "swamp",
+      "urban"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/giant-rat.mp3"
+    },
+    "traitTags": [
+      "Keen Senses",
+      "Pack Tactics"
+    ],
+    "senseTags": [
+      "D"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "DIS",
+      "MW"
+    ],
+    "savingThrowForced": [
+      "constitution"
+    ],
+    "hasToken": true,
+    "hasFluffImages": true,
+    "_versions": [
+      {
+        "name": "Giant Rat (Diseased)",
+        "source": "MM",
+        "action": [
+          {
+            "name": "Bite",
+            "entries": [
+              "Melee: 4 to hit, reach 5 ft., one target. 4 or 1d4 + 2 piercing damage. If the target is a creature, it must succeed on a DC 10 Constitution saving throw or contract a disease. Until the disease is cured, the target can't regain hit points except by magical means, and the target's hit point maximum decreases by 3 (1d6) every 24 hours. If the target's hit point maximum drops to 0 as a result of this disease, the target dies."
+            ]
+          }
+        ],
+        "variant": null
+      }
+    ]
+  },
+  {
+    "name": "Giant Sea Horse",
+    "source": "MM",
+    "page": 328,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "JttRC"
+      }
+    ],
+    "reprintedAs": [
+      "Giant Seahorse|XPHB"
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 13,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 16,
+      "formula": "3d10"
+    },
+    "speed": {
+      "walk": 0,
+      "swim": 40
+    },
+    "str": 12,
+    "dex": 15,
+    "con": 11,
+    "int": 2,
+    "wis": 12,
+    "cha": 5,
+    "passive": 11,
+    "cr": "1/2",
+    "trait": [
+      {
+        "name": "Charge",
+        "entries": [
+          "If the sea horse moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 or 2d6 bludgeoning damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone."
+        ]
+      },
+      {
+        "name": "Water Breathing",
+        "entries": [
+          "The sea horse can breathe only underwater."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Ram",
+        "entries": [
+          "Melee: 3 to hit, reach 5 ft., one target. 4 or 1d6 + 1 bludgeoning damage."
+        ]
+      }
+    ],
+    "environment": [
+      "underwater"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/giant-sea-horse.mp3"
+    },
+    "traitTags": [
+      "Charge",
+      "Water Breathing"
+    ],
+    "damageTags": [
+      "B"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "conditionInflict": [
+      "prone"
+    ],
+    "savingThrowForced": [
+      "strength"
+    ],
+    "hasToken": true,
+    "hasFluff": true
+  },
+  {
+    "name": "Giant Spider",
+    "source": "MM",
+    "page": 328,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "HotDQ"
+      },
+      {
+        "source": "LMoP"
+      },
+      {
+        "source": "RoT"
+      },
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "WDH"
+      },
+      {
+        "source": "WDMM"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "DIP"
+      },
+      {
+        "source": "BGDIA"
+      },
+      {
+        "source": "ERLW"
+      },
+      {
+        "source": "RMBRE"
+      },
+      {
+        "source": "EGW"
+      },
+      {
+        "source": "MOT"
+      },
+      {
+        "source": "TCE"
+      },
+      {
+        "source": "CRCotN"
+      },
+      {
+        "source": "DSotDQ"
+      },
+      {
+        "source": "PSX"
+      },
+      {
+        "source": "HftT"
+      },
+      {
+        "source": "PaBTSO"
+      },
+      {
+        "source": "BMT"
+      },
+      {
+        "source": "VEoR"
+      },
+      {
+        "source": "QftIS"
+      },
+      {
+        "source": "CoA"
+      }
+    ],
+    "reprintedAs": [
+      "Giant Spider|XPHB"
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 14,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 26,
+      "formula": "4d10 + 4"
+    },
+    "speed": {
+      "walk": 30,
+      "climb": 30
+    },
+    "str": 14,
+    "dex": 16,
+    "con": 12,
+    "int": 2,
+    "wis": 11,
+    "cha": 4,
+    "skill": {
+      "stealth": "+7"
+    },
+    "senses": [
+      "blindsight 10 ft.",
+      "darkvision 60 ft."
+    ],
+    "passive": 10,
+    "cr": "1",
+    "trait": [
+      {
+        "name": "Spider Climb",
+        "entries": [
+          "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+        ]
+      },
+      {
+        "name": "Web Sense",
+        "entries": [
+          "While in contact with a web, the spider knows the exact location of any other creature in contact with the same web."
+        ]
+      },
+      {
+        "name": "Web Walker",
+        "entries": [
+          "The spider ignores movement restrictions caused by webbing."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 5 to hit, reach 5 ft., one creature. 7 or 1d8 + 3 piercing damage, and the target must make a DC 11 Constitution saving throw, taking 9 or 2d8 poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+        ]
+      },
+      {
+        "name": "Web (recharge on 5/6)",
+        "entries": [
+          "Ranged: 5 to hit, range 30/60 ft., one creature. The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+        ]
+      }
+    ],
+    "environment": [
+      "underdark",
+      "forest",
+      "swamp",
+      "urban",
+      "desert"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/giant-spider.mp3"
+    },
+    "traitTags": [
+      "Spider Climb",
+      "Web Sense",
+      "Web Walker"
+    ],
+    "senseTags": [
+      "B",
+      "D"
+    ],
+    "damageTags": [
+      "I",
+      "P"
+    ],
+    "miscTags": [
+      "MW",
+      "RW"
+    ],
+    "conditionInflict": [
+      "paralyzed",
+      "poisoned",
+      "restrained"
+    ],
+    "savingThrowForced": [
+      "constitution"
+    ],
+    "hasToken": true,
+    "hasFluff": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Giant Toad",
+    "source": "MM",
+    "page": 329,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "WDMM"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "EGW"
+      },
+      {
+        "source": "TCE"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "KftGV"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      11
+    ],
+    "hp": {
+      "average": 39,
+      "formula": "6d10 + 6"
+    },
+    "speed": {
+      "walk": 20,
+      "swim": 40
+    },
+    "str": 15,
+    "dex": 13,
+    "con": 13,
+    "int": 2,
+    "wis": 10,
+    "cha": 3,
+    "senses": [
+      "darkvision 30 ft."
+    ],
+    "passive": 10,
+    "cr": "1",
+    "trait": [
+      {
+        "name": "Amphibious",
+        "entries": [
+          "The toad can breathe air and water."
+        ]
+      },
+      {
+        "name": "Standing Leap",
+        "entries": [
+          "The toad's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one target. 7 or 1d10 + 2 piercing damage plus 5 or 1d10 poison damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the toad can't bite another target."
+        ]
+      },
+      {
+        "name": "Swallow",
+        "entries": [
+          "The toad makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 or 3d6 acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time.",
+          "If the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone."
+        ]
+      }
+    ],
+    "environment": [
+      "underdark",
+      "forest",
+      "swamp",
+      "desert",
+      "coastal"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/giant-toad.mp3"
+    },
+    "traitTags": [
+      "Amphibious"
+    ],
+    "senseTags": [
+      "D"
+    ],
+    "actionTags": [
+      "Swallow"
+    ],
+    "damageTags": [
+      "A",
+      "I",
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "conditionInflict": [
+      "blinded",
+      "grappled",
+      "restrained"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Giant Vulture",
+    "source": "MM",
+    "page": 329,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "PotA"
+      },
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "WDH"
+      },
+      {
+        "source": "MOT"
+      },
+      {
+        "source": "IDRotF"
+      },
+      {
+        "source": "CRCotN"
+      },
+      {
+        "source": "CoA"
+      }
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "N",
+      "E"
+    ],
+    "ac": [
+      10
+    ],
+    "hp": {
+      "average": 22,
+      "formula": "3d10 + 6"
+    },
+    "speed": {
+      "walk": 10,
+      "fly": 60
+    },
+    "str": 15,
+    "dex": 10,
+    "con": 15,
+    "int": 6,
+    "wis": 12,
+    "cha": 7,
+    "skill": {
+      "perception": "+3"
+    },
+    "passive": 13,
+    "languages": [
+      "understands Common but can't speak"
+    ],
+    "cr": "1",
+    "trait": [
+      {
+        "name": "Keen Sight and Smell",
+        "entries": [
+          "The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell."
+        ]
+      },
+      {
+        "name": "Pack Tactics",
+        "entries": [
+          "The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally isn't incapacitated."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The vulture makes two attacks: one with its beak and one with its talons."
+        ]
+      },
+      {
+        "name": "Beak",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one target. 7 or 2d4 + 2 piercing damage."
+        ]
+      },
+      {
+        "name": "Talons",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one target. 9 or 2d6 + 2 slashing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "grassland",
+      "desert"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/giant-vulture.mp3"
+    },
+    "traitTags": [
+      "Keen Senses",
+      "Pack Tactics"
+    ],
+    "actionTags": [
+      "Multiattack"
+    ],
+    "languageTags": [
+      "C",
+      "CS"
+    ],
+    "damageTags": [
+      "P",
+      "S"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluff": true
+  },
+  {
+    "name": "Giant Wasp",
+    "source": "MM",
+    "page": 329,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "EGW"
+      },
+      {
+        "source": "PSX"
+      },
+      {
+        "source": "PSA"
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      12
+    ],
+    "hp": {
+      "average": 13,
+      "formula": "3d8"
+    },
+    "speed": {
+      "walk": 10,
+      "fly": 50
+    },
+    "str": 10,
+    "dex": 14,
+    "con": 10,
+    "int": 1,
+    "wis": 10,
+    "cha": 3,
+    "passive": 10,
+    "cr": "1/2",
+    "action": [
+      {
+        "name": "Sting",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one creature. 5 or 1d6 + 2 piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 or 3d6 poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+        ]
+      }
+    ],
+    "environment": [
+      "grassland",
+      "forest",
+      "urban"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/giant-wasp.mp3"
+    },
+    "damageTags": [
+      "I",
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "conditionInflict": [
+      "paralyzed",
+      "poisoned"
+    ],
+    "savingThrowForced": [
+      "constitution"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Giant Weasel",
+    "source": "MM",
+    "page": 329,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "reprintedAs": [
+      "Giant Weasel|XPHB"
+    ],
+    "size": [
+      "M"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      13
+    ],
+    "hp": {
+      "average": 9,
+      "formula": "2d8"
+    },
+    "speed": {
+      "walk": 40
+    },
+    "str": 11,
+    "dex": 16,
+    "con": 10,
+    "int": 4,
+    "wis": 12,
+    "cha": 5,
+    "skill": {
+      "perception": "+3",
+      "stealth": "+5"
+    },
+    "senses": [
+      "darkvision 60 ft."
+    ],
+    "passive": 13,
+    "cr": "1/8",
+    "trait": [
+      {
+        "name": "Keen Hearing and Smell",
+        "entries": [
+          "The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 5 to hit, reach 5 ft., one target. 5 or 1d4 + 3 piercing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "grassland",
+      "forest",
+      "hill"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/giant-weasel.mp3"
+    },
+    "traitTags": [
+      "Keen Senses"
+    ],
+    "senseTags": [
+      "D"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Giant Wolf Spider",
+    "source": "MM",
+    "page": 330,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "TCE"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "PSX"
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      13
+    ],
+    "hp": {
+      "average": 11,
+      "formula": "2d8 + 2"
+    },
+    "speed": {
+      "walk": 40,
+      "climb": 40
+    },
+    "str": 12,
+    "dex": 16,
+    "con": 13,
+    "int": 3,
+    "wis": 12,
+    "cha": 4,
+    "skill": {
+      "perception": "+3",
+      "stealth": "+7"
+    },
+    "senses": [
+      "blindsight 10 ft.",
+      "darkvision 60 ft."
+    ],
+    "passive": 13,
+    "cr": "1/4",
+    "trait": [
+      {
+        "name": "Spider Climb",
+        "entries": [
+          "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+        ]
+      },
+      {
+        "name": "Web Sense",
+        "entries": [
+          "While in contact with a web, the spider knows the exact location of any other creature in contact with the same web."
+        ]
+      },
+      {
+        "name": "Web Walker",
+        "entries": [
+          "The spider ignores movement restrictions caused by webbing."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 3 to hit, reach 5 ft., one creature. 4 or 1d6 + 1 piercing damage, and the target must make a DC 11 Constitution saving throw, taking 7 or 2d6 poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way."
+        ]
+      }
+    ],
+    "environment": [
+      "grassland",
+      "forest",
+      "hill",
+      "desert",
+      "coastal"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/giant-wolf-spider.mp3"
+    },
+    "traitTags": [
+      "Spider Climb",
+      "Web Sense",
+      "Web Walker"
+    ],
+    "senseTags": [
+      "B",
+      "D"
+    ],
+    "damageTags": [
+      "I",
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "conditionInflict": [
+      "paralyzed",
+      "poisoned"
+    ],
+    "savingThrowForced": [
+      "constitution"
+    ],
+    "hasToken": true,
+    "hasFluff": true
+  },
+  {
+    "name": "Goat",
+    "source": "MM",
+    "page": 330,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "PotA"
+      },
+      {
+        "source": "RoT"
+      },
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "WDMM"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "BGDIA"
+      },
+      {
+        "source": "IDRotF"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "PaBTSO"
+      }
+    ],
+    "reprintedAs": [
+      "Goat|XPHB"
+    ],
+    "size": [
+      "M"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      10
+    ],
+    "hp": {
+      "average": 4,
+      "formula": "1d8"
+    },
+    "speed": {
+      "walk": 40
+    },
+    "str": 12,
+    "dex": 10,
+    "con": 11,
+    "int": 2,
+    "wis": 10,
+    "cha": 5,
+    "passive": 10,
+    "cr": "0",
+    "trait": [
+      {
+        "name": "Charge",
+        "entries": [
+          "If the goat moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 or 1d4 bludgeoning damage. If the target is a creature, it must succeed on a DC 10 Strength saving throw or be knocked prone."
+        ]
+      },
+      {
+        "name": "Sure-Footed",
+        "entries": [
+          "The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Ram",
+        "entries": [
+          "Melee: 3 to hit, reach 5 ft., one target. 3 or 1d4 + 1 bludgeoning damage."
+        ]
+      }
+    ],
+    "environment": [
+      "mountain",
+      "grassland",
+      "hill",
+      "urban"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/goat.mp3"
+    },
+    "traitTags": [
+      "Charge"
+    ],
+    "damageTags": [
+      "B"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "conditionInflict": [
+      "prone"
+    ],
+    "savingThrowForced": [
+      "strength"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Hawk",
+    "source": "MM",
+    "page": 330,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "WDH"
+      },
+      {
+        "source": "BGDIA"
+      },
+      {
+        "source": "IDRotF"
+      },
+      {
+        "source": "CM"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "JttRC"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "reprintedAs": [
+      "Hawk|XPHB"
+    ],
+    "size": [
+      "T"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      13
+    ],
+    "hp": {
+      "average": 1,
+      "formula": "1d4 - 1"
+    },
+    "speed": {
+      "walk": 10,
+      "fly": 60
+    },
+    "str": 5,
+    "dex": 16,
+    "con": 8,
+    "int": 2,
+    "wis": 14,
+    "cha": 6,
+    "skill": {
+      "perception": "+4"
+    },
+    "passive": 14,
+    "cr": "0",
+    "trait": [
+      {
+        "name": "Keen Sight",
+        "entries": [
+          "The hawk has advantage on Wisdom (Perception) checks that rely on sight."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Talons",
+        "entries": [
+          "Melee: 5 to hit, reach 5 ft., one target. 1 slashing damage."
+        ]
+      }
+    ],
+    "familiar": true,
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/hawk.mp3"
+    },
+    "traitTags": [
+      "Keen Senses"
+    ],
+    "damageTags": [
+      "S"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Hyena",
+    "source": "MM",
+    "page": 331,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "PotA"
+      },
+      {
+        "source": "CM"
+      },
+      {
+        "source": "BMT"
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      11
+    ],
+    "hp": {
+      "average": 5,
+      "formula": "1d8 + 1"
+    },
+    "speed": {
+      "walk": 50
+    },
+    "str": 11,
+    "dex": 13,
+    "con": 12,
+    "int": 2,
+    "wis": 12,
+    "cha": 5,
+    "skill": {
+      "perception": "+3"
+    },
+    "passive": 13,
+    "cr": "0",
+    "trait": [
+      {
+        "name": "Pack Tactics",
+        "entries": [
+          "The hyena has advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 feet of the creature and the ally isn't incapacitated."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 2 to hit, reach 5 ft., one target. 3 or 1d6 piercing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "grassland",
+      "forest",
+      "hill",
+      "desert"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/hyena.mp3"
+    },
+    "traitTags": [
+      "Pack Tactics"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Jackal",
+    "source": "MM",
+    "page": 331,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "GoS"
+      }
+    ],
+    "size": [
+      "S"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      12
+    ],
+    "hp": {
+      "average": 3,
+      "formula": "1d6"
+    },
+    "speed": {
+      "walk": 40
+    },
+    "str": 8,
+    "dex": 15,
+    "con": 11,
+    "int": 3,
+    "wis": 12,
+    "cha": 6,
+    "skill": {
+      "perception": "+3"
+    },
+    "passive": 13,
+    "cr": "0",
+    "trait": [
+      {
+        "name": "Keen Hearing and Smell",
+        "entries": [
+          "The jackal has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+        ]
+      },
+      {
+        "name": "Pack Tactics",
+        "entries": [
+          "The jackal has advantage on an attack roll against a creature if at least one of the jackal's allies is within 5 feet of the creature and the ally isn't incapacitated."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 1 to hit, reach 5 ft., one target. 1 or 1d4 - 1 piercing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "grassland",
+      "desert"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/jackal.mp3"
+    },
+    "traitTags": [
+      "Keen Senses",
+      "Pack Tactics"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Lion",
+    "source": "MM",
+    "page": 331,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "KftGV"
+      }
+    ],
+    "reprintedAs": [
+      "Lion|XPHB"
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      12
+    ],
+    "hp": {
+      "average": 26,
+      "formula": "4d10 + 4"
+    },
+    "speed": {
+      "walk": 50
+    },
+    "str": 17,
+    "dex": 15,
+    "con": 13,
+    "int": 3,
+    "wis": 12,
+    "cha": 8,
+    "skill": {
+      "perception": "+3",
+      "stealth": "+6"
+    },
+    "passive": 13,
+    "cr": "1",
+    "trait": [
+      {
+        "name": "Keen Smell",
+        "entries": [
+          "The lion has advantage on Wisdom (Perception) checks that rely on smell."
+        ]
+      },
+      {
+        "name": "Pack Tactics",
+        "entries": [
+          "The lion has advantage on an attack roll against a creature if at least one of the lion's allies is within 5 feet of the creature and the ally isn't incapacitated."
+        ]
+      },
+      {
+        "name": "Pounce",
+        "entries": [
+          "If the lion moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the lion can make one bite attack against it as a bonus action."
+        ]
+      },
+      {
+        "name": "Running Leap",
+        "entries": [
+          "With a 10-foot running start, the lion can long jump up to 25 feet."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 5 to hit, reach 5 ft., one target. 7 or 1d8 + 3 piercing damage."
+        ]
+      },
+      {
+        "name": "Claw",
+        "entries": [
+          "Melee: 5 to hit, reach 5 ft., one target. 6 or 1d6 + 3 slashing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "mountain",
+      "grassland",
+      "hill",
+      "desert"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/lion.mp3"
+    },
+    "traitTags": [
+      "Keen Senses",
+      "Pack Tactics",
+      "Pounce"
+    ],
+    "damageTags": [
+      "P",
+      "S"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "conditionInflict": [
+      "prone"
+    ],
+    "savingThrowForced": [
+      "strength"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Lizard",
+    "source": "MM",
+    "page": 332,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "JttRC"
+      },
+      {
+        "source": "KftGV"
+      }
+    ],
+    "reprintedAs": [
+      "Lizard|XPHB"
+    ],
+    "size": [
+      "T"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      10
+    ],
+    "hp": {
+      "average": 2,
+      "formula": "1d4"
+    },
+    "speed": {
+      "walk": 20,
+      "climb": 20
+    },
+    "str": 2,
+    "dex": 11,
+    "con": 10,
+    "int": 1,
+    "wis": 8,
+    "cha": 3,
+    "senses": [
+      "darkvision 30 ft."
+    ],
+    "passive": 9,
+    "cr": "0",
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 0 to hit, reach 5 ft., one target. 1 piercing damage."
+        ]
+      }
+    ],
+    "familiar": true,
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/lizard.mp3"
+    },
+    "senseTags": [
+      "D"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Mastiff",
+    "source": "MM",
+    "page": 332,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "WDH"
+      },
+      {
+        "source": "BGDIA"
+      },
+      {
+        "source": "ERLW"
+      },
+      {
+        "source": "EGW"
+      },
+      {
+        "source": "DSotDQ"
+      },
+      {
+        "source": "KftGV"
+      },
+      {
+        "source": "ToFW"
+      },
+      {
+        "source": "BMT"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "reprintedAs": [
+      "Mastiff|XPHB"
+    ],
+    "size": [
+      "M"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      12
+    ],
+    "hp": {
+      "average": 5,
+      "formula": "1d8 + 1"
+    },
+    "speed": {
+      "walk": 40
+    },
+    "str": 13,
+    "dex": 14,
+    "con": 12,
+    "int": 3,
+    "wis": 12,
+    "cha": 7,
+    "skill": {
+      "perception": "+3"
+    },
+    "passive": 13,
+    "cr": "1/8",
+    "trait": [
+      {
+        "name": "Keen Hearing and Smell",
+        "entries": [
+          "The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 3 to hit, reach 5 ft., one target. 4 or 1d6 + 1 piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone."
+        ]
+      }
+    ],
+    "environment": [
+      "forest",
+      "hill",
+      "urban"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/mastiff.mp3"
+    },
+    "traitTags": [
+      "Keen Senses"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "conditionInflict": [
+      "prone"
+    ],
+    "savingThrowForced": [
+      "strength"
+    ],
+    "hasToken": true,
+    "hasFluff": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Mule",
+    "source": "MM",
+    "page": 333,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "KftGV"
+      },
+      {
+        "source": "DoDk"
+      }
+    ],
+    "reprintedAs": [
+      "Mule|XPHB"
+    ],
+    "size": [
+      "M"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      10
+    ],
+    "hp": {
+      "average": 11,
+      "formula": "2d8 + 2"
+    },
+    "speed": {
+      "walk": 40
+    },
+    "str": 14,
+    "dex": 10,
+    "con": 13,
+    "int": 2,
+    "wis": 10,
+    "cha": 5,
+    "passive": 10,
+    "cr": "1/8",
+    "trait": [
+      {
+        "name": "Beast of Burden",
+        "entries": [
+          "The mule is considered to be a Large animal for the purpose of determining its carrying capacity."
+        ]
+      },
+      {
+        "name": "Sure-Footed",
+        "entries": [
+          "The mule has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Hooves",
+        "entries": [
+          "Melee: 2 to hit, reach 5 ft., one target. 4 or 1d4 + 2 bludgeoning damage."
+        ]
+      }
+    ],
+    "environment": [
+      "hill",
+      "urban",
+      "desert"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/mule.mp3"
+    },
+    "traitTags": [
+      "Beast of Burden"
+    ],
+    "damageTags": [
+      "B"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Octopus",
+    "source": "MM",
+    "page": 333,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "IMR"
+      },
+      {
+        "source": "IDRotF"
+      },
+      {
+        "source": "WBtW"
+      }
+    ],
+    "reprintedAs": [
+      "Octopus|XPHB"
+    ],
+    "size": [
+      "S"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      12
+    ],
+    "hp": {
+      "average": 3,
+      "formula": "1d6"
+    },
+    "speed": {
+      "walk": 5,
+      "swim": 30
+    },
+    "str": 4,
+    "dex": 15,
+    "con": 11,
+    "int": 3,
+    "wis": 10,
+    "cha": 4,
+    "skill": {
+      "perception": "+2",
+      "stealth": "+4"
+    },
+    "senses": [
+      "darkvision 30 ft."
+    ],
+    "passive": 12,
+    "cr": "0",
+    "trait": [
+      {
+        "name": "Hold Breath",
+        "entries": [
+          "While out of water, the octopus can hold its breath for 30 minutes."
+        ]
+      },
+      {
+        "name": "Underwater Camouflage",
+        "entries": [
+          "The octopus has advantage on Dexterity (Stealth) checks made while underwater."
+        ]
+      },
+      {
+        "name": "Water Breathing",
+        "entries": [
+          "The octopus can breathe only underwater."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Tentacles",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one target. 1 bludgeoning damage, and the target is grappled (escape DC 10). Until this grapple ends, the octopus can't use its tentacles on another target."
+        ]
+      },
+      {
+        "name": "Ink Cloud (Recharges after a Short or Long Rest)",
+        "entries": [
+          "A 5-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action."
+        ]
+      }
+    ],
+    "familiar": true,
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/octopus.mp3"
+    },
+    "traitTags": [
+      "Camouflage",
+      "Hold Breath",
+      "Water Breathing"
+    ],
+    "senseTags": [
+      "D"
+    ],
+    "actionTags": [
+      "Tentacles"
+    ],
+    "damageTags": [
+      "B"
+    ],
+    "miscTags": [
+      "AOE",
+      "MW"
+    ],
+    "conditionInflict": [
+      "grappled"
+    ],
+    "hasToken": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Owl",
+    "source": "MM",
+    "page": 333,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "RoT"
+      },
+      {
+        "source": "IMR"
+      },
+      {
+        "source": "IDRotF"
+      },
+      {
+        "source": "CM"
+      },
+      {
+        "source": "ToFW"
+      },
+      {
+        "source": "DoDk"
+      }
+    ],
+    "reprintedAs": [
+      "Owl|XPHB"
+    ],
+    "size": [
+      "T"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      11
+    ],
+    "hp": {
+      "average": 1,
+      "formula": "1d4 - 1"
+    },
+    "speed": {
+      "walk": 5,
+      "fly": 60
+    },
+    "str": 3,
+    "dex": 13,
+    "con": 8,
+    "int": 2,
+    "wis": 12,
+    "cha": 7,
+    "skill": {
+      "perception": "+3",
+      "stealth": "+3"
+    },
+    "senses": [
+      "darkvision 120 ft."
+    ],
+    "passive": 13,
+    "cr": "0",
+    "trait": [
+      {
+        "name": "Flyby",
+        "entries": [
+          "The owl doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+        ]
+      },
+      {
+        "name": "Keen Hearing and Sight",
+        "entries": [
+          "The owl has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Talons",
+        "entries": [
+          "Melee: 3 to hit, reach 5 ft., one target. 1 slashing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "forest",
+      "arctic"
+    ],
+    "familiar": true,
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/owl.mp3"
+    },
+    "traitTags": [
+      "Flyby",
+      "Keen Senses"
+    ],
+    "senseTags": [
+      "SD"
+    ],
+    "damageTags": [
+      "S"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Panther",
+    "source": "MM",
+    "page": 333,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "WDH"
+      }
+    ],
+    "reprintedAs": [
+      "Panther|XPHB"
+    ],
+    "size": [
+      "M"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      12
+    ],
+    "hp": {
+      "average": 13,
+      "formula": "3d8"
+    },
+    "speed": {
+      "walk": 50,
+      "climb": 40
+    },
+    "str": 14,
+    "dex": 15,
+    "con": 10,
+    "int": 3,
+    "wis": 14,
+    "cha": 7,
+    "skill": {
+      "perception": "+4",
+      "stealth": "+6"
+    },
+    "passive": 14,
+    "cr": "1/4",
+    "trait": [
+      {
+        "name": "Keen Smell",
+        "entries": [
+          "The panther has advantage on Wisdom (Perception) checks that rely on smell."
+        ]
+      },
+      {
+        "name": "Pounce",
+        "entries": [
+          "If the panther moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target is prone, the panther can make one bite attack against it as a bonus action."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one target. 5 or 1d6 + 2 piercing damage."
+        ]
+      },
+      {
+        "name": "Claw",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one target. 4 or 1d4 + 2 slashing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "grassland",
+      "forest",
+      "hill"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/panther.mp3"
+    },
+    "traitTags": [
+      "Keen Senses",
+      "Pounce"
+    ],
+    "damageTags": [
+      "P",
+      "S"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "conditionInflict": [
+      "prone"
+    ],
+    "savingThrowForced": [
+      "strength"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Poisonous Snake",
+    "source": "MM",
+    "page": 334,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "IMR"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "reprintedAs": [
+      "Venomous Snake|XPHB"
+    ],
+    "size": [
+      "T"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      13
+    ],
+    "hp": {
+      "average": 2,
+      "formula": "1d4"
+    },
+    "speed": {
+      "walk": 30,
+      "swim": 30
+    },
+    "str": 2,
+    "dex": 16,
+    "con": 11,
+    "int": 1,
+    "wis": 10,
+    "cha": 3,
+    "senses": [
+      "blindsight 10 ft."
+    ],
+    "passive": 10,
+    "cr": "1/8",
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 5 to hit, reach 5 ft., one target. 1 piercing damage, and the target must make a DC 10 Constitution saving throw, taking 5 or 2d4 poison damage on a failed save, or half as much damage on a successful one."
+        ]
+      }
+    ],
+    "environment": [
+      "grassland",
+      "forest",
+      "swamp",
+      "hill",
+      "desert",
+      "coastal"
+    ],
+    "familiar": true,
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/poisonous-snake.mp3"
+    },
+    "senseTags": [
+      "B"
+    ],
+    "damageTags": [
+      "I",
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "savingThrowForced": [
+      "constitution"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Pony",
+    "source": "MM",
+    "page": 335,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "SatO"
+      }
+    ],
+    "reprintedAs": [
+      "Pony|XPHB"
+    ],
+    "size": [
+      "M"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      10
+    ],
+    "hp": {
+      "average": 11,
+      "formula": "2d8 + 2"
+    },
+    "speed": {
+      "walk": 40
+    },
+    "str": 15,
+    "dex": 10,
+    "con": 13,
+    "int": 2,
+    "wis": 11,
+    "cha": 7,
+    "passive": 10,
+    "cr": "1/8",
+    "action": [
+      {
+        "name": "Hooves",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one target. 7 or 2d4 + 2 bludgeoning damage."
+        ]
+      }
+    ],
+    "environment": [
+      "urban"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/pony.mp3"
+    },
+    "damageTags": [
+      "B"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Pteranodon",
+    "group": [
+      "Dinosaurs"
+    ],
+    "source": "MM",
+    "page": 80,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "ERLW"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "ToFW"
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 13,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 13,
+      "formula": "3d8"
+    },
+    "speed": {
+      "walk": 10,
+      "fly": 60
+    },
+    "str": 12,
+    "dex": 15,
+    "con": 10,
+    "int": 2,
+    "wis": 9,
+    "cha": 5,
+    "skill": {
+      "perception": "+1"
+    },
+    "passive": 11,
+    "cr": "1/4",
+    "trait": [
+      {
+        "name": "Flyby",
+        "entries": [
+          "The pteranodon doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 3 to hit, reach 5 ft., one target. 6 or 2d4 + 1 piercing damage"
+        ]
+      }
+    ],
+    "environment": [
+      "mountain",
+      "grassland",
+      "coastal"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/pteranodon.mp3"
+    },
+    "traitTags": [
+      "Flyby"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluff": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Quipper",
+    "source": "MM",
+    "page": 335,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "PotA"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "MOT"
+      },
+      {
+        "source": "IDRotF"
+      },
+      {
+        "source": "CRCotN"
+      },
+      {
+        "source": "PSA"
+      },
+      {
+        "source": "ToFW"
+      }
+    ],
+    "size": [
+      "T"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      13
+    ],
+    "hp": {
+      "average": 1,
+      "formula": "1d4 - 1"
+    },
+    "speed": {
+      "swim": 40
+    },
+    "str": 2,
+    "dex": 16,
+    "con": 9,
+    "int": 1,
+    "wis": 7,
+    "cha": 2,
+    "senses": [
+      "darkvision 60 ft."
+    ],
+    "passive": 8,
+    "cr": "0",
+    "trait": [
+      {
+        "name": "Blood Frenzy",
+        "entries": [
+          "The quipper has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+        ]
+      },
+      {
+        "name": "Water Breathing",
+        "entries": [
+          "The quipper can breathe only underwater."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 5 to hit, reach 5 ft., one target. 1 piercing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "underwater"
+    ],
+    "familiar": true,
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/quipper.mp3"
+    },
+    "traitTags": [
+      "Water Breathing"
+    ],
+    "senseTags": [
+      "D"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluff": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Rat",
+    "source": "MM",
+    "page": 335,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "WDH"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "BGDIA"
+      },
+      {
+        "source": "EGW"
+      },
+      {
+        "source": "IDRotF"
+      },
+      {
+        "source": "BMT"
+      },
+      {
+        "source": "DoDk"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "reprintedAs": [
+      "Rat|XPHB"
+    ],
+    "size": [
+      "T"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      10
+    ],
+    "hp": {
+      "average": 1,
+      "formula": "1d4 - 1"
+    },
+    "speed": {
+      "walk": 20
+    },
+    "str": 2,
+    "dex": 11,
+    "con": 9,
+    "int": 2,
+    "wis": 10,
+    "cha": 4,
+    "senses": [
+      "darkvision 30 ft."
+    ],
+    "passive": 10,
+    "cr": "0",
+    "trait": [
+      {
+        "name": "Keen Smell",
+        "entries": [
+          "The rat has advantage on Wisdom (Perception) checks that rely on smell."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 0 to hit, reach 5 ft., one target. 1 piercing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "swamp",
+      "urban"
+    ],
+    "familiar": true,
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/rat.mp3"
+    },
+    "traitTags": [
+      "Keen Senses"
+    ],
+    "senseTags": [
+      "D"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Raven",
+    "source": "MM",
+    "page": 335,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "IDRotF"
+      },
+      {
+        "source": "CM"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "KftGV"
+      },
+      {
+        "source": "VEoR"
+      }
+    ],
+    "reprintedAs": [
+      "Raven|XPHB"
+    ],
+    "size": [
+      "T"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      12
+    ],
+    "hp": {
+      "average": 1,
+      "formula": "1d4 - 1"
+    },
+    "speed": {
+      "walk": 10,
+      "fly": 50
+    },
+    "str": 2,
+    "dex": 14,
+    "con": 8,
+    "int": 2,
+    "wis": 12,
+    "cha": 6,
+    "skill": {
+      "perception": "+3"
+    },
+    "passive": 13,
+    "cr": "0",
+    "trait": [
+      {
+        "name": "Mimicry",
+        "entries": [
+          "The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Beak",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one target. 1 piercing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "swamp",
+      "hill",
+      "urban"
+    ],
+    "familiar": true,
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/raven.mp3"
+    },
+    "traitTags": [
+      "Mimicry"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Reef Shark",
+    "source": "MM",
+    "page": 336,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "EGW"
+      },
+      {
+        "source": "CRCotN"
+      },
+      {
+        "source": "JttRC"
+      }
+    ],
+    "reprintedAs": [
+      "Reef Shark|XPHB"
+    ],
+    "size": [
+      "M"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 12,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 22,
+      "formula": "4d8 + 4"
+    },
+    "speed": {
+      "swim": 40
+    },
+    "str": 14,
+    "dex": 13,
+    "con": 13,
+    "int": 1,
+    "wis": 10,
+    "cha": 4,
+    "skill": {
+      "perception": "+2"
+    },
+    "senses": [
+      "blindsight 30 ft."
+    ],
+    "passive": 12,
+    "cr": "1/2",
+    "trait": [
+      {
+        "name": "Pack Tactics",
+        "entries": [
+          "The shark has advantage on an attack roll against a creature if at least one of the shark's allies is within 5 feet of the creature and the ally isn't incapacitated."
+        ]
+      },
+      {
+        "name": "Water Breathing",
+        "entries": [
+          "The shark can breathe only underwater."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one target. 6 or 1d8 + 2 piercing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "underwater"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/reef-shark.mp3"
+    },
+    "traitTags": [
+      "Pack Tactics",
+      "Water Breathing"
+    ],
+    "senseTags": [
+      "B"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluff": true
+  },
+  {
+    "name": "Riding Horse",
+    "source": "MM",
+    "page": 336,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "WDH"
+      },
+      {
+        "source": "DIP"
+      },
+      {
+        "source": "BGDIA"
+      },
+      {
+        "source": "EGW"
+      },
+      {
+        "source": "CRCotN"
+      },
+      {
+        "source": "JttRC"
+      },
+      {
+        "source": "KftGV"
+      },
+      {
+        "source": "GHLoE"
+      },
+      {
+        "source": "DoDk"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "reprintedAs": [
+      "Riding Horse|XPHB"
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      10
+    ],
+    "hp": {
+      "average": 13,
+      "formula": "2d10 + 2"
+    },
+    "speed": {
+      "walk": 60
+    },
+    "str": 16,
+    "dex": 10,
+    "con": 12,
+    "int": 2,
+    "wis": 11,
+    "cha": 7,
+    "passive": 10,
+    "cr": "1/4",
+    "action": [
+      {
+        "name": "Hooves",
+        "entries": [
+          "Melee: 5 to hit, reach 5 ft., one target. 8 or 2d4 + 3 bludgeoning damage."
+        ]
+      }
+    ],
+    "environment": [
+      "grassland",
+      "urban"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/riding-horse.mp3"
+    },
+    "damageTags": [
+      "B"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Scorpion",
+    "source": "MM",
+    "page": 337,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "WDMM"
+      },
+      {
+        "source": "PSX"
+      }
+    ],
+    "reprintedAs": [
+      "Scorpion|XPHB"
+    ],
+    "size": [
+      "T"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 11,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 1,
+      "formula": "1d4 - 1"
+    },
+    "speed": {
+      "walk": 10
+    },
+    "str": 2,
+    "dex": 11,
+    "con": 8,
+    "int": 1,
+    "wis": 8,
+    "cha": 2,
+    "senses": [
+      "blindsight 10 ft."
+    ],
+    "passive": 9,
+    "cr": "0",
+    "action": [
+      {
+        "name": "Sting",
+        "entries": [
+          "Melee: 2 to hit, reach 5 ft., one creature. 1 piercing damage, and the target must make a DC 9 Constitution saving throw, taking 4 or 1d8 poison damage on a failed save, or half as much damage on a successful one."
+        ]
+      }
+    ],
+    "environment": [
+      "desert"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/scorpion.mp3"
+    },
+    "senseTags": [
+      "B"
+    ],
+    "damageTags": [
+      "I",
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "savingThrowForced": [
+      "constitution"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Spider",
+    "source": "MM",
+    "page": 337,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "PotA"
+      },
+      {
+        "source": "WDMM"
+      },
+      {
+        "source": "PSX"
+      },
+      {
+        "source": "KftGV"
+      }
+    ],
+    "reprintedAs": [
+      "Spider|XPHB"
+    ],
+    "size": [
+      "T"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      12
+    ],
+    "hp": {
+      "average": 1,
+      "formula": "1d4 - 1"
+    },
+    "speed": {
+      "walk": 20,
+      "climb": 20
+    },
+    "str": 2,
+    "dex": 14,
+    "con": 8,
+    "int": 1,
+    "wis": 10,
+    "cha": 2,
+    "skill": {
+      "stealth": "+4"
+    },
+    "senses": [
+      "darkvision 30 ft."
+    ],
+    "passive": 10,
+    "cr": "0",
+    "trait": [
+      {
+        "name": "Spider Climb",
+        "entries": [
+          "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+        ]
+      },
+      {
+        "name": "Web Sense",
+        "entries": [
+          "While in contact with a web, the spider knows the exact location of any other creature in contact with the same web."
+        ]
+      },
+      {
+        "name": "Web Walker",
+        "entries": [
+          "The spider ignores movement restrictions caused by webbing."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one creature. 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 2 or 1d4 poison damage."
+        ]
+      }
+    ],
+    "familiar": true,
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/spider.mp3"
+    },
+    "traitTags": [
+      "Spider Climb",
+      "Web Sense",
+      "Web Walker"
+    ],
+    "senseTags": [
+      "D"
+    ],
+    "damageTags": [
+      "I",
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "savingThrowForced": [
+      "constitution"
+    ],
+    "hasToken": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Stirge",
+    "source": "MM",
+    "page": 284,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "HotDQ"
+      },
+      {
+        "source": "LMoP"
+      },
+      {
+        "source": "PotA"
+      },
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "WDH"
+      },
+      {
+        "source": "WDMM"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "DIP"
+      },
+      {
+        "source": "BGDIA"
+      },
+      {
+        "source": "RMBRE"
+      },
+      {
+        "source": "IMR"
+      },
+      {
+        "source": "EGW"
+      },
+      {
+        "source": "DoSI"
+      },
+      {
+        "source": "KftGV"
+      },
+      {
+        "source": "HftT"
+      },
+      {
+        "source": "PaBTSO"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "size": [
+      "T"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 14,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 2,
+      "formula": "1d4"
+    },
+    "speed": {
+      "walk": 10,
+      "fly": 40
+    },
+    "str": 4,
+    "dex": 16,
+    "con": 11,
+    "int": 2,
+    "wis": 8,
+    "cha": 6,
+    "senses": [
+      "darkvision 60 ft."
+    ],
+    "passive": 9,
+    "cr": "1/8",
+    "action": [
+      {
+        "name": "Blood Drain",
+        "entries": [
+          "Melee: 5 to hit, reach 5 ft., one creature. 5 or 1d4 + 3 piercing damage, and the stirge attaches to the target. While attached, the stirge doesn't attack. Instead, at the start of each of the stirge's turns, the target loses 5 or 1d4 + 3 hit points due to blood loss.",
+          "The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge."
+        ]
+      }
+    ],
+    "environment": [
+      "grassland",
+      "forest",
+      "swamp",
+      "hill",
+      "urban",
+      "desert",
+      "coastal",
+      "mountain",
+      "underdark"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/stirge.mp3"
+    },
+    "senseTags": [
+      "D"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluff": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Swarm of Bats",
+    "source": "MM",
+    "page": 337,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "HotDQ"
+      },
+      {
+        "source": "PotA"
+      },
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "WDMM"
+      },
+      {
+        "source": "EGW"
+      },
+      {
+        "source": "CM"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "AATM"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "type": {
+      "type": "beast",
+      "swarmSize": "T"
+    },
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      12
+    ],
+    "hp": {
+      "average": 22,
+      "formula": "5d8"
+    },
+    "speed": {
+      "walk": 0,
+      "fly": 30
+    },
+    "str": 5,
+    "dex": 15,
+    "con": 10,
+    "int": 2,
+    "wis": 12,
+    "cha": 4,
+    "senses": [
+      "blindsight 60 ft."
+    ],
+    "passive": 11,
+    "resist": [
+      "bludgeoning",
+      "piercing",
+      "slashing"
+    ],
+    "conditionImmune": [
+      "charmed",
+      "frightened",
+      "grappled",
+      "paralyzed",
+      "petrified",
+      "prone",
+      "restrained",
+      "stunned"
+    ],
+    "cr": "1/4",
+    "trait": [
+      {
+        "name": "Echolocation",
+        "entries": [
+          "The swarm can't use its blindsight while deafened."
+        ]
+      },
+      {
+        "name": "Keen Hearing",
+        "entries": [
+          "The swarm has advantage on Wisdom (Perception) checks that rely on hearing."
+        ]
+      },
+      {
+        "name": "Swarm",
+        "entries": [
+          "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can't regain hit points or gain temporary hit points."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bites",
+        "entries": [
+          "Melee: 4 to hit, reach 0 ft., one creature in the swarm's space. 5 or 2d4 piercing damage, or 2 or 1d4 piercing damage if the swarm has half of its hit points or fewer."
+        ]
+      }
+    ],
+    "environment": [
+      "underdark",
+      "mountain",
+      "hill",
+      "urban"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/swarm-of-bats.mp3"
+    },
+    "traitTags": [
+      "Keen Senses"
+    ],
+    "senseTags": [
+      "B"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluff": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Swarm of Beetles",
+    "source": "MM",
+    "page": 338,
+    "srd": true,
+    "size": [
+      "M"
+    ],
+    "type": {
+      "type": "beast",
+      "swarmSize": "T"
+    },
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 12,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 22,
+      "formula": "5d8"
+    },
+    "speed": {
+      "walk": 20,
+      "burrow": 5,
+      "climb": 20
+    },
+    "str": 3,
+    "dex": 13,
+    "con": 10,
+    "int": 1,
+    "wis": 7,
+    "cha": 1,
+    "senses": [
+      "blindsight 10 ft."
+    ],
+    "passive": 8,
+    "resist": [
+      "bludgeoning",
+      "piercing",
+      "slashing"
+    ],
+    "conditionImmune": [
+      "charmed",
+      "frightened",
+      "grappled",
+      "paralyzed",
+      "petrified",
+      "prone",
+      "restrained",
+      "stunned"
+    ],
+    "cr": "1/2",
+    "trait": [
+      {
+        "name": "Swarm",
+        "entries": [
+          "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bites",
+        "entries": [
+          "Melee: 3 to hit, reach 0 ft., one target in the swarm's space. 10 or 4d4 piercing damage, or 5 or 2d4 piercing damage if the swarm has half of its hit points or fewer."
+        ]
+      }
+    ],
+    "environment": [
+      "underdark",
+      "grassland",
+      "forest",
+      "swamp",
+      "hill",
+      "urban",
+      "desert"
+    ],
+    "senseTags": [
+      "B"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluff": true
+  },
+  {
+    "name": "Swarm of Centipedes",
+    "source": "MM",
+    "page": 338,
+    "srd": true,
+    "otherSources": [
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "HotDQ"
+      },
+      {
+        "source": "WDMM"
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "type": {
+      "type": "beast",
+      "swarmSize": "T"
+    },
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 12,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 22,
+      "formula": "5d8"
+    },
+    "speed": {
+      "walk": 20,
+      "climb": 20
+    },
+    "str": 3,
+    "dex": 13,
+    "con": 10,
+    "int": 1,
+    "wis": 7,
+    "cha": 1,
+    "senses": [
+      "blindsight 10 ft."
+    ],
+    "passive": 8,
+    "resist": [
+      "bludgeoning",
+      "piercing",
+      "slashing"
+    ],
+    "conditionImmune": [
+      "charmed",
+      "frightened",
+      "grappled",
+      "paralyzed",
+      "petrified",
+      "prone",
+      "restrained",
+      "stunned"
+    ],
+    "cr": "1/2",
+    "trait": [
+      {
+        "name": "Swarm",
+        "entries": [
+          "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bites",
+        "entries": [
+          "Melee: 3 to hit, reach 0 ft., one target in the swarm's space. 10 or 4d4 piercing damage, or 5 or 2d4 piercing damage if the swarm has half of its hit points or fewer.",
+          "A creature reduced to 0 hit points by a swarm of centipedes is stable but poisoned for 1 hour, even after regaining hit points, and paralyzed while poisoned in this way."
+        ]
+      }
+    ],
+    "environment": [
+      "underdark",
+      "grassland",
+      "forest",
+      "swamp",
+      "hill",
+      "urban",
+      "desert"
+    ],
+    "senseTags": [
+      "B"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluff": true
+  },
+  {
+    "name": "Swarm of Insects",
+    "source": "MM",
+    "page": 338,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "HotDQ"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "BGDIA"
+      },
+      {
+        "source": "IMR"
+      },
+      {
+        "source": "EGW"
+      },
+      {
+        "source": "LoX"
+      },
+      {
+        "source": "PSX"
+      },
+      {
+        "source": "PSA"
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "type": {
+      "type": "beast",
+      "swarmSize": "T"
+    },
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 12,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 22,
+      "formula": "5d8"
+    },
+    "speed": {
+      "walk": 20,
+      "climb": 20
+    },
+    "str": 3,
+    "dex": 13,
+    "con": 10,
+    "int": 1,
+    "wis": 7,
+    "cha": 1,
+    "senses": [
+      "blindsight 10 ft."
+    ],
+    "passive": 8,
+    "resist": [
+      "bludgeoning",
+      "piercing",
+      "slashing"
+    ],
+    "conditionImmune": [
+      "charmed",
+      "frightened",
+      "grappled",
+      "paralyzed",
+      "petrified",
+      "prone",
+      "restrained",
+      "stunned"
+    ],
+    "cr": "1/2",
+    "trait": [
+      {
+        "name": "Swarm",
+        "entries": [
+          "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bites",
+        "entries": [
+          "Melee: 3 to hit, reach 0 ft., one target in the swarm's space. 10 or 4d4 piercing damage, or 5 or 2d4 piercing damage if the swarm has half of its hit points or fewer."
+        ]
+      }
+    ],
+    "environment": [
+      "underdark",
+      "grassland",
+      "forest",
+      "swamp",
+      "hill",
+      "urban",
+      "desert"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/swarm-of-insects.mp3"
+    },
+    "senseTags": [
+      "B"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluff": true
+  },
+  {
+    "name": "Swarm of Quippers",
+    "source": "MM",
+    "page": 338,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "PotA"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "WDMM"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "DIP"
+      },
+      {
+        "source": "SDW"
+      },
+      {
+        "source": "LR"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "CRCotN"
+      },
+      {
+        "source": "JttRC"
+      },
+      {
+        "source": "DSotDQ"
+      },
+      {
+        "source": "KftGV"
+      },
+      {
+        "source": "PSA"
+      },
+      {
+        "source": "GHLoE"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "type": {
+      "type": "beast",
+      "swarmSize": "T"
+    },
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      13
+    ],
+    "hp": {
+      "average": 28,
+      "formula": "8d8 - 8"
+    },
+    "speed": {
+      "walk": 0,
+      "swim": 40
+    },
+    "str": 13,
+    "dex": 16,
+    "con": 9,
+    "int": 1,
+    "wis": 7,
+    "cha": 2,
+    "senses": [
+      "darkvision 60 ft."
+    ],
+    "passive": 8,
+    "resist": [
+      "bludgeoning",
+      "piercing",
+      "slashing"
+    ],
+    "conditionImmune": [
+      "charmed",
+      "frightened",
+      "grappled",
+      "paralyzed",
+      "petrified",
+      "prone",
+      "restrained",
+      "stunned"
+    ],
+    "cr": "1",
+    "trait": [
+      {
+        "name": "Blood Frenzy",
+        "entries": [
+          "The swarm has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+        ]
+      },
+      {
+        "name": "Swarm",
+        "entries": [
+          "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny quipper. The swarm can't regain hit points or gain temporary hit points."
+        ]
+      },
+      {
+        "name": "Water Breathing",
+        "entries": [
+          "The swarm can breathe only underwater."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bites",
+        "entries": [
+          "Melee: 5 to hit, reach 0 ft., one creature in the swarm's space. 14 or 4d6 piercing damage, or 7 or 2d6 piercing damage if the swarm has half of its hit points or fewer."
+        ]
+      }
+    ],
+    "environment": [
+      "underwater"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/swarm-of-quippers.mp3"
+    },
+    "traitTags": [
+      "Water Breathing"
+    ],
+    "senseTags": [
+      "D"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluff": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Swarm of Rats",
+    "source": "MM",
+    "page": 339,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "HotDQ"
+      },
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "WDH"
+      },
+      {
+        "source": "WDMM"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "BGDIA"
+      },
+      {
+        "source": "TCE"
+      },
+      {
+        "source": "CM"
+      },
+      {
+        "source": "DoDk"
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "type": {
+      "type": "beast",
+      "swarmSize": "T"
+    },
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      10
+    ],
+    "hp": {
+      "average": 24,
+      "formula": "7d8 - 7"
+    },
+    "speed": {
+      "walk": 30
+    },
+    "str": 9,
+    "dex": 11,
+    "con": 9,
+    "int": 2,
+    "wis": 10,
+    "cha": 3,
+    "senses": [
+      "darkvision 30 ft."
+    ],
+    "passive": 10,
+    "resist": [
+      "bludgeoning",
+      "piercing",
+      "slashing"
+    ],
+    "conditionImmune": [
+      "charmed",
+      "frightened",
+      "grappled",
+      "paralyzed",
+      "petrified",
+      "prone",
+      "restrained",
+      "stunned"
+    ],
+    "cr": "1/4",
+    "trait": [
+      {
+        "name": "Keen Smell",
+        "entries": [
+          "The swarm has advantage on Wisdom (Perception) checks that rely on smell."
+        ]
+      },
+      {
+        "name": "Swarm",
+        "entries": [
+          "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain hit points or gain temporary hit points."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bites",
+        "entries": [
+          "Melee: 2 to hit, reach 0 ft., one target in the swarm's space. 7 or 2d6 piercing damage, or 3 or 1d6 piercing damage if the swarm has half of its hit points or fewer."
+        ]
+      }
+    ],
+    "environment": [
+      "swamp",
+      "urban"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/swarm-of-rats.mp3"
+    },
+    "traitTags": [
+      "Keen Senses"
+    ],
+    "senseTags": [
+      "D"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluff": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Swarm of Ravens",
+    "source": "MM",
+    "page": 339,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "RoT"
+      },
+      {
+        "source": "DIP"
+      },
+      {
+        "source": "SDW"
+      },
+      {
+        "source": "EGW"
+      },
+      {
+        "source": "IDRotF"
+      },
+      {
+        "source": "TCE"
+      },
+      {
+        "source": "CM"
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "type": {
+      "type": "beast",
+      "swarmSize": "T"
+    },
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      12
+    ],
+    "hp": {
+      "average": 24,
+      "formula": "7d8 - 7"
+    },
+    "speed": {
+      "walk": 10,
+      "fly": 50
+    },
+    "str": 6,
+    "dex": 14,
+    "con": 8,
+    "int": 3,
+    "wis": 12,
+    "cha": 6,
+    "skill": {
+      "perception": "+5"
+    },
+    "passive": 15,
+    "resist": [
+      "bludgeoning",
+      "piercing",
+      "slashing"
+    ],
+    "conditionImmune": [
+      "charmed",
+      "frightened",
+      "grappled",
+      "paralyzed",
+      "petrified",
+      "prone",
+      "restrained",
+      "stunned"
+    ],
+    "cr": "1/4",
+    "trait": [
+      {
+        "name": "Swarm",
+        "entries": [
+          "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny raven. The swarm can't regain hit points or gain temporary hit points."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Beaks",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one target in the swarm's space. 7 or 2d6 piercing damage, or 3 or 1d6 piercing damage if the swarm has half of its hit points or fewer."
+        ]
+      }
+    ],
+    "environment": [
+      "forest",
+      "swamp",
+      "hill",
+      "urban"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/swarm-of-ravens.mp3"
+    },
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluff": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Swarm of Spiders",
+    "source": "MM",
+    "page": 338,
+    "srd": true,
+    "otherSources": [
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "WDMM"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "DC"
+      },
+      {
+        "source": "DIP"
+      },
+      {
+        "source": "MOT"
+      },
+      {
+        "source": "BMT"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "type": {
+      "type": "beast",
+      "swarmSize": "T"
+    },
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 12,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 22,
+      "formula": "5d8"
+    },
+    "speed": {
+      "walk": 20,
+      "climb": 20
+    },
+    "str": 3,
+    "dex": 13,
+    "con": 10,
+    "int": 1,
+    "wis": 7,
+    "cha": 1,
+    "senses": [
+      "blindsight 10 ft."
+    ],
+    "passive": 8,
+    "resist": [
+      "bludgeoning",
+      "piercing",
+      "slashing"
+    ],
+    "conditionImmune": [
+      "charmed",
+      "frightened",
+      "grappled",
+      "paralyzed",
+      "petrified",
+      "prone",
+      "restrained",
+      "stunned"
+    ],
+    "cr": "1/2",
+    "trait": [
+      {
+        "name": "Swarm",
+        "entries": [
+          "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points."
+        ]
+      },
+      {
+        "name": "Spider Climb",
+        "entries": [
+          "The swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+        ]
+      },
+      {
+        "name": "Web Sense",
+        "entries": [
+          "While in contact with a web, the swarm knows the exact location of any other creature in contact with the same web."
+        ]
+      },
+      {
+        "name": "Web Walker",
+        "entries": [
+          "The swarm ignores movement restrictions caused by webbing."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bites",
+        "entries": [
+          "Melee: 3 to hit, reach 0 ft., one target in the swarm's space. 10 or 4d4 piercing damage, or 5 or 2d4 piercing damage if the swarm has half of its hit points or fewer."
+        ]
+      }
+    ],
+    "environment": [
+      "underdark",
+      "grassland",
+      "forest",
+      "swamp",
+      "hill",
+      "urban",
+      "desert"
+    ],
+    "traitTags": [
+      "Spider Climb",
+      "Web Sense",
+      "Web Walker"
+    ],
+    "senseTags": [
+      "B"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluff": true
+  },
+  {
+    "name": "Swarm of Wasps",
+    "source": "MM",
+    "page": 338,
+    "srd": true,
+    "otherSources": [
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "WDMM"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "type": {
+      "type": "beast",
+      "swarmSize": "T"
+    },
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 12,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 22,
+      "formula": "5d8"
+    },
+    "speed": {
+      "walk": 5,
+      "fly": 30
+    },
+    "str": 3,
+    "dex": 13,
+    "con": 10,
+    "int": 1,
+    "wis": 7,
+    "cha": 1,
+    "senses": [
+      "blindsight 10 ft."
+    ],
+    "passive": 8,
+    "resist": [
+      "bludgeoning",
+      "piercing",
+      "slashing"
+    ],
+    "conditionImmune": [
+      "charmed",
+      "frightened",
+      "grappled",
+      "paralyzed",
+      "petrified",
+      "prone",
+      "restrained",
+      "stunned"
+    ],
+    "cr": "1/2",
+    "trait": [
+      {
+        "name": "Swarm",
+        "entries": [
+          "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bites",
+        "entries": [
+          "Melee: 3 to hit, reach 0 ft., one target in the swarm's space. 10 or 4d4 piercing damage, or 5 or 2d4 piercing damage if the swarm has half of its hit points or fewer."
+        ]
+      }
+    ],
+    "environment": [
+      "underdark",
+      "grassland",
+      "forest",
+      "swamp",
+      "hill",
+      "urban",
+      "desert"
+    ],
+    "senseTags": [
+      "B"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluff": true
+  },
+  {
+    "name": "Tiger",
+    "source": "MM",
+    "page": 339,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "TftYP"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "WDH"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "MOT"
+      }
+    ],
+    "reprintedAs": [
+      "Tiger|XPHB"
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      12
+    ],
+    "hp": {
+      "average": 37,
+      "formula": "5d10 + 10"
+    },
+    "speed": {
+      "walk": 40
+    },
+    "str": 17,
+    "dex": 15,
+    "con": 14,
+    "int": 3,
+    "wis": 12,
+    "cha": 8,
+    "skill": {
+      "perception": "+3",
+      "stealth": "+6"
+    },
+    "senses": [
+      "darkvision 60 ft."
+    ],
+    "passive": 13,
+    "cr": "1",
+    "trait": [
+      {
+        "name": "Keen Smell",
+        "entries": [
+          "The tiger has advantage on Wisdom (Perception) checks that rely on smell."
+        ]
+      },
+      {
+        "name": "Pounce",
+        "entries": [
+          "If the tiger moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 5 to hit, reach 5 ft., one target. 8 or 1d10 + 3 piercing damage."
+        ]
+      },
+      {
+        "name": "Claw",
+        "entries": [
+          "Melee: 5 to hit, reach 5 ft., one target. 7 or 1d8 + 3 slashing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "grassland",
+      "forest"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/tiger.mp3"
+    },
+    "traitTags": [
+      "Keen Senses",
+      "Pounce"
+    ],
+    "senseTags": [
+      "D"
+    ],
+    "damageTags": [
+      "P",
+      "S"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "conditionInflict": [
+      "prone"
+    ],
+    "savingThrowForced": [
+      "strength"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Vulture",
+    "source": "MM",
+    "page": 339,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "RoT"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "BGDIA"
+      },
+      {
+        "source": "CM"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "BMT"
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      10
+    ],
+    "hp": {
+      "average": 5,
+      "formula": "1d8 + 1"
+    },
+    "speed": {
+      "walk": 10,
+      "fly": 50
+    },
+    "str": 7,
+    "dex": 10,
+    "con": 13,
+    "int": 2,
+    "wis": 12,
+    "cha": 4,
+    "skill": {
+      "perception": "+3"
+    },
+    "passive": 13,
+    "cr": "0",
+    "trait": [
+      {
+        "name": "Keen Sight and Smell",
+        "entries": [
+          "The vulture has advantage on Wisdom (Perception) checks that rely on sight or smell."
+        ]
+      },
+      {
+        "name": "Pack Tactics",
+        "entries": [
+          "The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally isn't incapacitated."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Beak",
+        "entries": [
+          "Melee: 2 to hit, reach 5 ft., one target. 2 or 1d4 piercing damage."
+        ]
+      }
+    ],
+    "environment": [
+      "grassland",
+      "hill",
+      "desert"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/vulture.mp3"
+    },
+    "traitTags": [
+      "Keen Senses",
+      "Pack Tactics"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Warhorse",
+    "source": "MM",
+    "page": 340,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "PotA"
+      },
+      {
+        "source": "RoT"
+      },
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "ToA"
+      },
+      {
+        "source": "BGDIA"
+      },
+      {
+        "source": "EGW"
+      },
+      {
+        "source": "CRCotN"
+      },
+      {
+        "source": "DSotDQ"
+      },
+      {
+        "source": "DoDk"
+      }
+    ],
+    "reprintedAs": [
+      "Warhorse|XPHB"
+    ],
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      11
+    ],
+    "hp": {
+      "average": 19,
+      "formula": "3d10 + 3"
+    },
+    "speed": {
+      "walk": 60
+    },
+    "str": 18,
+    "dex": 12,
+    "con": 13,
+    "int": 2,
+    "wis": 12,
+    "cha": 7,
+    "passive": 11,
+    "cr": "1/2",
+    "trait": [
+      {
+        "name": "Trampling Charge",
+        "entries": [
+          "If the horse moves at least 20 feet straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the horse can make another attack with its hooves against it as a bonus action."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Hooves",
+        "entries": [
+          "Melee: 6 to hit, reach 5 ft., one target. 11 or 2d6 + 4 bludgeoning damage."
+        ]
+      }
+    ],
+    "variant": [
+      {
+        "type": "variant",
+        "name": "Warhorse Armor",
+        "entries": [
+          "An armored warhorse has an AC based on the type of barding worn (see the Player's Handbook for more information on barding). The horse's AC includes its Dexterity modifier, where applicable. Barding doesn't alter the horse's challenge rating.",
+          {
+            "type": "table",
+            "colLabels": [
+              "AC",
+              "Barding"
+            ],
+            "colStyles": [
+              "col-6 text-center",
+              "col-6 text-center"
+            ],
+            "rows": [
+              [
+                "12",
+                "{@item Leather barding|phb|Leather}"
+              ],
+              [
+                "13",
+                "{@item Studded leather barding|phb|Studded leather}"
+              ],
+              [
+                "14",
+                "{@item Ring mail barding|phb|Ring mail}"
+              ],
+              [
+                "15",
+                "{@item Scale mail barding|phb|Scale mail}"
+              ],
+              [
+                "16",
+                "{@item Chain mail barding|phb|Chain mail}"
+              ],
+              [
+                "17",
+                "{@item Splint barding|phb|Splint}"
+              ],
+              [
+                "18",
+                "{@item Plate barding|phb|Plate}"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "environment": [
+      "urban"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/war-horse.mp3"
+    },
+    "damageTags": [
+      "B"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "conditionInflict": [
+      "prone"
+    ],
+    "savingThrowForced": [
+      "strength"
+    ],
+    "hasToken": true,
+    "_versions": [
+      {
+        "name": "Warhorse (Chain Mail Barding)",
+        "source": "MM",
+        "ac": [
+          {
+            "ac": 16,
+            "from": [
+              "{@item chain mail barding|phb}"
+            ]
+          }
+        ],
+        "variant": null
+      },
+      {
+        "name": "Warhorse (Leather Barding)",
+        "source": "MM",
+        "ac": [
+          {
+            "ac": 12,
+            "from": [
+              "{@item leather barding|phb}"
+            ]
+          }
+        ],
+        "variant": null
+      },
+      {
+        "name": "Warhorse (Plate Barding)",
+        "source": "MM",
+        "ac": [
+          {
+            "ac": 18,
+            "from": [
+              "{@item plate barding|phb}"
+            ]
+          }
+        ],
+        "variant": null
+      },
+      {
+        "name": "Warhorse (Ring Mail Barding)",
+        "source": "MM",
+        "ac": [
+          {
+            "ac": 14,
+            "from": [
+              "{@item ring mail barding|phb}"
+            ]
+          }
+        ],
+        "variant": null
+      },
+      {
+        "name": "Warhorse (Scale Mail Barding)",
+        "source": "MM",
+        "ac": [
+          {
+            "ac": 15,
+            "from": [
+              "{@item scale mail barding|phb}"
+            ]
+          }
+        ],
+        "variant": null
+      },
+      {
+        "name": "Warhorse (Splint Barding)",
+        "source": "MM",
+        "ac": [
+          {
+            "ac": 17,
+            "from": [
+              "{@item splint barding|phb}"
+            ]
+          }
+        ],
+        "variant": null
+      },
+      {
+        "name": "Warhorse (Studded Leather Barding)",
+        "source": "MM",
+        "ac": [
+          {
+            "ac": 13,
+            "from": [
+              "{@item studded leather barding|phb}"
+            ]
+          }
+        ],
+        "variant": null
+      }
+    ]
+  },
+  {
+    "name": "Weasel",
+    "source": "MM",
+    "page": 340,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "IDRotF"
+      },
+      {
+        "source": "WBtW"
+      },
+      {
+        "source": "PaBTSO"
+      },
+      {
+        "source": "QftIS"
+      }
+    ],
+    "reprintedAs": [
+      "Weasel|XPHB"
+    ],
+    "size": [
+      "T"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      13
+    ],
+    "hp": {
+      "average": 1,
+      "formula": "1d4 - 1"
+    },
+    "speed": {
+      "walk": 30
+    },
+    "str": 3,
+    "dex": 16,
+    "con": 8,
+    "int": 2,
+    "wis": 12,
+    "cha": 3,
+    "skill": {
+      "perception": "+3",
+      "stealth": "+5"
+    },
+    "passive": 13,
+    "cr": "0",
+    "trait": [
+      {
+        "name": "Keen Hearing and Smell",
+        "entries": [
+          "The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 5 to hit, reach 5 ft., one creature. 1 piercing damage."
+        ]
+      }
+    ],
+    "familiar": true,
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/weasel.mp3"
+    },
+    "traitTags": [
+      "Keen Senses"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true
+  },
+  {
+    "name": "Wolf",
+    "source": "MM",
+    "page": 341,
+    "srd": true,
+    "basicRules": true,
+    "otherSources": [
+      {
+        "source": "CoS"
+      },
+      {
+        "source": "HotDQ"
+      },
+      {
+        "source": "LMoP"
+      },
+      {
+        "source": "PotA"
+      },
+      {
+        "source": "RoT"
+      },
+      {
+        "source": "SKT"
+      },
+      {
+        "source": "GoS"
+      },
+      {
+        "source": "EGW"
+      },
+      {
+        "source": "IDRotF"
+      },
+      {
+        "source": "TCE"
+      },
+      {
+        "source": "CM"
+      },
+      {
+        "source": "HftT"
+      },
+      {
+        "source": "PaBTSO"
+      },
+      {
+        "source": "LK"
+      },
+      {
+        "source": "BMT"
+      },
+      {
+        "source": "GHLoE"
+      },
+      {
+        "source": "QftIS"
+      },
+      {
+        "source": "CoA"
+      }
+    ],
+    "reprintedAs": [
+      "Wolf|XPHB"
+    ],
+    "size": [
+      "M"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 13,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 11,
+      "formula": "2d8 + 2"
+    },
+    "speed": {
+      "walk": 40
+    },
+    "str": 12,
+    "dex": 15,
+    "con": 12,
+    "int": 3,
+    "wis": 12,
+    "cha": 6,
+    "skill": {
+      "perception": "+3",
+      "stealth": "+4"
+    },
+    "passive": 13,
+    "cr": "1/4",
+    "trait": [
+      {
+        "name": "Keen Hearing and Smell",
+        "entries": [
+          "The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+        ]
+      },
+      {
+        "name": "Pack Tactics",
+        "entries": [
+          "The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one target. 7 or 2d4 + 2 piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone."
+        ]
+      }
+    ],
+    "environment": [
+      "grassland",
+      "forest",
+      "hill"
+    ],
+    "soundClip": {
+      "type": "internal",
+      "path": "bestiary/wolf.mp3"
+    },
+    "traitTags": [
+      "Keen Senses",
+      "Pack Tactics"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "conditionInflict": [
+      "prone"
+    ],
+    "savingThrowForced": [
+      "strength"
+    ],
+    "hasToken": true,
+    "hasFluffImages": true
+  },
+  {
+    "name": "Giant Sea Eel",
+    "source": "GoS",
+    "page": 237,
+    "size": [
+      "L"
+    ],
+    "type": "beast",
+    "alignment": [
+      "U"
+    ],
+    "ac": [
+      {
+        "ac": 14,
+        "from": [
+          "natural armor"
+        ]
+      }
+    ],
+    "hp": {
+      "average": 19,
+      "formula": "3d10 + 3"
+    },
+    "speed": {
+      "walk": 0,
+      "swim": 40
+    },
+    "str": 11,
+    "dex": 14,
+    "con": 12,
+    "int": 7,
+    "wis": 10,
+    "cha": 7,
+    "save": {
+      "dex": "+4"
+    },
+    "skill": {
+      "perception": "+2",
+      "stealth": "+4"
+    },
+    "senses": [
+      "darkvision 60 ft."
+    ],
+    "passive": 12,
+    "cr": "1/2",
+    "trait": [
+      {
+        "name": "Water Breathing",
+        "entries": [
+          "The eel can breathe only underwater."
+        ]
+      }
+    ],
+    "action": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee: 4 to hit, reach 5 ft., one target. 13 or 2d10 + 2 piercing damage."
+        ]
+      }
+    ],
+    "traitTags": [
+      "Water Breathing"
+    ],
+    "senseTags": [
+      "D"
+    ],
+    "damageTags": [
+      "P"
+    ],
+    "miscTags": [
+      "MW"
+    ],
+    "hasToken": true,
+    "hasFluff": true
+  }
+]
